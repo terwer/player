@@ -11,6 +11,15 @@ ckplayer redesigned by terwer
 >关于作者: http://www.xinvalue.com/aboutme<br/>
 >演示网址: http://www.xinvalue.com/ckplayer<br/>
 
+项目简介
+-------
+>新价值网视频播放程序。 <br/>
+>1、可以无广告播放全网视频；<br/>
+
+技术架构
+-------
+>1、本程序基于php和smarty模板引擎。<br/>
+
 --------------------
 上传到服务器注意事项：
 ### 1.所有文件在upload文件夹里面 <br/>
