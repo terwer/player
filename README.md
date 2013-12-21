@@ -9,6 +9,7 @@ ckplayer redesigned by terwer
 >作者邮箱: cbgtyw@gmail.com<br/>
 >作者博客: http://www.xinvalue.com<br/>
 >关于作者: http://www.xinvalue.com/aboutme<br/>
+>演示网址: http://www.xinvalue.com/ckplayer<br/>
 
 --------------------
 上传到服务器注意事项：
