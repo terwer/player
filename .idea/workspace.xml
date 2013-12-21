@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="457fdc7f-90c8-40ae-a235-2b1d53164d92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/56Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/BaiduModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/Ku6Model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/LetvModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/TencentModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/TudouModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/UrlModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/YoukuModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/init.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list_mov.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/url.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Common/vids.php" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\ckplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\ckplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\ckplayer.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\language.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\related.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\feixin.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\google.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\kaixin001.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\msn.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\qq.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\qq2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\qzone.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\rr.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\sina.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\sohu.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\share\tianya.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer\style.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\demo.htm" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\help.htm" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\index.htm" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logo.fla" afterPath="$PROJECT_DIR$/src/logo.fla" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/logo.swf" afterPath="$PROJECT_DIR$/src/logo.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mylogo.swf" afterPath="$PROJECT_DIR$/src/mylogo.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\start.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ckplayer.iws" />
@@ -71,7 +29,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="435" selection-end="435" vertical-scroll-proportion="0.6068966" vertical-offset="0" max-vertical-offset="580">
+            <state line="26" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6068966" vertical-offset="220" max-vertical-offset="946">
               <folding />
             </state>
           </provider>
@@ -95,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ckplayer/ckplayer.js" />
         <option value="$PROJECT_DIR$/ckplayer/ckplayer.xml" />
         <option value="$PROJECT_DIR$/url.php" />
         <option value="D:/学习资料/开发参考资料/bae-video/wwwroot/appido13457edr8/0/wp-config.php" />
@@ -110,6 +67,7 @@
         <option value="$PROJECT_DIR$/ckplayer.xml" />
         <option value="$PROJECT_DIR$/ckplayer.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../search/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -205,6 +163,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../search" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -272,13 +231,22 @@
       <created>1386460138584</created>
       <updated>1386460138585</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加演示网址。">
+      <created>1387643739211</created>
+      <updated>1387643739211</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加演示网址。">
+      <created>1387645221586</created>
+      <updated>1387645221586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -294,7 +262,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -308,7 +275,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="html边距清零。" />
-    <option name="LAST_COMMIT_MESSAGE" value="html边距清零。" />
+    <MESSAGE value="增加演示网址。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加演示网址。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -384,7 +352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="293" column="20" selection-start="9267" selection-end="9267" vertical-scroll-proportion="-313.5" vertical-offset="4354" max-vertical-offset="21964">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -396,9 +364,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../search/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="215" selection-end="215" vertical-scroll-proportion="0.45517242" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="435" selection-end="435" vertical-scroll-proportion="0.6068966" vertical-offset="0" max-vertical-offset="580">
+        <state line="26" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6068966" vertical-offset="220" max-vertical-offset="946">
           <folding />
         </state>
       </provider>
