@@ -43,7 +43,6 @@ V1.0使用指南
 >---info/tpl/search_platlist.html（必须）（将localhost修改为www.xinvalue.com） <br/>
 >---info/search_platlist.php（必须） <br/>
 
-================================
 V2.0使用指南 （2.0以后集成光线CMS）
-
+--------------------------------
 ### 未完待续
