@@ -1,9 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="457fdc7f-90c8-40ae-a235-2b1d53164d92" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\MyCode\ckplayer\start.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="1d202ffd-b890-45e0-b499-7bfafb4a0710" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\.idea\dictionaries\Terwer.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\CKPlayer.exe" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Common\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Common\vids.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\56Model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\BaiduModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\Ku6Model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\LetvModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\TencentModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\TudouModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\UrlModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\Models\YoukuModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\ckplayer.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\com\%%77^774^774BE9C9%%index.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\expressInstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\Config_File.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\Smarty.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\Smarty_Compiler.class.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\debug.tpl" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.assemble_plugin_filepath.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.assign_smarty_interface.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.create_dir_structure.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.display_debug_console.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.get_include_path.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.get_microtime.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.get_php_resource.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.is_secure.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.is_trusted.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.load_plugins.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.load_resource_plugin.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.process_cached_inserts.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.process_compiled_include.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.read_cache_file.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.rm_auto.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.rmdir.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.run_insert_handler.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.smarty_include_php.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.write_cache_file.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.write_compiled_include.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.write_compiled_resource.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\internals\core.write_file.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\block.textformat.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\compiler.assign.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.assign_debug_info.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.config_load.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.counter.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.cycle.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.debug.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.eval.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.fetch.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_checkboxes.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_image.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_options.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_radios.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_select_date.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_select_time.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.html_table.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.mailto.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.math.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.popup.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\function.popup_init.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.capitalize.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.cat.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.count_characters.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.count_paragraphs.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.count_sentences.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.count_words.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.date_format.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.debug_print_var.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.default.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.escape.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.indent.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.lower.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.nl2br.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.regex_replace.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.replace.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.spacify.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.string_format.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.strip.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.strip_tags.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.truncate.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.upper.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\modifier.wordwrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\outputfilter.trimwhitespace.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\shared.escape_special_chars.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\framework\smarty\libs\plugins\shared.make_timestamp.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\com\%%1D^1DA^1DAE35FC%%search_playlist.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\com\%%4C^4CF^4CF02AD4%%result.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\com\%%58^581^581A1C3D%%comments.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\com\%%85^85A^85A0E314%%info.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\comments.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\includes\youku.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\info.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\init.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\result.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\search_playlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\tpl\comments.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\tpl\info.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\tpl\info.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\tpl\result.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\tpl\search_playlist.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\video_title.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\info\youku.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\init.inc.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\js\offlights.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\language.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\list_mov.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\basic_other.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\beacon.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\ex.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\ex_002.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\hm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\iwt.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\logo108x35_black.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\main.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\play_new.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\qa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\sea1.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\setPlay.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\tanxssp.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\ver.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\playFiles\vogo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\related.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\related.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\secret.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\feixin.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\google.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\kaixin001.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\msn.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\qq.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\qq2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\qzone.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\rr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\sina.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\sohu.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\share\tianya.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\PopupWin.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\Preview.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\Preview.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\adjustment.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\adjustment.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\buffer.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\buffer.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\cklogo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\cklogo.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\cklogo2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\cklogo2.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\ckplayer计算加载速度\downloadspeeds.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\ckplayer计算加载速度\downloadspeeds.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\geturl.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\geturl.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\image 1-1.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\jtime.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\loadbyte.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\loadbyte.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\logo.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\logo.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\mylogo.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\mylogo.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\receiveObj.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\receiveObj.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\related.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\related.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\right.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\right.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\无视听许可证的分享插件\PopupWin.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\无视听许可证的分享插件\share.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\无视听许可证的分享插件\share.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\有视听许可证的分享插件\PopupWin.as" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\有视听许可证的分享插件\share.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\有视听许可证的分享插件\share.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\清晰度切换插件\select_a.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\清晰度切换插件\select_b.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\画面比例\bili.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\画面比例\right.fla" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\画面比例\right.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Common\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Common\vids.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\56Model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\BaiduModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\Ku6Model.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\LetvModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\TudouModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\UrlModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\Models\YoukuModel.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\src\解析插件\video.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\Preview.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\adjustment.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\bili.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\buffer.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\cklogo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\downloadspeeds.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Fashf_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Fashf_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Fashr_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Fashr_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Full_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Full_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_General_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_General_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Mute_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Mute_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Pause_Scgedyke.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Pause_Scgedyke_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Pause_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Pause_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Play_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Play_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Schedule.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Schedule_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Schedule_load.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Schedule_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Schedule_play.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Sound_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Sound_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Volume_Float.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Volume_Float_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Volume_back.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_Volume_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_adv_skip_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_adv_skip_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_buttom_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_close_adv.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_close_adv_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_close_adv_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_v_off_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_v_off_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_v_on_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\images_v_on_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\list_btn.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\list_pic.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\logo.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\pause_adv_close_on.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\pause_adv_close_out.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\related.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\right.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\sch_lf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\sch_lr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\select_a.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\select_b.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\share.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\style\style.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\temp\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\test.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\tpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\url.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\video.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\error_log.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\functions.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-163.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-56.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-cntv.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-ifeng.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-ku6.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-letv.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-pps.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-qq.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-sina.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-sohu.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-tudou.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\includes\mode-youku.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\live.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\play.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\MyCode\ckplayer\watch\test.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <ignored path="ckplayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +314,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6068966" vertical-offset="220" max-vertical-offset="946">
+            <state line="48" column="8" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.73448277" vertical-offset="630" max-vertical-offset="1210">
               <folding />
             </state>
           </provider>
@@ -53,28 +338,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ckplayer/ckplayer.xml" />
-        <option value="$PROJECT_DIR$/url.php" />
-        <option value="D:/学习资料/开发参考资料/bae-video/wwwroot/appido13457edr8/0/wp-config.php" />
-        <option value="$USER_HOME$/Desktop/wp-config.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_filebrowser.0.5.5.zip/filebrowser/app/options.php" />
-        <option value="$PROJECT_DIR$/list_mov.xml" />
-        <option value="$PROJECT_DIR$/share.xml" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/tpl/index.html" />
-        <option value="$PROJECT_DIR$/../xinvalue-wp-index/wp-config.php" />
-        <option value="$PROJECT_DIR$/comments/youku.php" />
-        <option value="$PROJECT_DIR$/ckplayer.xml" />
-        <option value="$PROJECT_DIR$/ckplayer.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../search/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
-    </option>
-  </component>
-  <component name="PhpServers">
-    <option name="servers">
-      <server host="localhost" name="wamp" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
@@ -92,24 +357,18 @@
             <id />
           </State>
           <State>
-            <id>PHP</id>
-          </State>
-          <State>
             <id>Spelling</id>
-          </State>
-          <State>
-            <id>UndefinedPHP</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>PhpUndefinedFieldInspection</id>
+            <id>Spelling</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -135,6 +394,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,53 +415,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../search" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="Errors" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyCode\ckplayer" />
-      <recent name="D:\MyCode\ckplayer\Models" />
-      <recent name="D:\MyCode\ckplayer\Common" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHP Web Application.ckplayer">
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="false" name="ckplayer" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="wamp" start_url="/ckplayer/index.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.ckplayer" />
-    </list>
+  <component name="RunManager">
+    <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -223,48 +447,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="457fdc7f-90c8-40ae-a235-2b1d53164d92" name="Default" comment="" />
-      <created>1386455674611</created>
-      <updated>1386455674611</updated>
+      <changelist id="1d202ffd-b890-45e0-b499-7bfafb4a0710" name="Default" comment="" />
+      <created>1387902238553</created>
+      <updated>1387902238553</updated>
     </task>
-    <task id="LOCAL-00001" summary="html边距清零。">
-      <created>1386460138584</created>
-      <updated>1386460138585</updated>
-    </task>
-    <task id="LOCAL-00002" summary="增加演示网址。">
-      <created>1387643739211</created>
-      <updated>1387643739211</updated>
-    </task>
-    <task id="LOCAL-00003" summary="增加演示网址。">
-      <created>1387645221586</created>
-      <updated>1387645221586</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16398244" sideWeight="0.6710311" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -274,106 +484,14 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="html边距清零。" />
-    <MESSAGE value="增加演示网址。" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加演示网址。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/TudouModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/BaiduModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.64028776" vertical-offset="356" max-vertical-offset="912" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Ku6Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/TencentModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/YoukuModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1957" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/LetvModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_mov.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="36" selection-start="1302" selection-end="1302" vertical-scroll-proportion="-4.071429" vertical-offset="1007" max-vertical-offset="2451" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/related.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2109">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1387">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="22" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.0" vertical-offset="1900" max-vertical-offset="3211" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="7" selection-start="12558" selection-end="12558" vertical-scroll-proportion="0.0" vertical-offset="4826" max-vertical-offset="4940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="20" selection-start="9267" selection-end="9267" vertical-scroll-proportion="-313.5" vertical-offset="4354" max-vertical-offset="21964">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="108" selection-end="108" vertical-scroll-proportion="0.19400352" vertical-offset="0" max-vertical-offset="5654">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../search/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="215" selection-end="215" vertical-scroll-proportion="0.45517242" vertical-offset="0" max-vertical-offset="580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="475" selection-end="475" vertical-scroll-proportion="0.6068966" vertical-offset="220" max-vertical-offset="946">
+        <state line="48" column="8" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.73448277" vertical-offset="630" max-vertical-offset="1210">
           <folding />
         </state>
       </provider>

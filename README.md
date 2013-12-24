@@ -20,6 +20,9 @@ ckplayer redesigned by terwer
 -------
 >1、本程序基于php和smarty模板引擎。<br/>
 
+===========
+V1.0使用指南
+
 --------------------
 上传到服务器注意事项：
 ### 1.所有文件在upload文件夹里面 <br/>
@@ -30,8 +33,17 @@ ckplayer redesigned by terwer
 >---related.xml（将localhost修改为www.xinvalue.com） <br/>
 >---related.php（将localhost修改为www.xinvalue.com） <br/>
 >---init.inc.php（必须）（3处修改，8、11、13行） <br/>
->---index.php（必须）（2处修改，8、10行） <br/>
+>---index.php（必须）（2处修改，8、10行）（将localhost修改为www.xinvalue.com） <br/>
 >---tpl/index.html（必须）（将localhost修改为www.xinvalue.com） <br/>
 >---info/init.inc.php（必须）（3处修改，31、34、36行） <br/>
 >---info/info.php（必须）（1处修改） <br/>
 >---info/comments.php（必须）（2处修改） <br/>
+>---info/result.php（必须）（2处修改） <br/>
+>---info/tpl/result.html（必须）（将localhost修改为www.xinvalue.com） <br/>
+>---info/tpl/search_platlist.html（必须）（将localhost修改为www.xinvalue.com） <br/>
+>---info/search_platlist.php（必须） <br/>
+
+===========
+V2.0使用指南 （2.0以后集成光线CMS）
+
+### 未完待续
