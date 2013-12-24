@@ -1,0 +1,29 @@
+
+                <!--Flash嵌入地址-->
+                <div id="video" style="position:relative;z-index: 100;width:100%;height:100%;float: left;"><div id="a1"></div></div>
+                <script type="text/javascript" src="http://www.xinvalue.com/ckplayer/ckplayer.js"></script>
+                <script type="text/javascript">
+                    var flashvars={
+                        f:"http://www.xinvalue.com/ckplayer/watch/play.php?vtype=qq&vid=z0013dtnh7x",
+                        c:0,
+                        b:1,
+                        p:1,
+                        my_url:"http://www.xinvalue.com/ckplayer/?key=a0H2R002cwDyotvgLb3cYucXEuY29tL2NvdmVyL3gveHVkZWIyMnpsOWJ5bGZtL3owMDEzZHRuaDd4Lmh0bWwO0O0O",
+                        my_pic:"",
+                        a:"cq_z0013dtnh7x_qq",
+                        s:2,
+                        lid:11,//动态改变XML参数
+                        vid:145,//指定当前播放的视频ID及改变样式
+                        kai:0//视频列表0关，1开
+                    };
+                    var params={bgcolor:"#FFF",allowFullScreen:true,allowScriptAccess:"always"};
+                    CKobject.embedSWF("http://www.xinvalue.com/ckplayer/ckplayer.swf","a1","ckplayer_a1","980","520",flashvars,params);              
+                     //CKobject.embedSWF(播放器路径,容器id,播放器id/name,播放器宽,播放器高,flashvars的值,其它定义也可省略);
+                     //下面三行是调用html5播放器用到的
+                     var video=["http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4","http://www.ckplayer.com/webm/0.webm->video/webm","http://www.ckplayer.com/webm/0.ogv->video/ogg"];
+                     var support=["iPad","iPhone","ios","android+false","msie10+false"];
+                     CKobject.embedHTML5("video","ckplayer_a1","100%","100%",video,flashvars,support);
+                     
+                </script>
+
+                <!--Flash嵌入地址结束-->

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7abfbcfa-db0b-4276-8d0e-0d66f6671338" name="Default" comment="" />
+    <ignored path="www.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="www" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="play.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ckplayer/play.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="12" selection-start="823" selection-end="823" vertical-scroll-proportion="0.3022388" vertical-offset="256" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="related.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/related.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.8387096" vertical-offset="22" max-vertical-offset="5258">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ckplayer/share.xml" />
+        <option value="$PROJECT_DIR$/ckplayer/related.xml" />
+        <option value="$PROJECT_DIR$/ckplayer/ckplayer.xml" />
+        <option value="$PROJECT_DIR$/ckplayer/Common/vids.php" />
+        <option value="$PROJECT_DIR$/ckplayer/video.php" />
+        <option value="$PROJECT_DIR$/ckplayer/Models/QQModel.php" />
+        <option value="$PROJECT_DIR$/ckplayer/Models/PPSModel.php" />
+        <option value="$PROJECT_DIR$/ckplayer/README.md" />
+        <option value="$PROJECT_DIR$/ckplayer/playlist.php" />
+        <option value="$PROJECT_DIR$/ckplayer/info/youku.php" />
+        <option value="$PROJECT_DIR$/ckplayer/ckplayer.js" />
+        <option value="$PROJECT_DIR$/ckplayer/list_mov.xml" />
+        <option value="$PROJECT_DIR$/ckplayer/list_mov.php" />
+        <option value="$PROJECT_DIR$/ckplayer/play.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckplayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7abfbcfa-db0b-4276-8d0e-0d66f6671338" name="Default" comment="" />
+      <created>1387748557428</created>
+      <updated>1387748557428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ckplayer/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="18" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0" vertical-offset="2443" max-vertical-offset="3256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Common/vids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="26" selection-start="4308" selection-end="4308" vertical-scroll-proportion="0.0" vertical-offset="2574" max-vertical-offset="3806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/share.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="486" selection-end="486" vertical-scroll-proportion="0.4619883" vertical-offset="27" max-vertical-offset="1606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="42" selection-start="8174" selection-end="8174" vertical-scroll-proportion="10.025341" vertical-offset="115" max-vertical-offset="5676">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-9.516791" vertical-offset="5101" max-vertical-offset="6006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="30" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.20235756" vertical-offset="997" max-vertical-offset="2310" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Common/vids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="26" selection-start="4308" selection-end="4308" vertical-scroll-proportion="0.0" vertical-offset="2574" max-vertical-offset="3806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="18" selection-start="3721" selection-end="3721" vertical-scroll-proportion="0.0" vertical-offset="2443" max-vertical-offset="3256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Models/PPSModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="19" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-7.774194" vertical-offset="419" max-vertical-offset="1210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/youku.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="2706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/list_mov.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.22758621" vertical-offset="0" max-vertical-offset="2574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="86" selection-start="4720" selection-end="4767" vertical-scroll-proportion="0.38800704" vertical-offset="2618" max-vertical-offset="13332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/list_mov.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="0" selection-end="4607" vertical-scroll-proportion="-5.677419" vertical-offset="0" max-vertical-offset="2904">
+          <folding>
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387859379919" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/related.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.8387096" vertical-offset="22" max-vertical-offset="5258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="823" selection-end="823" vertical-scroll-proportion="0.3022388" vertical-offset="256" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

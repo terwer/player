@@ -1,0 +1,117 @@
+[20-Dec-2013 01:07:23 Asia/Shanghai] PHP Notice:  Undefined index: scheme in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-pps.php on line 100
+[20-Dec-2013 01:07:23 Asia/Shanghai] PHP Notice:  Undefined index: host in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-pps.php on line 100
+[20-Dec-2013 01:08:29 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 105
+[20-Dec-2013 01:08:29 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 01:08:29 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 01:10:22 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 106
+[20-Dec-2013 01:10:22 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 109
+[20-Dec-2013 01:10:22 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 112
+[20-Dec-2013 01:10:23 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 106
+[20-Dec-2013 01:10:23 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 109
+[20-Dec-2013 01:10:23 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 112
+[20-Dec-2013 01:13:57 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 106
+[20-Dec-2013 01:13:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 109
+[20-Dec-2013 01:13:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 112
+[20-Dec-2013 01:59:43 Asia/Shanghai] PHP Notice:  Use of undefined constant ‘pcre - assumed '‘pcre' in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 96
+[20-Dec-2013 01:59:43 Asia/Shanghai] PHP Notice:  Use of undefined constant backtrack_limit’ - assumed 'backtrack_limit’' in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 96
+[20-Dec-2013 01:59:43 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 01:59:43 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 01:59:43 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 01:59:52 Asia/Shanghai] PHP Notice:  Use of undefined constant ‘pcre - assumed '‘pcre' in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 96
+[20-Dec-2013 01:59:52 Asia/Shanghai] PHP Notice:  Use of undefined constant backtrack_limit’ - assumed 'backtrack_limit’' in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 96
+[20-Dec-2013 01:59:52 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 01:59:52 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 01:59:52 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:00:38 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:00:38 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:00:38 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:16:17 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:16:17 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:16:17 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:22:56 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:22:56 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:22:56 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:32:50 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:32:50 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:32:50 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:33:57 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 110
+[20-Dec-2013 02:33:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 113
+[20-Dec-2013 02:33:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 116
+[20-Dec-2013 02:38:18 Asia/Shanghai] PHP Fatal error:  Cannot redeclare dump() (previously declared in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/test.php:10) in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/functions.php on line 177
+[20-Dec-2013 02:40:04 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:40:04 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:40:04 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:40:29 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:40:29 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:40:29 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:40:51 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:40:51 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:40:51 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:40:54 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:40:54 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:40:54 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:40:55 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:40:55 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:40:55 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:42:46 Asia/Shanghai] PHP Deprecated:  Function ereg() is deprecated in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 97
+[20-Dec-2013 02:42:46 Asia/Shanghai] PHP Deprecated:  Function ereg() is deprecated in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 102
+[20-Dec-2013 02:42:46 Asia/Shanghai] PHP Deprecated:  Function ereg() is deprecated in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 105
+[20-Dec-2013 02:42:46 Asia/Shanghai] PHP Deprecated:  Function ereg() is deprecated in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:42:46 Asia/Shanghai] PHP Fatal error:  Call to undefined function ereg_all() in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:44:58 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:44:58 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:44:58 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:45:21 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 02:45:21 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:45:21 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:52:10 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:52:10 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:52:10 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 02:52:43 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:52:43 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:52:43 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 02:57:36 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111
+[20-Dec-2013 02:57:36 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 02:57:36 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:04:36 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 113
+[20-Dec-2013 03:04:36 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 116
+[20-Dec-2013 03:04:36 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 119
+[20-Dec-2013 03:08:53 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:08:53 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:08:53 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:08:53 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:11:24 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:11:24 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:11:24 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:11:24 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:11:26 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:11:26 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:11:26 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:11:26 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:11:28 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:11:28 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:11:28 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:11:28 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:11:57 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:11:57 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:11:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:11:57 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:12:05 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:12:05 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:12:05 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:12:05 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:12:07 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:12:07 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:12:07 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:12:07 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:12:09 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:12:09 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:12:09 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:12:09 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:12:10 Asia/Shanghai] PHP Notice:  Undefined property: stdClass::$hd2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 107
+[20-Dec-2013 03:12:10 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 114
+[20-Dec-2013 03:12:10 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 117
+[20-Dec-2013 03:12:10 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 120
+[20-Dec-2013 03:21:13 Asia/Shanghai] PHP Notice:  Undefined offset: 1 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 105
+[20-Dec-2013 03:21:13 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 108
+[20-Dec-2013 03:21:13 Asia/Shanghai] PHP Notice:  Undefined offset: 2 in /home/v78/domains/xinvalue.com/public_html/ckplayer/watch/includes/mode-youku.php on line 111

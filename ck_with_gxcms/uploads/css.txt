@@ -1,0 +1,22 @@
+
+ul.pdown{ padding-left:2px; width:694px; overflow:hidden; /*height:120px; overflow-x:hidden; overflow-y:auto;*/}
+ul.pdown li{ float:left; height:40px; overflow:hidden;*width:169px;_width:168px;}
+ul.pdown a{ display:block; width:160px;*width:159px;_width:158px; height:30px; overflow:hidden; background:#e9f5fa; text-align:center; line-height:30px; overflow:hidden; color:#0071bc; margin-bottom:10px; float:left; margin-left:10px;*margin-left:11px;_margin-left:10px;}
+ul.pdown a:hover{ color:#f00;}
+
+ul.downurl{}
+ul.downurl li{ line-height:44px; overflow:hidden; padding:0 10px; border-bottom:1px solid #eaeaea; width:676px; margin:3px auto;}
+ul.downurl li div{ float:left;}
+ul.downurl li .adds{ line-height:18px; width:524px; overflow:hidden; padding-top:16px; color:#738d9e;}
+ul.downurl li .dwon_tx{ width:40px; height:26px;padding-top:11px;}
+ul.downurl li .dwon_tx a{ display:block; background:#ff6c00; width:40px; height:26px; text-align:center; line-height:26px; color:#FFF; margin-bottom:1px;}
+ul.downurl li .dwon_y{ width:40px; height:26px;padding-top:11px; padding-left:8px;}
+ul.downurl li .dwon_y a{ display:block; background:#309dcf; width:40px; height:26px; text-align:center; line-height:26px; color:#FFF; margin-bottom:1px;}
+ul.downurl li .down_z{ width:40px; height:26px;padding-top:11px; padding-left:8px;}
+ul.downurl li .down_z a{ display:block; background:#066; width:40px; height:26px; text-align:center; line-height:26px; color:#FFF; margin-bottom:1px;}
+.ckall{height:26px; padding:16px 10px 10px; width:676px;}
+.ckall p,.ckall span{ float:left;}
+.ckall span { display:block; padding-top:4px; height:18px; color:#464646;}
+.ckall span em{ padding-left:6px; padding-right:20px;}
+.ckall p a{ display:block; background:url(subtit.png) no-repeat -565px -48px; width:133px; height:26px; overflow:hidden; margin-right:8px; text-align:center; line-height:26px; float:left; color:#464646;}
+.ckall p a;hover{ color:#f00;}
