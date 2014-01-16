@@ -19,12 +19,13 @@
 测试数据
 -------
 ### 1.url为null
-http://localhost/player/index.php<br/><br/>
+http://localhost/player/index.php<br/>
 ### 2.url为空
-http://localhost/player/index.php?url=<br/><br/>
+http://localhost/player/index.php?url=<br/>
 ### 3.video.php解析
->youku:
-http://localhost/player/index.php?url=http://v.youku.com/v_show/id_XNjUyMTM0MDA0.html<br/>
+  youku:
+  http://localhost/player/index.php?url=http://v.youku.com/v_show/id_XNjUyMTM0MDA0.html<br/>
+
 >tudou（仅支持类似albumplay的url）:
 http://localhost/player/ckplayer/video.php?url=http://www.tudou.com/albumplay/p9nMfF_Yp_o/YpSHsdK0zn8.html<br/>
 >乐视
@@ -61,8 +62,6 @@ https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_i
 collect.php
 http://openapi.youku.com/v2/shows/show.json?client_id=0dec1b5a3cb570c1&show_id=f2d7cbbc510311e38b3f
 
-///////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////
 gx_video表添加了一个字段show_id,用于存储采集的节目ID
 ALTER TABLE `gx_video`  ADD COLUMN `show_id` VARCHAR(20) NULL DEFAULT '' AFTER `genuine`;
 
