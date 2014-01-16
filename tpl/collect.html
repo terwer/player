@@ -19,7 +19,7 @@
 <h1><a href="./one_key_collect.php">【一键采集】</a></h1>
 <h1>节目搜索结果</h1>
 
-<h2><a style="color:red;" href="http://<{$domain}>/search"><=返回搜索页面</a></h2>
+<h2><a style="color:red;" href="http://<{$search_domain}>/"><=返回搜索页面</a></h2>
 
 <p>共有<{$result->total}>条节目结果。
 
@@ -47,11 +47,11 @@
     <div style="font-size:32px;font-weight: 600;">【采集列表】</div>
     <iframe id="iFrame1" name="iFrame1" width="100%"
             frameborder="0"
-            src="http://<{$domain}>/player/ckplayer/info/collect_search_playlist.php?pid=<{$show->id}>"></iframe>
+            src="http://<{$player_domain}>/ckplayer/info/collect_search_playlist.php?pid=<{$show->id}>"></iframe>
 </div>
     <div id="play_noad" style="border: 1px solid darkgreen;margin: 5px;">
         <div style="font-size:32px;font-weight: 600;">【视频播放】</div>
-        <a style="text-decoration: none;" href="http://<{$domain}>/search/go/?kw=<{$show->paly_link}>" target="_blank">
+        <a style="text-decoration: none;" href="http://<{$search_domain}>/go/?kw=<{$show->paly_link}>" target="_blank">
             <input type="button" style="font-size:32px" value="立即无广告播放" id="btn_play"/>
         </a>
     </div>
@@ -100,7 +100,7 @@
                     is_up_<{$k}>= "true";
                 }
                 //alert(is_up_<{$k}>);
-                var collect_url = "http://<{$domain}>/player/ckplayer/info/collect_submit.php?collect=true&show_id=<{$show->id}>&pwd=" + $("#admin_pwd_<{$k}>").val() + "&vtype=" + escape($("#vtype_<{$k}>").val()) + "&is_updated=" + is_up_<{$k}>+"&cat="+$("#cat_<{$k}>").val();
+                var collect_url = "http://<{$player_domain}>/ckplayer/info/collect_submit.php?collect=true&show_id=<{$show->id}>&pwd=" + $("#admin_pwd_<{$k}>").val() + "&vtype=" + escape($("#vtype_<{$k}>").val()) + "&is_updated=" + is_up_<{$k}>+"&cat="+$("#cat_<{$k}>").val();
                 if($("#cat_<{$k}>").val()=="1"||$("#cat_<{$k}>").val()=="2"||$("#cat_<{$k}>").val()=="28"){
                     alert("电视剧、电影、音乐为顶级频道，不能添加节目，只能在子分类添加!");
                     return false;

@@ -10,7 +10,7 @@ error_reporting(0);
 include "../../config.php";
 require "./includes/youku.php";
 require ROOT . "init.inc.php";
-require ROOT . "../secret.php";
+require ROOT . "/secret.php";
 
 if (isset($_GET["pid"])) {
     $pid = $_GET["pid"];

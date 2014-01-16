@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-01-16 12:30:48
+<?php /* Smarty version 2.6.18, created on 2014-01-16 14:29:02
          compiled from index.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
@@ -10,31 +10,31 @@
 </title>
     <link rel="shortcut icon" href="http://<?php echo $this->_tpl_vars['domain']; ?>
 /favicon.ico" type="image/icon">
-    <link rel="stylesheet" type="text/css" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/basic_other.css">
-    <link rel="stylesheet" type="text/css" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/play_new.css">
-    <script src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/ex_002.js"></script>
-    <script src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/main.js"></script>
-    <script src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/beacon.js" ></script>
-    <script src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/qa.js" ></script>
-    <script src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/hm.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/basic_other.css">
+    <link rel="stylesheet" type="text/css" href="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/play_new.css">
+    <script src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/ex_002.js"></script>
+    <script src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/main.js"></script>
+    <script src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/beacon.js" ></script>
+    <script src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/qa.js" ></script>
+    <script src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/hm.js"></script>
     <!--顶部引用脚本-->
-    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/sea1.js"></script>
-    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/ver.js"></script>
-    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/iwt.js"></script>
-    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/playFiles/setPlay.js" ></script>
-    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/js/offlights.js"></script>
+    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/sea1.js"></script>
+    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/ver.js"></script>
+    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/iwt.js"></script>
+    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/playFiles/setPlay.js" ></script>
+    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/js/offlights.js"></script>
 </head>
 <body>
 <div id="flashcontent"></div>
@@ -69,8 +69,7 @@
         <div class="gui_TopInfo crumb_bar">
             <div class="topInfoC_add" style="left: -6px; margin-left: -50px; top: 0px;">
                 <!--旗帜广告新修改-->
-                <a href="http://<?php echo $this->_tpl_vars['domain']; ?>
-" target="_blank" title="新价值网|做有思想的IT博客"> <img src="/logo.png"
+                <a href="http://www.xinvalue.com/" target="_blank" title="新价值网|做有思想的IT博客"> <img src="http://www.xinvalue.com/logo.png"
                                                                                                style="height: 40px; margin-top: 10px;" alt="新价值网|做有思想的IT博客" title="新价值网|做有思想的IT博客" /></a>
                 <!--旗帜广告 end-->
             </div>
@@ -84,7 +83,7 @@
                         <span id="sp_title" style="font-family: '微软雅黑'; font-size: 14px; margin-left: -1px;"><?php echo $this->_tpl_vars['video_title']; ?>
  </span>
                         <a id="get_title" href="#" style="color：red;font-size:14px;" >点击获取视频标题</a>
-                        <a  href="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+                        <a  href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
 " style="color：green;font-size:14px;" >返回重新搜索<a>
                             <a href="#comments"><span style="color:#9400D3;font-size:14px;">查看评论</span></a>
                             <input id="vurl" type="hidden" value=<?php echo $this->_tpl_vars['vurl']; ?>
@@ -206,8 +205,8 @@
 
                     <!--Flash嵌入地址-->
                     <div id="video" style="position:relative;z-index: 100;width:100%;height:100%;float: left;"><div id="a1"></div></div>
-                    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/ckplayer.js"></script>
+                    <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/ckplayer.js"></script>
                     <script type="text/javascript">
                         var flashvars={
                                     f:"<?php echo $this->_tpl_vars['f']; ?>
@@ -234,8 +233,8 @@
 //e=3显示精彩视频
                         };
                         var params={bgcolor:"#FFF",allowFullScreen:true,allowScriptAccess:"always"};
-                        CKobject.embedSWF("http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/ckplayer.swf","a1","ckplayer_a1","980","520",flashvars,params);
+                        CKobject.embedSWF("http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/ckplayer.swf","a1","ckplayer_a1","980","520",flashvars,params);
                         //CKobject.embedSWF(播放器路径,容器id,播放器id/name,播放器宽,播放器高,flashvars的值,其它定义也可省略);
                         //下面三行是调用html5播放器用到的
                         var video=["http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4","http://www.ckplayer.com/webm/0.webm->video/webm","http://www.ckplayer.com/webm/0.ogv->video/ogg"];
@@ -255,12 +254,12 @@
     <!--顶部播放器 结束-->
 </form>
 <!--视频信息-->
-<iframe id="iFrame1" style="margin-top:-28x;height:175px;" name="iFrame1" width="100%"  frameborder="0" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/info.php?url=<?php echo $this->_tpl_vars['vurl']; ?>
+<iframe id="iFrame1" style="margin-top:-28x;height:175px;" name="iFrame1" width="100%"  frameborder="0" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/info.php?url=<?php echo $this->_tpl_vars['vurl']; ?>
 "></iframe>
 <!--评论-->
-<iframe id="comments" style="margin-top:-18x;height: 500px" name="comments" width="100%" frameborder="0" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/comments.php?url=<?php echo $this->_tpl_vars['vurl']; ?>
+<iframe id="comments" style="margin-top:-18x;height: 500px" name="comments" width="100%" frameborder="0" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/comments.php?url=<?php echo $this->_tpl_vars['vurl']; ?>
 "    ></iframe>
 <center style="margin-top: -20px;">
 

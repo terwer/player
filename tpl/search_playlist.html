@@ -78,7 +78,7 @@ CNTV<img src="http://www.cntv.cn/favicon.ico" class="fav" alt="">
 </span></h1>
 
         <{foreach from=$list->addresses item="addrs"}>
-      <span class="chapter"><a href="http://<{$domain}>/search/go/?kw=<{$addrs->url}>" target="_blank">
+      <span class="chapter"><a href="http://<{$search_domain}>/go/?kw=<{$addrs->url}>" target="_blank">
             第<{$addrs->order}>集
         </a></span>
         <{/foreach}>

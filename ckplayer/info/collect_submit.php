@@ -10,7 +10,7 @@ include_once "../../config.php";
 require_once "../../conn.inc.php";
 require_once "./includes/youku.php";
 require_once ROOT . "init.inc.php";
-require_once ROOT . "../secret.php";
+require_once ROOT . "/secret.php";
 
 function utf8_urldecode($str)
 {
@@ -84,7 +84,7 @@ if (isset($_GET["collect"]) && $_GET["collect"] == true) {
                                     echo '<h2 style="color:red;">《' . $bd_video->title . '》(由百度影音采集而来，需要手动修改！)</h2>';
 
                                 } else {
-                                    echo '<a href="http://' . DOMAIN . '/player/ckplayer/info/collect_submit.php?collect=true&show_id=' . $bd_video->show_id . '&pwd=105036&vtype=' . $_GET["vtype"] . '&is_updated=false" target="_blank" ><h2 style="color:green;">《' . $bd_video->title . '》</h2></a>';
+                                    echo '<a href="http://' . PLAYER_DOMAIN . '/ckplayer/info/collect_submit.php?collect=true&show_id=' . $bd_video->show_id . '&pwd=105036&vtype=' . $_GET["vtype"] . '&is_updated=false" target="_blank" ><h2 style="color:green;">《' . $bd_video->title . '》</h2></a>';
                                 }
                             }
                             exit;

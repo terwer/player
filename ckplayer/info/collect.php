@@ -11,11 +11,20 @@ include "../../config.php";
 require "../../conn.inc.php";
 require "./includes/youku.php";
 require ROOT . "init.inc.php";
-require ROOT . "../secret.php";
+require ROOT . "secret.php";
+
 function utf8_urldecode($str)
 {
     return html_entity_decode(preg_replace("/%u([0-9a-f]{3,4})/i", "&#x\\1;", urldecode($str)), null, 'UTF-8');
 }
+
+$tpl->assign("domain", DOMAIN);
+
+//设置搜索域名
+$tpl->assign("search_domain",SEARCH_DOMAIN);
+
+//设置播放子域名
+$tpl->assign("player_domain",PLAYER_DOMAIN);
 
 //https://openapi.youku.com/v2/searches/show/by_keyword.json?client_id=0dec1b5a3cb570c1&keyword=梁山伯与祝英台
 
@@ -76,8 +85,6 @@ if (isset($_GET["keyword"])) {
     $tpl->assign("pages", $pages);
 //dump($pages);
 //return;
-
-    $tpl->assign("domain", DOMAIN);
 
 ////获取视频分类////////////////////////////////////////////////////////////////////
     $sql = "SELECT id,pid,cname FROM gx_channel WHERE status=1";
