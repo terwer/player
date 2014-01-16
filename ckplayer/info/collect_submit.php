@@ -10,7 +10,7 @@ include_once "../../config.php";
 require_once "../../conn.inc.php";
 require_once "./includes/youku.php";
 require_once ROOT . "init.inc.php";
-require_once ROOT . "/secret.php";
+require_once ROOT . "secret.php";
 
 function utf8_urldecode($str)
 {

@@ -11,7 +11,7 @@ include "../../config.php";
 require "../../conn.inc.php";
 require "./includes/youku.php";
 require ROOT . "init.inc.php";
-require ROOT . "../secret.php";
+require ROOT . "secret.php";
 
 ignore_user_abort(); //关掉浏览器，PHP脚本也可以继续执行.
 set_time_limit(0); // 通过set_time_limit(0)可以让程序无限制的执行下去
