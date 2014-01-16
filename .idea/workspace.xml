@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42da3aeb-258a-4401-8117-a1831f3231ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/init.php" afterPath="$PROJECT_DIR$/ckplayer/info/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/one_key_collect.html" afterPath="$PROJECT_DIR$/tpl/one_key_collect.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/one_key_collect.php" afterPath="$PROJECT_DIR$/ckplayer/info/one_key_collect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/set.php" afterPath="$PROJECT_DIR$/ckplayer/info/set.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="player.iws" />
@@ -30,106 +27,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="collect.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
+      <file leaf-file-name="one_key_collect.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.12571429" vertical-offset="242" max-vertical-offset="2574">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="403" selection-end="545" vertical-scroll-proportion="-2.1290324" vertical-offset="374" max-vertical-offset="2244">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="271" selection-end="271" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="1166">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1320">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1012">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collect_submit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_submit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="295" selection-end="295" vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="11638">
+            <state line="181" column="8" selection-start="8308" selection-end="8308" vertical-scroll-proportion="0.2888889" vertical-offset="3861" max-vertical-offset="6556">
               <folding>
-                <marker date="1389889500259" expanded="false" signature="821:831" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="3589:3598" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="5908:5918" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="8883:8897" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="10497:10513" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="10712:10722" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="10839:10855" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="13619:13633" placeholder="..." />
-                <marker date="1389889500259" expanded="false" signature="14221:14231" placeholder="..." />
+                <marker date="1389889906168" expanded="true" signature="948:958" placeholder="..." />
+                <marker date="1389889906168" expanded="true" signature="1418:1430" placeholder="..." />
+                <marker date="1389889906168" expanded="true" signature="8150:8159" placeholder="..." />
+                <marker date="1389889906168" expanded="true" signature="8833:8845" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect_search_playlist.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php">
+      <file leaf-file-name="one_key_collect.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/one_key_collect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="682">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_check.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/login_check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1364">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one_key_collect.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="271" selection-end="271" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="6380">
+            <state line="80" column="43" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-4.4" vertical-offset="1386" max-vertical-offset="2244">
               <folding>
-                <marker date="1389889500339" expanded="false" signature="803:813" placeholder="..." />
-                <marker date="1389889500339" expanded="false" signature="1273:1285" placeholder="..." />
-                <marker date="1389889500339" expanded="false" signature="8005:8014" placeholder="..." />
-                <marker date="1389889500339" expanded="false" signature="8688:8700" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ckplayer/related.php" />
         <option value="$PROJECT_DIR$/ckplayer/share.xml" />
         <option value="$PROJECT_DIR$/ckplayer/ckplayer.xml" />
         <option value="$PROJECT_DIR$/ckplayer/ckplayer.js" />
@@ -165,10 +98,11 @@
         <option value="$PROJECT_DIR$/ckplayer/info/result.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/search_playlist.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/set.php" />
-        <option value="$PROJECT_DIR$/ckplayer/info/one_key_collect.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/init.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" />
+        <option value="$PROJECT_DIR$/tpl/one_key_collect.html" />
+        <option value="$PROJECT_DIR$/ckplayer/info/one_key_collect.php" />
       </list>
     </option>
   </component>
@@ -371,7 +305,11 @@
       <created>1389888880981</created>
       <updated>1389888880981</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="目录细节调整。">
+      <created>1389889537114</created>
+      <updated>1389889537114</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,15 +360,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tpl/search_playlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="62" selection-start="2955" selection-end="2955" vertical-scroll-proportion="-2.717647" vertical-offset="1529" max-vertical-offset="2156">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="618" selection-end="618" vertical-scroll-proportion="-6.225806" vertical-offset="269" max-vertical-offset="1298">
@@ -491,18 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="271" selection-end="271" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="6380">
-          <folding>
-            <marker date="1389889500339" expanded="false" signature="803:813" placeholder="..." />
-            <marker date="1389889500339" expanded="false" signature="1273:1285" placeholder="..." />
-            <marker date="1389889500339" expanded="false" signature="8005:8014" placeholder="..." />
-            <marker date="1389889500339" expanded="false" signature="8688:8700" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/login_check.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1364">
@@ -542,15 +459,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="21" selection-start="295" selection-end="295" vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="11638">
           <folding>
-            <marker date="1389889500259" expanded="false" signature="821:831" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="3589:3598" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="5908:5918" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="8883:8897" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="10497:10513" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="10712:10722" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="10839:10855" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="13619:13633" placeholder="..." />
-            <marker date="1389889500259" expanded="false" signature="14221:14231" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389889500259" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -564,8 +481,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.12571429" vertical-offset="242" max-vertical-offset="2574">
+        <state line="20" column="0" selection-start="432" selection-end="574" vertical-scroll-proportion="0.40072858" vertical-offset="242" max-vertical-offset="2574">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/one_key_collect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="43" selection-start="3437" selection-end="3437" vertical-scroll-proportion="-4.4" vertical-offset="1386" max-vertical-offset="2530">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="8" selection-start="8308" selection-end="8308" vertical-scroll-proportion="0.2888889" vertical-offset="3861" max-vertical-offset="6556">
+          <folding>
+            <marker date="1389889906168" expanded="true" signature="948:958" placeholder="..." />
+            <marker date="1389889906168" expanded="true" signature="1418:1430" placeholder="..." />
+            <marker date="1389889906168" expanded="true" signature="8150:8159" placeholder="..." />
+            <marker date="1389889906168" expanded="true" signature="8833:8845" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

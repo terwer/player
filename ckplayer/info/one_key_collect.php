@@ -17,6 +17,15 @@ function utf8_urldecode($str)
     return html_entity_decode(preg_replace("/%u([0-9a-f]{3,4})/i", "&#x\\1;", urldecode($str)), null, 'UTF-8');
 }
 
+$tpl->assign("domain", DOMAIN);
+
+//设置搜索域名
+$tpl->assign("search_domain",SEARCH_DOMAIN);
+
+//设置播放子域名
+$tpl->assign("player_domain",PLAYER_DOMAIN);
+
+
 /**
  * Created by PhpStorm.
  * User: Administrator
@@ -171,7 +180,7 @@ if (isset($_GET["cat"])) {
     echo '共有' . $result->total . '条结果。<br/>';
     echo '开始采集第' . $page . '页，其中每页' . $count . '条记录。<br/>';
     foreach ($result->shows as $show) {
-        $collect_url = 'http://' . DOMAIN . '/player/ckplayer/info/collect_submit.php?collect=true&show_id=' . $show->id . '&pwd=' . $pwd . '&vtype=' . $vtype
+        $collect_url = 'http://' . PLAYER_DOMAIN . '/ckplayer/info/collect_submit.php?collect=true&show_id=' . $show->id . '&pwd=' . $pwd . '&vtype=' . $vtype
             . '&is_updated=' . $is_updated . '&cat=' . $cat;
         echo '正在采集【' . $show->name . '】。。。<br/>url：' . $collect_url . '<br/>';
         echo '优酷地址页：<a href="' . $show->link . '" target="_blank">' . $show->link . '</a><br/>';
@@ -188,7 +197,6 @@ if (isset($_GET["cat"])) {
 
 //////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////
-$tpl->assign("domain", DOMAIN);
 
 ////获取视频分类////////////////////////////////////////////////////////////////////
 $sql = "SELECT id,pid,cname FROM gx_channel WHERE status=1";

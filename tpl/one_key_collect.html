@@ -59,7 +59,7 @@
                 is_up_= "true";
             }
             //alert(is_up_);
-            var collect_url = "http://<{$domain}>/player/ckplayer/info/one_key_collect.php?pwd=" + $("#admin_pwd_").val() + "&vtype=" + escape($("#vtype_").val()) + "&is_updated=" + is_up_+"&cat="+$("#cat_").val()+"&page="+$("#txt_page_").val()+"&count="+$("#txt_count_").val();
+            var collect_url = "http://<{$player_domain}>/ckplayer/info/one_key_collect.php?pwd=" + $("#admin_pwd_").val() + "&vtype=" + escape($("#vtype_").val()) + "&is_updated=" + is_up_+"&cat="+$("#cat_").val()+"&page="+$("#txt_page_").val()+"&count="+$("#txt_count_").val();
            // if($("#cat_").val()=="1"||$("#cat_").val()=="2"||$("#cat_").val()=="28"){
            //     alert("电视剧、电影、音乐为顶级频道，不能添加节目，只能在子分类添加!");
            //     return false;
@@ -78,7 +78,7 @@
 <center>
 版权所有：新价值网<br/>
 长江大学2010级软工1002唐有炜作品<br/>
-新浪微博<img src="http://weibo.com/favicon.ico"/ style="height:18px" alt="sina"> <a href="http://weibo.com/tyouwei"
+新浪微博<img src="http://weibo.com/favicon.ico" style="height:18px" alt="sina"> <a href="http://weibo.com/tyouwei"
                                                                                 target="_blank">@LeaveBugsAway</a><br/>
 CopyRight &copy;&nbsp;2010-<span id="lblYear">2013</span> <a href="http://www.xinvalue.com" class=""
                                                              target="_blank">www.xinvalue.com</a> &nbsp;All
