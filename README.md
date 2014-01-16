@@ -9,19 +9,19 @@
 
 使用必读
 --------
-将文件夹上传至网站根目录（务必如此）
-上传需要修改的文件
->---/player/config.php（按相应的说明修改）（务必认真修改）
->---/player/ckplayer/ckplayer.js（将localhost全部换成【您的域名】）
->---/player/ckplayer/ckplayer.xml（将localhost全部换成【您的域名】）
->---/player/ckplayer/share.xml（将localhost全部换成【您的域名】）
+将文件夹上传至网站根目录（务必如此）<br/>
+上传需要修改的文件<br/>
+>---/player/config.php（按相应的说明修改）（务必认真修改）<br/>
+>---/player/ckplayer/ckplayer.js（将localhost全部换成【您的域名】）<br/>
+>---/player/ckplayer/ckplayer.xml（将localhost全部换成【您的域名】）<br/>
+>---/player/ckplayer/share.xml（将localhost全部换成【您的域名】）<br/>
 
 测试数据
 -------
 ### 1.url为null
-http://localhost/player/index.php<br/>
+http://localhost/player/index.php<br/><br/>
 ### 2.url为空
-http://localhost/player/index.php?url=<br/>
+http://localhost/player/index.php?url=<br/><br/>
 ### 3.video.php解析
 >youku:
 http://localhost/player/index.php?url=http://v.youku.com/v_show/id_XNjUyMTM0MDA0.html<br/>
