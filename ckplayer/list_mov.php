@@ -25,7 +25,7 @@ if ($vtype == "youku") {
         $item = '  <RV>
             <title>' . $info_arr->title . '</title>
             <url>
-                http://'.DOMAIN.'/player/ckplayer/video.php?url=' . $info_arr->link . '
+                http://'.PLAYER_DOMAIN.'/ckplayer/video.php?url=' . $info_arr->link . '
             </url>
             <l>0</l>
             <pic>' . $info_arr->thumbnail . '</pic>

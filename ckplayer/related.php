@@ -41,7 +41,7 @@ if ($vtype == "youku") {
     foreach($results->videos as $video){
         echo ' <related>
       <img>'.$video->thumbnail.'</img>
-      <url>http://'.DOMAIN.'/player/?url='.$video->link.'</url>
+      <url>http://'.PLAYER_DOMAIN.'/?url='.$video->link.'</url>
       <title>'.$video->title.'</title>
     </related>';
     }
@@ -53,7 +53,7 @@ if ($vtype == "youku") {
     foreach($results->videos as $video){
         echo ' <related>
       <img>'.$video->thumbnail.'</img>
-      <url>http://'.DOMAIN.'/player/?url='.$video->link.'</url>
+      <url>http://'.PLAYER_DOMAIN.'/?url='.$video->link.'</url>
       <title>'.$video->title.'</title>
     </related>';
     }
