@@ -15,6 +15,14 @@ require ROOT."secret.php";
 $tpl->assign("domain", DOMAIN);
 /////////////////////////////////////////////////////////////////////////
 
+////////////////////////////设置播放子域名/////////////////////////////////////////////
+$tpl->assign("player_domain", PLAYER_DOMAIN);
+/////////////////////////////////////////////////////////////////////////
+
+////////////////////////////设置播放子域名/////////////////////////////////////////////
+$tpl->assign("search_domain", SEARCH_DOMAIN);
+/////////////////////////////////////////////////////////////////////////
+
 //////////////////////////获取参数URL//////////////////////////////////////////
 $url = "http://v.youku.com/v_show/id_XNjUyMjAwNTc2.html";
 if (isset($_GET["url"])) {
@@ -61,7 +69,7 @@ $ext = substr($tag, 1, strlen($tag) - 1);
 /**
  * 视频地址
  */
-$f = 'http://'.DOMAIN.'/player/ckplayer/video.php?url=' . $url;
+$f = 'http://'.PLAYER_DOMAIN.'/ckplayer/video.php?url=' . $url;
 
 ////////////////////////////播放普通文件////////////////////////////////////////
 if ($ext == "mp4" || $ext == "flv" || $ext == "f4v") {
@@ -85,7 +93,7 @@ if ($host == "v.ifeng.com") {
     //print_r($urls);
     $vtype = "ifeng";
     $vid = $urls["filename"];
-    $f = 'http://'.DOMAIN.'/player/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
+    $f = 'http://'.PLAYER_DOMAIN.'/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
     //$f=urlencode($f);
 } else if ($host == "www.tudou.com") {
     $vtype = "tudou";
@@ -96,22 +104,22 @@ if ($host == "v.ifeng.com") {
 } else if ($host == "v.163.com") {
     $vtype = "163";
     $vid = $urls["filename"];
-    $f = 'http://'.DOMAIN.'/player/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
+    $f = 'http://'.PLAYER_DOMAIN.'/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
 } else if ($host == "v.ku6.com") {
     $vtype = "ku6";
     $vid = substr($urls["filename"], 0, strlen($urls["filename"]) - 2);
 } else if ($host == "v.pps.tv") {
     $vtype = "pps";
     $vid = substr($urls["filename"], 5, strlen($urls["filename"]) - 5);
-    $f = 'http://'.DOMAIN.'/player/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
+    $f = 'http://'.PLAYER_DOMAIN.'/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
 } else if ($host == "tv.cntv.cn") {
     $vtype = "cntv";
     $vid = $urls["filename"];
-    $f = 'http://'.DOMAIN.'/player/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
+    $f = 'http://'.PLAYER_DOMAIN.'/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
 } else if ($host == "v.qq.com") {
     $vtype = "qq";
     $vid = $urls["filename"];
-    $f = 'http://'.DOMAIN.'/player/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
+    $f = 'http://'.PLAYER_DOMAIN.'/ckplayer/watch/play.php?vtype=' . $vtype . '&vid=' . $vid;
 } else if ($host == "www.letv.com") {
     $vtype = "letv";
     $vid = $urls["filename"];
@@ -120,7 +128,7 @@ if ($host == "v.ifeng.com") {
     $vid = substr($urls["filename"], 3, strlen($urls["filename"]) - 3);
     $vid = $urls["filename"];
 } else {
-    'http://'.DOMAIN.'/player/ckplayer/video.php?url=' . $url;
+    'http://'.PLAYER_DOMAIN.'/ckplayer/video.php?url=' . $url;
 }
 //echo '<br/>'.$vid.'<br/>'.$vtype;return;
 /////////////插件切换结束////////////////
@@ -145,7 +153,7 @@ $tpl->assign("s", $s);
 $my_url = 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
 $tpl->assign("my_url", $my_url);
 
-$my_pic = "http://'.DOMAIN.'/logo.png";
+$my_pic = "http://www.xinvalue.com/logo.png";
 $tpl->assign("my_pic", $my_pic);
 
 /**

@@ -1,9 +1,8 @@
-<?php /* Smarty version 2.6.18, created on 2013-12-29 14:49:00
+<?php /* Smarty version 2.6.18, created on 2014-01-16 12:30:48
          compiled from index.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
-<head >
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -85,11 +84,13 @@
                         <span id="sp_title" style="font-family: '微软雅黑'; font-size: 14px; margin-left: -1px;"><?php echo $this->_tpl_vars['video_title']; ?>
  </span>
                         <a id="get_title" href="#" style="color：red;font-size:14px;" >点击获取视频标题</a>
-                        <a  href="http://search.xinvalue.com" style="color：green;font-size:14px;" >返回重新搜索<a>
+                        <a  href="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+" style="color：green;font-size:14px;" >返回重新搜索<a>
                             <a href="#comments"><span style="color:#9400D3;font-size:14px;">查看评论</span></a>
                             <input id="vurl" type="hidden" value=<?php echo $this->_tpl_vars['vurl']; ?>
  />
-                            <script type="text/javascript" src="http://search.xinvalue.com/js/jquery-1.9.1.js"> </script>
+                            <script type="text/javascript" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/js/jquery-1.9.1.js"> </script>
                             <script type="text/javascript">
                                 $(document).ready(function(){
                                     ajax_get_title();
