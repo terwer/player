@@ -35,6 +35,7 @@ http://localhost/player/index.php?url=http://www.56.com/u28/v_OTE4MzcxNjk.html<b
 http://localhost/player/index.php?url=http://v.ku6.com/show/lDy2CAxYbhikekNcdtuP8g...html<br/>
 >pps
 http://localhost/player/?url=http://v.pps.tv/play_39V04K.html<br/>
+
 ### 4.play.php解析
 >凤凰
 http://localhost/player/index.php?url=http://v.ifeng.com/ent/mingxing/201312/01142824-b595-418e-9ae7-b4af60dbd8aa.shtml<br>

@@ -9,7 +9,7 @@
 //error_reporting(0);
 
 //Smarty根目录，播放器项目根目录
-define("ROOT", "D:/MyCode/player/v2.0/player/");
+define("ROOT", "D:/MyCode/player/");
 //define("ROOT","D:/wwwroot/terwer/wwwroot/");
 
 //优酷API的client_id
