@@ -19,7 +19,13 @@ if (isset($_GET["pid"])) {
     $tpl->assign("united_result", $united_result->$pid);
 
 
-    $tpl->assign("domain",DOMAIN);
+    $tpl->assign("domain", DOMAIN);
+
+//设置搜索域名
+    $tpl->assign("search_domain",SEARCH_DOMAIN);
+
+//设置播放子域名
+    $tpl->assign("player_domain",PLAYER_DOMAIN);
 
   $tpl->display("search_playlist.html");
 } else {

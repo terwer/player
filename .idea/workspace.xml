@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42da3aeb-258a-4401-8117-a1831f3231ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" afterPath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" afterPath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/collect.html" afterPath="$PROJECT_DIR$/tpl/collect.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/list_mov.html" afterPath="$PROJECT_DIR$/tpl/list_mov.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%63^639^63938DCB%%collect.html.php" afterPath="$PROJECT_DIR$/com/%%63^639^63938DCB%%collect.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/result.html" afterPath="$PROJECT_DIR$/tpl/result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/search_playlist.html" afterPath="$PROJECT_DIR$/tpl/search_playlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/result.php" afterPath="$PROJECT_DIR$/ckplayer/info/result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/search_playlist.php" afterPath="$PROJECT_DIR$/ckplayer/info/search_playlist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="player.iws" />
@@ -37,69 +32,25 @@
       <file leaf-file-name="collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="44" selection-start="574" selection-end="574" vertical-scroll-proportion="-14.903226" vertical-offset="110" max-vertical-offset="2508">
+            <state line="20" column="0" selection-start="432" selection-end="574" vertical-scroll-proportion="-6.387097" vertical-offset="242" max-vertical-offset="2574">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/collect.html">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="60" selection-start="4478" selection-end="4478" vertical-scroll-proportion="1.4235294" vertical-offset="2365" max-vertical-offset="4488">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="26" column="7" selection-start="618" selection-end="618" vertical-scroll-proportion="-6.225806" vertical-offset="269" max-vertical-offset="1298">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_playlist.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/search_playlist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="62" selection-start="2955" selection-end="2955" vertical-scroll-proportion="-2.717647" vertical-offset="1529" max-vertical-offset="2134">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="result.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="2" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.2" vertical-offset="781" max-vertical-offset="3234">
+            <state line="63" column="38" selection-start="2403" selection-end="2417" vertical-scroll-proportion="-3.4941177" vertical-offset="1089" max-vertical-offset="3234">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -123,47 +74,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_mov.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tpl/list_mov.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="46" selection-start="1213" selection-end="1213" vertical-scroll-proportion="-6.645161" vertical-offset="784" max-vertical-offset="1364">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collect_submit.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_submit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="79" selection-start="4076" selection-end="4076" vertical-scroll-proportion="-22.258823" vertical-offset="0" max-vertical-offset="10714">
-              <folding>
-                <marker date="1389887997459" expanded="false" signature="822:832" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="3590:3599" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="5909:5919" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="8884:8898" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="10498:10514" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="10713:10723" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="10840:10856" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="13620:13634" placeholder="..." />
-                <marker date="1389887997459" expanded="false" signature="14222:14232" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_playlist.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/search_playlist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.129032" vertical-offset="221" max-vertical-offset="770">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="result.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2046">
+            <state line="20" column="0" selection-start="403" selection-end="545" vertical-scroll-proportion="-2.1290324" vertical-offset="374" max-vertical-offset="2244">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_playlist.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ckplayer/info/search_playlist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="48" selection-start="572" selection-end="572" vertical-scroll-proportion="0.72131145" vertical-offset="198" max-vertical-offset="902">
               <folding />
             </state>
           </provider>
@@ -187,8 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/tpl/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/ckplayer/list_mov.php" />
@@ -203,6 +124,8 @@
         <option value="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
         <option value="$PROJECT_DIR$/tpl/search_playlist.html" />
         <option value="$PROJECT_DIR$/tpl/result.html" />
+        <option value="$PROJECT_DIR$/ckplayer/info/result.php" />
+        <option value="$PROJECT_DIR$/ckplayer/info/search_playlist.php" />
       </list>
     </option>
   </component>
@@ -397,13 +320,18 @@
       <created>1389883365650</created>
       <updated>1389883365650</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="目录细节调整。">
+      <created>1389888489603</created>
+      <updated>1389888489603</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -419,7 +347,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -437,22 +364,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="目录细节调整。" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ckplayer/info/result.php</url>
+          <line>17</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conn.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="328" selection-end="328" vertical-scroll-proportion="-5.903226" vertical-offset="169" max-vertical-offset="1408">
-          <folding>
-            <element signature="e#6#112#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,7 +400,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="6" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.16666667" vertical-offset="2891" max-vertical-offset="16566">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -500,41 +426,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="574" selection-end="574" vertical-scroll-proportion="-14.903226" vertical-offset="110" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_submit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="79" selection-start="4076" selection-end="4076" vertical-scroll-proportion="-22.258823" vertical-offset="0" max-vertical-offset="11616">
           <folding>
-            <marker date="1389887997459" expanded="false" signature="822:832" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="3590:3599" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="5909:5919" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="8884:8898" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="10498:10514" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="10713:10723" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="10840:10856" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="13620:13634" placeholder="..." />
-            <marker date="1389887997459" expanded="false" signature="14222:14232" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1389887997459" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/search_playlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.129032" vertical-offset="221" max-vertical-offset="770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2112">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,9 +499,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="432" selection-end="574" vertical-scroll-proportion="-6.387097" vertical-offset="242" max-vertical-offset="2574">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="618" selection-end="618" vertical-scroll-proportion="-6.225806" vertical-offset="269" max-vertical-offset="1298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="2" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.2" vertical-offset="781" max-vertical-offset="3234">
+        <state line="63" column="38" selection-start="2403" selection-end="2417" vertical-scroll-proportion="-3.4941177" vertical-offset="1089" max-vertical-offset="3234">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -616,6 +535,20 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#center#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="403" selection-end="545" vertical-scroll-proportion="-2.1290324" vertical-offset="374" max-vertical-offset="2244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/search_playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="48" selection-start="572" selection-end="572" vertical-scroll-proportion="0.72131145" vertical-offset="198" max-vertical-offset="902">
+          <folding />
         </state>
       </provider>
     </entry>

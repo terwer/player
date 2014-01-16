@@ -18,6 +18,14 @@ function utf8_urldecode($str)
     return html_entity_decode(preg_replace("/%u([0-9a-f]{3,4})/i", "&#x\\1;", urldecode($str)), null, 'UTF-8');
 }
 
+$tpl->assign("domain", DOMAIN);
+
+//设置搜索域名
+$tpl->assign("search_domain",SEARCH_DOMAIN);
+
+//设置播放子域名
+$tpl->assign("player_domain",PLAYER_DOMAIN);
+
 
 if (isset($_GET["keyword"])) {
     $keyword = utf8_urldecode($_GET["keyword"]);
@@ -78,8 +86,6 @@ if (isset($_GET["keyword"])) {
     $tpl->assign("pages", $pages);
 //dump($pages);
 //return;
-
-    $tpl->assign("domain", DOMAIN);
 
     $tpl->display("result.html");
 } else {

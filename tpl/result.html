@@ -17,7 +17,7 @@
 </div>
 <h1>节目搜索结果</h1>
 
-<h2><a style="color:red;" href="http://<{$domain}>/search"><=返回搜索页面</a></h2>
+<h2><a style="color:red;" href="http://<{$search_domain}>"><=返回搜索页面</a></h2>
 
 <p>共有<{$result->total}>条节目结果。
 
@@ -42,7 +42,7 @@
                         frameborder="0" src="http://<{$player_domain}>/ckplayer/info/search_playlist.php?pid=<{$show->id}>"></iframe>
 
 
-            <a style="text-decoration: none;" href="http://<{$domain}>/search/go/?kw=<{$show->paly_link}>"
+            <a style="text-decoration: none;" href="http://<{$search_domain}>/go/?kw=<{$show->paly_link}>"
                target="_blank">
                 <input type="button" style="font-size:32px" value="立即无广告播放" id="btn_play"/>
             </a>
@@ -61,7 +61,7 @@
             <{foreach from=$simple_video_result->videos item="video" }>
   <span style="width:220px;float:left;height:250px;">
   <div>
-      <a href="http://<{$domain}>/search/go/?kw=<{$video->link}>"
+      <a href="http://<{$search_domain}>/go/?kw=<{$video->link}>"
          target="_blank">
           <img src="<{$video->thumbnail}>" alt="<{$video->title}>" title="<{$video->title}>"/>
       </a>

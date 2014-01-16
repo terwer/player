@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-01-01 06:56:43
+<?php /* Smarty version 2.6.18, created on 2014-01-16 15:57:15
          compiled from collect.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
@@ -21,8 +21,8 @@
 <h1><a href="./one_key_collect.php">【一键采集】</a></h1>
 <h1>节目搜索结果</h1>
 
-<h2><a style="color:red;" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search"><=返回搜索页面</a></h2>
+<h2><a style="color:red;" href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+/"><=返回搜索页面</a></h2>
 
 <p>共有<?php echo $this->_tpl_vars['result']->total; ?>
 条节目结果。
@@ -62,14 +62,14 @@
     <div style="font-size:32px;font-weight: 600;">【采集列表】</div>
     <iframe id="iFrame1" name="iFrame1" width="100%"
             frameborder="0"
-            src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/collect_search_playlist.php?pid=<?php echo $this->_tpl_vars['show']->id; ?>
+            src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/collect_search_playlist.php?pid=<?php echo $this->_tpl_vars['show']->id; ?>
 "></iframe>
 </div>
     <div id="play_noad" style="border: 1px solid darkgreen;margin: 5px;">
         <div style="font-size:32px;font-weight: 600;">【视频播放】</div>
-        <a style="text-decoration: none;" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search/go/?kw=<?php echo $this->_tpl_vars['show']->paly_link; ?>
+        <a style="text-decoration: none;" href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+/go/?kw=<?php echo $this->_tpl_vars['show']->paly_link; ?>
 " target="_blank">
             <input type="button" style="font-size:32px" value="立即无广告播放" id="btn_play"/>
         </a>
@@ -137,8 +137,8 @@
                 }
                 //alert(is_up_<?php echo $this->_tpl_vars['k']; ?>
 );
-                var collect_url = "http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/collect_submit.php?collect=true&show_id=<?php echo $this->_tpl_vars['show']->id; ?>
+                var collect_url = "http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/collect_submit.php?collect=true&show_id=<?php echo $this->_tpl_vars['show']->id; ?>
 &pwd=" + $("#admin_pwd_<?php echo $this->_tpl_vars['k']; ?>
 ").val() + "&vtype=" + escape($("#vtype_<?php echo $this->_tpl_vars['k']; ?>
 ").val()) + "&is_updated=" + is_up_<?php echo $this->_tpl_vars['k']; ?>
