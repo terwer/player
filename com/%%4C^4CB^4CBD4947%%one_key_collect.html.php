@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-01-01 12:37:38
+<?php /* Smarty version 2.6.18, created on 2014-01-16 16:28:19
          compiled from one_key_collect.html */ ?>
 <!DOCTYPE html>
 <html>
@@ -69,8 +69,8 @@
                 is_up_= "true";
             }
             //alert(is_up_);
-            var collect_url = "http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/one_key_collect.php?pwd=" + $("#admin_pwd_").val() + "&vtype=" + escape($("#vtype_").val()) + "&is_updated=" + is_up_+"&cat="+$("#cat_").val()+"&page="+$("#txt_page_").val()+"&count="+$("#txt_count_").val();
+            var collect_url = "http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/one_key_collect.php?pwd=" + $("#admin_pwd_").val() + "&vtype=" + escape($("#vtype_").val()) + "&is_updated=" + is_up_+"&cat="+$("#cat_").val()+"&page="+$("#txt_page_").val()+"&count="+$("#txt_count_").val();
            // if($("#cat_").val()=="1"||$("#cat_").val()=="2"||$("#cat_").val()=="28"){
            //     alert("电视剧、电影、音乐为顶级频道，不能添加节目，只能在子分类添加!");
            //     return false;
