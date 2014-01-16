@@ -46,20 +46,19 @@ http://localhost/player/?url=http://tv.cntv.cn/video/C32975/36c82b38ab4d46ee1a87
 >腾讯视频<br/>
 http://localhost/player/?url=http://v.qq.com/cover/3/o00132sjzvj.html
 
-
-related.php<br/>
+### related.php
 http://localhost/player/ckplayer/related.php?id=bq_XMjU4OTYyNDQ=_youku
 https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_id=XMjU4OTYyNDQ=&ext=show
 https://openapi.youku.com/v2/searches/show/by_keyword.json?client_id=0dec1b5a3cb570c1&keyword=%E6%A2%81%E5%B1%B1%E4%BC%AF%E4%B8%8E%E7%A5%9D%E8%8B%B1%E5%8F%B0%20%E7%89%87%E5%B0%BE%E6%9B%B2&category=%E9%9F%B3%E4%B9%90&page=1&count=18
 
-list_mov.php<br/>
+### list_mov.php
 http://localhost/player/ckplayer/list_mov.php?r=youku_XMjU4OTYyNDQ
 https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_id=XMjU4OTYyNDQ&ext=show
 https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_id=XNjE0MjI4MzY4&ext=show
 
-collect.php<br/>
+### collect.php
 http://openapi.youku.com/v2/shows/show.json?client_id=0dec1b5a3cb570c1&show_id=f2d7cbbc510311e38b3f
 
-gx_video表添加了一个字段show_id,用于存储采集的节目ID
+### gx_video表添加了一个字段show_id,用于存储采集的节目ID
 ALTER TABLE `gx_video`  ADD COLUMN `show_id` VARCHAR(20) NULL DEFAULT '' AFTER `genuine`;
 
