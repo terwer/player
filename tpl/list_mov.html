@@ -1,0 +1,57 @@
+<ROOT>
+    <RVIDEO>
+       <{if $case eq 1 }>
+        <{$data}>
+        <{foreach from=$add_data->videos item="ad" key="k"}>
+        <RV>
+            <title><{$ad->title}></title>
+            <url>
+                http://www.xinvalue.com/player/ckplayer/video.php?url=<{$ad->link}>
+            </url>
+            <l>0</l>
+            <pic><{$ad->thumbnail}></pic>
+            <vid><{$k+1}></vid>
+        </RV>
+        <{foreachelse}>
+
+        <{/foreach}>
+
+        <{elseif $case eq 2}>
+
+        <{foreach from=$shows_array item="shows" key="k"}>
+
+        <{foreach from=$shows->videos item="video" key="k"}>
+        <RV>
+            <title><{$video->title}></title>
+            <url>
+                http://www.xinvalue.com/player/ckplayer/video.php?url=<{$video->link}>
+            </url>
+            <l>0</l>
+            <pic><{$video->thumbnail}></pic>
+            <vid><{$k+1}></vid>
+        </RV>
+        <{foreachelse}>
+        子项暂无数据
+        <{/foreach}>
+
+        <{foreachelse}>
+        暂无数据
+        <{/foreach}>
+
+        <{elseif $case eq 3}>
+        <{foreach from=$other_data->videos item="od" key="k"}>
+        <RV>
+            <title><{$od->title}></title>
+            <url>
+                http://www.xinvalue.com/player/ckplayer/video.php?url=<{$od->link}>
+            </url>
+            <l>0</l>
+            <pic><{$od->thumbnail}></pic>
+            <vid><{$k+1}></vid>
+        </RV>
+        <{foreachelse}>
+
+        <{/foreach}>
+        <{/if}>
+    </RVIDEO>
+</ROOT>

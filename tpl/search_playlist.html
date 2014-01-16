@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/search_playlist.css"/>
+</head>
+<body>
+
+
+<div id="search_play_list" style="height: 100%;">
+    <{foreach from=$united_result item="list"}>
+    <div>
+<h1><span>
+来源：<{if $list->source_site eq 1}>
+土豆<img src="http://www.tudou.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 2}>
+56<img src="http://www.56.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 3}>
+新浪<img src="http://www.sina.com.cn/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 4}>
+琥珀
+<{elseif $list->source_site eq 6}>
+搜狐<img src="http://www.sohu.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 7}>
+央视<img src="http://www.cntv.cn/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 8}>
+凤凰<img src="http://www.ifeng.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 10}>
+酷6<img src="http://www.ku6.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 11}>
+天线视频
+<{elseif $list->source_site eq 12}>
+六间房<img src="http://www.6.cn/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 13}>
+中关村
+<{elseif $list->source_site eq 14}>
+优酷<img src="http://www.youku.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 31}>
+PPTV<img src="http://www.pptv.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 27}>
+腾讯<img src="http://www.qq.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 15}>
+CNTV<img src="http://www.cntv.cn/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 16}>
+电影网<img src="http://www.m1905.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 17}>
+乐视<img src="http://www.letv.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 18}>
+小银幕
+<{elseif $list->source_site eq 19}>
+奇艺<img src="http://www.iqiyi.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 20}>
+江苏卫视
+<{elseif $list->source_site eq 12}>
+浙江卫视
+<{elseif $list->source_site eq 23}>
+安徽卫视
+<{elseif $list->source_site eq 24}>
+芒果
+<{elseif $list->source_site eq 25}>
+爱拍游戏
+<{elseif $list->source_site eq 26}>
+音悦台
+<{elseif $list->source_site eq 28}>
+迅雷<img src="http://www.kankan.com/favicon.ico" class="fav" alt="">
+<{elseif $list->source_site eq 29}>
+优米
+<{elseif $list->source_site eq 30}>
+163<img src="http://www.163.com/favicon.ico" class="fav" alt="">
+    <{elseif $list->source_site eq 130}>
+风行<img src="http://www.funshion.com/favicon.ico" class="fav" alt="">
+      <{elseif $list->source_site eq 0}>
+爱奇艺<img src="http://www.iqiyi.com/favicon.ico" class="fav" alt="">
+    <{else}>
+    <{$list->source_site}>
+<{/if}>
+</span></h1>
+
+        <{foreach from=$list->addresses item="addrs"}>
+      <span class="chapter"><a href="http://<{$domain}>/search/go/?kw=<{$addrs->url}>" target="_blank">
+            第<{$addrs->order}>集
+        </a></span>
+        <{/foreach}>
+        <div>
+            <{foreachelse}>
+            暂无结果。
+            <{/foreach}>
+        </div>
+        </div> </div>
+</body>
+</html>
