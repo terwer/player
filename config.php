@@ -19,9 +19,9 @@ define("ROOT", "D:/MyCode/player/");
 //define("ROOT","/home/v78/domains/tvnoad.com/public_html/v/");
 
 //域名
-//define("DOMAIN", "localhost");
+define("DOMAIN", "localhost");
 //define("DOMAIN","www.xinvalue.com");
-define("DOMAIN","tvnoad.com");
+//define("DOMAIN","tvnoad.com");
 
 //播放子域名
 define("PLAYER_DOMAIN", "localhost/player");

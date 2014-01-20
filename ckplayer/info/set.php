@@ -56,7 +56,7 @@ $end=$_GET["end"];
  */
 function collect($player_domain,$pwd, $cid, $page)
 {
-    file_put_contents(ROOT.'tpl/log.html', '<h1>最后更新时间'.date('Y-m-d H:i:s').'</h1>'.file_get_contents('http://' . $player_domain . '/ckplayer/info/one_key_collect.php?pwd='.$pwd.'&vtype=%u4F18%u9177&is_updated=true&cat=' . $cid . '&page=' . $page . '&count=5'));
+    file_put_contents(ROOT.'tpl/log.html', '<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><h1>最后更新时间'.date('Y-m-d H:i:s').'</h1>'.file_get_contents('http://' . $player_domain . '/ckplayer/info/one_key_collect.php?pwd='.$pwd.'&vtype=%u4F18%u9177&is_updated=true&cat=' . $cid . '&page=' . $page . '&count=5'));
 }
 
 ?>
