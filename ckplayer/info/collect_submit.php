@@ -66,114 +66,72 @@ if (isset($_GET["collect"]) && $_GET["collect"] == true) {
                 $count = mysql_affected_rows();
                 echo '通过show_id查到的影片数量：' . $count . '<br/>';
                 if ($count == 0) { //通过show_id没找到影片，插入
-                    echo '通过show_id没找到影片，即将判断是否需要添加。。。<br/>';
+                    /////添加影片，通过show_id未查到
+                    echo '<h1 style="color:red;">通过show_id和影片名均未查到影片，正在添加。。。</h1>';
 
-                    ///////////////////////////////////////////////////////////
-                    /////通过影片名称匹配，并且如果show_id等于空说明是采集的百度影音播放的影片////////////////////////////////////////////////////////////////
-                    $bd_sql = "SELECT id,title,playurl,show_id FROM gx_video where title  like '%{$show_info->name}%' ";
-                    //echo 'bd_sql:'.$bd_sql.'<br/>';
-                    $bq_result = mysql_query($bd_sql);
-                    $bd_count = mysql_affected_rows();
-                    echo '通过影片名称查到的影片数量：' . $bd_count . '<br/>';
-                    if ($bd_count > 0) { //通过影片名查到了，且只有一部，则更新
-                        if ($bd_count > 1) { //通过影片名查到了，但影片不止一部，需要手动更新
-                            echo '<h1 style="color:red">通过影片名称查到不止一部影片，为了安全起见，请手动更新，已退出。。。</h1>';
-                            echo '影片列表如下：<br/>';
-                            while ($bd_video = mysql_fetch_object($bq_result)) {
-                                if ($bd_video->show_id == "") {
-                                    echo '<h2 style="color:red;">《' . $bd_video->title . '》(由百度影音采集而来，需要手动修改！)</h2>';
+                    /////////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////
+                    //////////////////////////////////////////////////////////////////////
 
-                                } else {
-                                    echo '<a href="http://' . PLAYER_DOMAIN . '/ckplayer/info/collect_submit.php?collect=true&show_id=' . $bd_video->show_id . '&pwd=105036&vtype=' . $_GET["vtype"] . '&is_updated=false" target="_blank" ><h2 style="color:green;">《' . $bd_video->title . '》</h2></a>';
-                                }
-                            }
-                            exit;
-                        } else {
-                            //自动更新通过影片名称查到的影片（只有一部）//////////////////////
-                            echo '通过影片名称查到了一部影片。';                                    ////百度影音影片链接替换////////////////////////////////////////////////////////
-                            //////////////////////////////////////////////////////////
-                            /////////////////////////////////////////////////////////////
-                            //播放地址
-                            $bd_content = str_replace("<br/>", chr(10), $address); //chr(10)换行符的ascii码
-                            //echo  $show_id;
-                            while ($bd_video = mysql_fetch_object($bq_result)) {
-                                if (update_video_from_site($bd_video->id, $bd_content, $show_id)) {
-                                    echo '<h1 style="color:darkgreen;">影片《' . $bd_video->title . '》的百度影音地址链接替换成功！</h1>';
-                                }
-                            }
-                            //////////////////////////////////////////////////////////
-                            //////////////////////////////////////////////////////
-                            //////////////////////////////////////////////////////
-                            ///////////////////////////////////////////////////////
-                            return;
-                        }
-                    } else {
-                        /////下面是正常添加，通过show_id和影片名均未查到
-                        echo '<h1 style="color:red;">通过show_id和影片名均未查到影片，正在添加。。。</h1>';
+                    ////////////////////////////////////////////////////////
+                    ////////////////////影片添加到数据库///////////////////////////////////
+                    //print_r($show_info);
+                    //dump($show_info);
+                    //echo $show_info->name.'<br.>';
+                    //dump($show_info->attr->director);return;
+                    //集数
+                    $serial = $show_info->episode_updated;
+                    //更新通知
+                    $notice = $show_info->update_notice;
 
-                        /////////////////////////////////////////////////////////////////////
-                        //////////////////////////////////////////////////////////////////
-                        //////////////////////////////////////////////////////////////////////
-
-                        ////////////////////////////////////////////////////////
-                        ////////////////////影片添加到数据库///////////////////////////////////
-                        //print_r($show_info);
-                        //dump($show_info);
-                        //echo $show_info->name.'<br.>';
-                        //dump($show_info->attr->director);return;
-                        //集数
-                        $serial = $show_info->episode_updated;
-                        //更新通知
-                        $notice = $show_info->update_notice;
-
-                        //判断集数是否完结
-                        if ($serial == $show_info->episode_count) {
-                            $serial = 0;
-                            $notice = $show_info->episode_count . '集全';
-                            echo '<h1 style="color:darkgreen;">将要添加的影片' . $show_info->name . '已完结！</h1>';
-                        }
-
-                        $direct = "";
-                        foreach ($show_info->attr->director as $dt) {
-                            $direct .= $dt->name . ',';
-                        }
-                        //导演
-                        $direct = substr($direct, 0, strlen($direct) - 1);
-                        // echo $direct;return;
-                        //echo $show_info->description;return;
-
-                        $actor = "";
-                        foreach ($show_info->attr->performer as $pf) {
-                            $actor .= $pf->name . ',';
-                        }
-                        //演员
-                        $actor = substr($actor, 0, strlen($actor) - 1);
-                        //echo $actor;
-
-                        //播放地址
-                        $content = str_replace("<br/>", chr(10), $address); //chr(10)换行符的ascii码
-                        //echo $content;return;
-
-                        //上映年份
-                        $y = substr($show_info->released, 0, 4);
-                        //echo $y;return;
-
-                        $add_date = strtotime(date("Y-m-d H:i:s"));
-                        //echo $add_date;
-
-                        //echo $show_info->update_notice;
-                        //return;
-                        //
-                        //echo $show_info->id;return;
-                        if (add_video_to_site($show_info->name, $direct, $actor, $show_info->poster, $show_info->description, $content, $y, $add_date, $serial, $notice, $show_info->id, $show_info->area,$cat)) {
-                            echo '<h1 style="color:darkgreen;">影片《' . $show_info->name . '》添加成功！</h1>';
-                        } else {
-                            echo '<h1 style="color:#ff0000;">系统错误！</h1>';
-                            echo mysql_errno() . ' ' . mysql_error();
-                        };
-                        ///////////////////////////////////////////////////////////
-                        return;
+                    //判断集数是否完结
+                    if ($serial == $show_info->episode_count) {
+                        $serial = 0;
+                        $notice = $show_info->episode_count . '集全';
+                        echo '<h1 style="color:darkgreen;">将要添加的影片' . $show_info->name . '已完结！</h1>';
                     }
+
+                    $direct = "";
+                    foreach ($show_info->attr->director as $dt) {
+                        $direct .= $dt->name . ',';
+                    }
+                    //导演
+                    $direct = substr($direct, 0, strlen($direct) - 1);
+                    // echo $direct;return;
+                    //echo $show_info->description;return;
+
+                    $actor = "";
+                    foreach ($show_info->attr->performer as $pf) {
+                        $actor .= $pf->name . ',';
+                    }
+                    //演员
+                    $actor = substr($actor, 0, strlen($actor) - 1);
+                    //echo $actor;
+
+                    //播放地址
+                    $content = str_replace("<br/>", chr(10), $address); //chr(10)换行符的ascii码
+                    //echo $content;return;
+
+                    //上映年份
+                    $y = substr($show_info->released, 0, 4);
+                    //echo $y;return;
+
+                    $add_date = strtotime(date("Y-m-d H:i:s"));
+                    //echo $add_date;
+
+                    //echo $show_info->update_notice;
+                    //return;
+                    //
+                    //echo $show_info->id;return;
+                    if (add_video_to_site($show_info->name, $direct, $actor, $show_info->poster, $show_info->description, $content, $y, $add_date, $serial, $notice, $show_info->id, $show_info->area, $cat)) {
+                        echo '<h1 style="color:darkgreen;">影片《' . $show_info->name . '》添加成功！</h1>';
+                    } else {
+                        echo '<h1 style="color:#ff0000;">系统错误！</h1>';
+                        echo mysql_errno() . ' ' . mysql_error();
+                    };
+                    ///////////////////////////////////////////////////////////
+                    return;
+                    //}
                 } else { //批到数据库中的影片里，修改
                     echo '影片《' . $show_info->name . '》已存在！检查是否需要更新。。。<br/>';
                     while ($video = mysql_fetch_object($result)) {
@@ -263,7 +221,7 @@ if (isset($_GET["collect"]) && $_GET["collect"] == true) {
 
                         //////////////////更新提交到数据库///////////////////////////////////
                         if (update_video_info_from_site
-                        ($video->id, $show_info->name, $direct, $actor, $show_info->poster, $show_info->description, $content, $y, $add_date, $serial, $notice, $show_info->area,$cat)
+                        ($video->id, $show_info->name, $direct, $actor, $show_info->poster, $show_info->description, $content, $y, $add_date, $serial, $notice, $show_info->area, $cat)
                         ) {
                             echo '<h1 style="color:darkgreen;">影片《' . $show_info->name . '》更新成功！</h1>';
                         } else {
@@ -389,7 +347,7 @@ function get_site($site_id)
  *
  * @return bool
  */
-function add_video_to_site($title, $director, $actor, $picurl, $desc, $playurl, $year, $add_date, $serial, $update_notice, $show_id, $area,$cat)
+function add_video_to_site($title, $director, $actor, $picurl, $desc, $playurl, $year, $add_date, $serial, $update_notice, $show_id, $area, $cat)
 {
     $sql = "INSERT INTO `gx_video` (`id`, `cid`, `title`, `intro`, `keywords`, `color`, `actor`, `director`, `content`, `picurl`, `area`, `language`, `year`, `serial`, `addtime`, `hits`, `monthhits`, `weekhits`, `dayhits`, `hitstime`, `stars`, `status`, `up`, `down`, `playurl`, `downurl`, `inputer`, `reurl`, `letter`, `score`, `scoreer`, `genuine`,`show_id`) VALUES (NULL, '{$cat}', '{$title}', '{$update_notice}', '', '', '{$actor}', '{$director}', '{$desc}', '{$picurl}', '{$area}', '', '{$year}', '{$serial}', '{$add_date}', '0', '', '', '', '{$add_date}', '0', '1', '0', '0', '{$playurl}', '', '', '', '', '', '', '','{$show_id}')";
 
@@ -411,7 +369,7 @@ function add_video_to_site($title, $director, $actor, $picurl, $desc, $playurl, 
  *
  * @return bool
  */
-function update_video_from_site($id, $content,$show_id)
+function update_video_from_site($id, $content, $show_id)
 {
     $sql = "update gx_video set playurl='{$content}',show_id='{$show_id}' where id='{$id}'";
     //echo $sql;
@@ -447,7 +405,7 @@ function update_video_from_site($id, $content,$show_id)
  *
  * @return bool
  */
-function update_video_info_from_site($id, $title, $director, $actor, $picurl, $desc, $playurl, $year, $add_date, $serial, $update_notice, $area,$cid)
+function update_video_info_from_site($id, $title, $director, $actor, $picurl, $desc, $playurl, $year, $add_date, $serial, $update_notice, $area, $cid)
 {
     $sql = "update gx_video set title='{$title}',director='{$director}',actor='{$actor}',picurl='{$picurl}',content='{$desc}',playurl='{$playurl}',year='{$year}',addtime='{$add_date}' ,hitstime='{$add_date}' ,serial='{$serial}',intro='{$update_notice}' ,area='{$area}',cid='{$cid}' where id='{$id}'";
     //echo $sql;
