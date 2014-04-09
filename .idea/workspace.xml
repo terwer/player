@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42da3aeb-258a-4401-8117-a1831f3231ca" name="Default" comment="s问题。">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%1D^1DA^1DAE35FC%%search_playlist.html.php" afterPath="$PROJECT_DIR$/com/%%1D^1DA^1DAE35FC%%search_playlist.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%4C^4CB^4CBD4947%%one_key_collect.html.php" afterPath="$PROJECT_DIR$/com/%%4C^4CB^4CBD4947%%one_key_collect.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%4C^4CF^4CF02AD4%%result.html.php" afterPath="$PROJECT_DIR$/com/%%4C^4CF^4CF02AD4%%result.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%58^581^581A1C3D%%comments.html.php" afterPath="$PROJECT_DIR$/com/%%58^581^581A1C3D%%comments.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" afterPath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%85^85A^85A0E314%%info.html.php" afterPath="$PROJECT_DIR$/com/%%85^85A^85A0E314%%info.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" afterPath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" afterPath="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+    <list default="true" id="42da3aeb-258a-4401-8117-a1831f3231ca" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/list_mov.html" afterPath="$PROJECT_DIR$/tpl/list_mov.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="player.iws" />
@@ -35,28 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="set_collect.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/set_collect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="set.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/info/set.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="258" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="one_key_collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="5032">
+            <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="-0.0" vertical-offset="3026" max-vertical-offset="5032">
               <folding>
                 <marker date="1397015288999" expanded="false" signature="948:958" placeholder="..." />
                 <marker date="1397015288999" expanded="false" signature="1418:1430" placeholder="..." />
@@ -85,37 +59,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YoukuModel.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+            <state line="17" column="21" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
+      <file leaf-file-name="video.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.8461537" vertical-offset="204" max-vertical-offset="969">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="74.53846" vertical-offset="1938" max-vertical-offset="2618">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="e.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/e.php">
+      <file leaf-file-name="list_mov.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl/list_mov.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
+            <state line="7" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="-1.4875" vertical-offset="0" max-vertical-offset="1054">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="share.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ckplayer/share.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="26" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3130755" vertical-offset="0" max-vertical-offset="1241">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ckplayer.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="43" selection-start="0" selection-end="8767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4505">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ckplayer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10591">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="related.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/related.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.8846154" vertical-offset="153" max-vertical-offset="1190">
+              <folding>
+                <marker date="1397015289043" expanded="true" signature="405:1411" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_mov.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/list_mov.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.769231" vertical-offset="150" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -139,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tpl/result.html" />
-        <option value="$PROJECT_DIR$/ckplayer/info/result.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/search_playlist.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/init.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php" />
@@ -155,6 +165,8 @@
         <option value="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
         <option value="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" />
         <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/tpl/list_mov.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -206,6 +218,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,13 +418,18 @@
       <created>1390194921482</created>
       <updated>1390194921482</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加了php探针。">
+      <created>1397029123736</created>
+      <updated>1397029123736</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -414,7 +445,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -431,7 +461,8 @@
     <MESSAGE value="目录细节调整。" />
     <MESSAGE value="优化定时采集逻辑。" />
     <MESSAGE value="处理日志乱码问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="处理日志乱码问题。" />
+    <MESSAGE value="增加了php探针。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了php探针。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -445,41 +476,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tpl/video_comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.83871" vertical-offset="243" max-vertical-offset="1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="12.774194" vertical-offset="396" max-vertical-offset="1012" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/set_collect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1728" selection-end="1728" vertical-scroll-proportion="-4.225806" vertical-offset="573" max-vertical-offset="1870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/one_key_collect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="113" selection-start="1854" selection-end="1964" vertical-scroll-proportion="1.451613" vertical-offset="1123" max-vertical-offset="2530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="286" selection-end="286" vertical-scroll-proportion="146.90323" vertical-offset="4686" max-vertical-offset="6446" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="467" column="13" selection-start="11640" selection-end="11640" vertical-scroll-proportion="-1.2982758" vertical-offset="11049" max-vertical-offset="16192" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="83" selection-start="12380" selection-end="12380" vertical-scroll-proportion="17.741936" vertical-offset="5082" max-vertical-offset="6776" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/log.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="990" />
@@ -499,15 +495,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
+    <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="5032">
-          <folding>
-            <marker date="1397015288999" expanded="false" signature="948:958" placeholder="..." />
-            <marker date="1397015288999" expanded="false" signature="1418:1430" placeholder="..." />
-            <marker date="1397015288999" expanded="false" signature="8150:8159" placeholder="..." />
-            <marker date="1397015288999" expanded="false" signature="8833:8845" placeholder="..." />
-          </folding>
+        <state line="10" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="74.53846" vertical-offset="1938" max-vertical-offset="2618">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,30 +539,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
+    <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1785">
+        <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="5032">
+          <folding>
+            <marker date="1397015288999" expanded="false" signature="948:958" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="1418:1430" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="8150:8159" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="8833:8845" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/list_mov.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.769231" vertical-offset="150" max-vertical-offset="1343">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/related.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.8846154" vertical-offset="153" max-vertical-offset="1190">
+          <folding>
+            <marker date="1397015289043" expanded="true" signature="405:1411" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+        <state line="17" column="21" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/tpl/list_mov.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.8461537" vertical-offset="204" max-vertical-offset="969">
+        <state line="7" column="30" selection-start="197" selection-end="197" vertical-scroll-proportion="-1.4875" vertical-offset="0" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e.php">
+    <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+        <state line="13" column="43" selection-start="0" selection-end="8767" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/ckplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/share.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3130755" vertical-offset="0" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>

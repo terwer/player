@@ -15,6 +15,7 @@
 >---/player/ckplayer/ckplayer.js（将localhost全部换成【您的域名】）<br/>
 >---/player/ckplayer/ckplayer.xml（将localhost全部换成【您的域名】）<br/>
 >---/player/ckplayer/share.xml（将localhost全部换成【您的域名】）<br/>
+>--/tpl/list_mov.html
 
 测试数据
 -------
