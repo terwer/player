@@ -7,7 +7,7 @@ function getvideo($id,$pid=2){
 	$pidarrs[] = 'hd3';
 	$url='http://v.youku.com/player/getPlayList/VideoIDS/'.$id;
 	//$content=get_curl_contents('http://v.youku.com/player/getPlayList/VideoIDS/'.$id);
-	$content=file_get_contents('http://xinvideo.duapp.com/xml.php?url='.$url);
+	$content=file_get_contents('http://www.xinvalue.com/api/url.ashx?url='.$url);
 	$data=json_decode($content);
 	$fileid_=$data->data[0]->streamfileids;
 	$fileid2_=$fileid_->hd3;

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42da3aeb-258a-4401-8117-a1831f3231ca" name="Default" comment="s问题。">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" afterPath="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tpl/log.html" afterPath="$PROJECT_DIR$/tpl/log.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%1D^1DA^1DAE35FC%%search_playlist.html.php" afterPath="$PROJECT_DIR$/com/%%1D^1DA^1DAE35FC%%search_playlist.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%4C^4CB^4CBD4947%%one_key_collect.html.php" afterPath="$PROJECT_DIR$/com/%%4C^4CB^4CBD4947%%one_key_collect.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%4C^4CF^4CF02AD4%%result.html.php" afterPath="$PROJECT_DIR$/com/%%4C^4CF^4CF02AD4%%result.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%58^581^581A1C3D%%comments.html.php" afterPath="$PROJECT_DIR$/com/%%58^581^581A1C3D%%comments.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" afterPath="$PROJECT_DIR$/com/%%77^774^774BE9C9%%index.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%85^85A^85A0E314%%info.html.php" afterPath="$PROJECT_DIR$/com/%%85^85A^85A0E314%%info.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" afterPath="$PROJECT_DIR$/com/%%B7^B7E^B7E83D2F%%list_mov.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" afterPath="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="player.iws" />
@@ -30,10 +38,8 @@
       <file leaf-file-name="set_collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/set_collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-8.4838705" vertical-offset="705" max-vertical-offset="1210">
-              <folding>
-                <marker date="1389896947934" expanded="false" signature="848:858" placeholder="..." />
-              </folding>
+            <state line="44" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="935">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,7 +47,7 @@
       <file leaf-file-name="set.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/set.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="258" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-9.193548" vertical-offset="991" max-vertical-offset="1474">
+            <state line="58" column="258" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -50,31 +56,67 @@
       <file leaf-file-name="one_key_collect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="-7.096774" vertical-offset="3696" max-vertical-offset="6512">
+            <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="5032">
               <folding>
-                <marker date="1389889906168" expanded="false" signature="948:958" placeholder="..." />
-                <marker date="1389889906168" expanded="false" signature="1418:1430" placeholder="..." />
-                <marker date="1389889906168" expanded="false" signature="8150:8159" placeholder="..." />
-                <marker date="1389889906168" expanded="false" signature="8833:8845" placeholder="..." />
+                <marker date="1397015288999" expanded="false" signature="948:958" placeholder="..." />
+                <marker date="1397015288999" expanded="false" signature="1418:1430" placeholder="..." />
+                <marker date="1397015288999" expanded="false" signature="8150:8159" placeholder="..." />
+                <marker date="1397015288999" expanded="false" signature="8833:8845" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect_submit.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="collect_submit.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_submit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="23" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.41347906" vertical-offset="1203" max-vertical-offset="10494">
+            <state line="39" column="24" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-3.9230769" vertical-offset="561" max-vertical-offset="7565">
               <folding>
-                <marker date="1390888648742" expanded="true" signature="821:831" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="2870:2880" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="5646:5660" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="7246:7262" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="7461:7471" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="7588:7604" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="10369:10383" placeholder="..." />
-                <marker date="1390888648742" expanded="true" signature="10971:10981" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="821:831" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="2870:2880" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="5646:5660" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="7246:7262" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="7461:7471" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="7588:7604" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="10369:10383" placeholder="..." />
+                <marker date="1397015288894" expanded="false" signature="10971:10981" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YoukuModel.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1785">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="10" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.8461537" vertical-offset="204" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="e.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/e.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="554">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tpl/search_playlist.html" />
         <option value="$PROJECT_DIR$/tpl/result.html" />
         <option value="$PROJECT_DIR$/ckplayer/info/result.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/search_playlist.php" />
@@ -111,8 +152,9 @@
         <option value="$PROJECT_DIR$/html5.html" />
         <option value="$PROJECT_DIR$/tpl/log.html" />
         <option value="$PROJECT_DIR$/ckplayer/info/set.php" />
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/ckplayer/info/collect_submit.php" />
+        <option value="$PROJECT_DIR$/ckplayer/Models/YoukuModel.php" />
+        <option value="$PROJECT_DIR$/config.php" />
       </list>
     </option>
   </component>
@@ -149,7 +191,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,22 +237,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ckplayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="info" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../search" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyCode\player" />
       <recent name="D:\MyCode\player\js" />
     </key>
   </component>
@@ -380,21 +445,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_search_playlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="241" selection-end="241" vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="682" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ckplayer/info/collect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="432" selection-end="574" vertical-scroll-proportion="0.40072858" vertical-offset="242" max-vertical-offset="2574" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl/video_comments.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.83871" vertical-offset="243" max-vertical-offset="1056" />
@@ -427,40 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="83" selection-start="12380" selection-end="12380" vertical-scroll-proportion="17.741936" vertical-offset="5082" max-vertical-offset="6776">
-          <folding>
-            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#em#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#em#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#1;n#em#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#a#0;n#a#1;n#em#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#h1#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#div#0;n#span#0;n#p#0;n#div#2;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#iframe#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="1298">
-          <folding />
-        </state>
+        <state line="206" column="83" selection-start="12380" selection-end="12380" vertical-scroll-proportion="17.741936" vertical-offset="5082" max-vertical-offset="6776" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl/log.html">
@@ -470,45 +487,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/set_collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-8.4838705" vertical-offset="705" max-vertical-offset="1254">
-          <folding>
-            <marker date="1389896947934" expanded="false" signature="848:858" placeholder="..." />
-          </folding>
+        <state line="44" column="32" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="935">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/set.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="258" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-9.193548" vertical-offset="991" max-vertical-offset="1540">
+        <state line="58" column="258" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/one_key_collect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="-7.096774" vertical-offset="3696" max-vertical-offset="6556">
+        <state line="178" column="5" selection-start="8193" selection-end="8193" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="5032">
           <folding>
-            <marker date="1389889906168" expanded="false" signature="948:958" placeholder="..." />
-            <marker date="1389889906168" expanded="false" signature="1418:1430" placeholder="..." />
-            <marker date="1389889906168" expanded="false" signature="8150:8159" placeholder="..." />
-            <marker date="1389889906168" expanded="false" signature="8833:8845" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="948:958" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="1418:1430" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="8150:8159" placeholder="..." />
+            <marker date="1397015288999" expanded="false" signature="8833:8845" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ckplayer/info/collect_submit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="23" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.41347906" vertical-offset="1203" max-vertical-offset="10494">
+        <state line="39" column="24" selection-start="1360" selection-end="1360" vertical-scroll-proportion="-3.9230769" vertical-offset="561" max-vertical-offset="7565">
           <folding>
-            <marker date="1390888648742" expanded="true" signature="821:831" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="2870:2880" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="5646:5660" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="7246:7262" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="7461:7471" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="7588:7604" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="10369:10383" placeholder="..." />
-            <marker date="1390888648742" expanded="true" signature="10971:10981" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="821:831" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="2870:2880" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="5646:5660" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="7246:7262" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="7461:7471" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="7588:7604" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="10369:10383" placeholder="..." />
+            <marker date="1397015288894" expanded="false" signature="10971:10981" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckplayer/Models/YoukuModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="646" selection-end="646" vertical-scroll-proportion="-7.8461537" vertical-offset="204" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
         </state>
       </provider>
     </entry>

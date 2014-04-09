@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2013-12-28 05:40:23
+<?php /* Smarty version 2.6.18, created on 2014-04-09 07:08:07
          compiled from search_playlist.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
@@ -85,8 +85,8 @@ CNTV<img src="http://www.cntv.cn/favicon.ico" class="fav" alt="">
         <?php $_from = $this->_tpl_vars['list']->addresses; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
     foreach ($_from as $this->_tpl_vars['addrs']):
 ?>
-      <span class="chapter"><a href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search/go/?kw=<?php echo $this->_tpl_vars['addrs']->url; ?>
+      <span class="chapter"><a href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+/go/?kw=<?php echo $this->_tpl_vars['addrs']->url; ?>
 " target="_blank">
             第<?php echo $this->_tpl_vars['addrs']->order; ?>
 集

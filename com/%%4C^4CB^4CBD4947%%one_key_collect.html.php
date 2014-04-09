@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-01-16 16:28:19
+<?php /* Smarty version 2.6.18, created on 2014-04-09 06:56:03
          compiled from one_key_collect.html */ ?>
 <!DOCTYPE html>
 <html>
@@ -89,7 +89,7 @@
 <center>
 版权所有：新价值网<br/>
 长江大学2010级软工1002唐有炜作品<br/>
-新浪微博<img src="http://weibo.com/favicon.ico"/ style="height:18px" alt="sina"> <a href="http://weibo.com/tyouwei"
+新浪微博<img src="http://weibo.com/favicon.ico" style="height:18px" alt="sina"> <a href="http://weibo.com/tyouwei"
                                                                                 target="_blank">@LeaveBugsAway</a><br/>
 CopyRight &copy;&nbsp;2010-<span id="lblYear">2013</span> <a href="http://www.xinvalue.com" class=""
                                                              target="_blank">www.xinvalue.com</a> &nbsp;All

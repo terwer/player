@@ -15,8 +15,6 @@ define("CLIENT_SECET", "55880a216cabec1120d2b45f95124c5b");
 
 //Smarty根目录，播放器项目根目录
 define("ROOT", "D:/MyCode/player/");
-//define("ROOT","/home/v78/domains/xinvalue.com/public_html/player/");
-//define("ROOT","/home/v78/domains/tvnoad.com/public_html/v/");
 
 //域名
 define("DOMAIN", "localhost");

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2013-12-28 05:40:11
+<?php /* Smarty version 2.6.18, created on 2014-04-09 07:08:07
          compiled from result.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
@@ -19,8 +19,8 @@
 </div>
 <h1>节目搜索结果</h1>
 
-<h2><a style="color:red;" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search"><=返回搜索页面</a></h2>
+<h2><a style="color:red;" href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+"><=返回搜索页面</a></h2>
 
 <p>共有<?php echo $this->_tpl_vars['result']->total; ?>
 条节目结果。
@@ -54,13 +54,13 @@
 </div>
 
                 <iframe style="margin-bottom: 10px;" id="iFrame1" name="iFrame1" width="100%"
-                        frameborder="0" src="http://<?php echo $this->_tpl_vars['domain']; ?>
-/player/ckplayer/info/search_playlist.php?pid=<?php echo $this->_tpl_vars['show']->id; ?>
+                        frameborder="0" src="http://<?php echo $this->_tpl_vars['player_domain']; ?>
+/ckplayer/info/search_playlist.php?pid=<?php echo $this->_tpl_vars['show']->id; ?>
 "></iframe>
 
 
-            <a style="text-decoration: none;" href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search/go/?kw=<?php echo $this->_tpl_vars['show']->paly_link; ?>
+            <a style="text-decoration: none;" href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+/go/?kw=<?php echo $this->_tpl_vars['show']->paly_link; ?>
 "
                target="_blank">
                 <input type="button" style="font-size:32px" value="立即无广告播放" id="btn_play"/>
@@ -83,8 +83,8 @@
 ?>
   <span style="width:220px;float:left;height:250px;">
   <div>
-      <a href="http://<?php echo $this->_tpl_vars['domain']; ?>
-/search/go/?kw=<?php echo $this->_tpl_vars['video']->link; ?>
+      <a href="http://<?php echo $this->_tpl_vars['search_domain']; ?>
+/go/?kw=<?php echo $this->_tpl_vars['video']->link; ?>
 "
          target="_blank">
           <img src="<?php echo $this->_tpl_vars['video']->thumbnail; ?>
