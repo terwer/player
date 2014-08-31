@@ -6,6 +6,8 @@
  *我的QQ：1035136784（非技术问题勿扰）
  */
 error_reporting(0);
+//error_reporting(E_ALL);
+//ini_set('display_errors', '1');
 
 require "config.php";
 require ROOT."init.inc.php";

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-04-09 06:23:00
+<?php /* Smarty version 2.6.18, created on 2014-08-31 12:01:22
          compiled from list_mov.html */ ?>
 <ROOT>
     <RVIDEO>
@@ -12,7 +12,7 @@
             <title><?php echo $this->_tpl_vars['ad']->title; ?>
 </title>
             <url>
-                http://v.tvnoad.com/ckplayer/video.php?url=<?php echo $this->_tpl_vars['ad']->link; ?>
+                http://localhost/player/ckplayer/video.php?url=<?php echo $this->_tpl_vars['ad']->link; ?>
 
             </url>
             <l>0</l>
@@ -38,7 +38,7 @@
             <title><?php echo $this->_tpl_vars['video']->title; ?>
 </title>
             <url>
-                http://v.tvnoad.com/ckplayer/video.php?url=<?php echo $this->_tpl_vars['video']->link; ?>
+                http://localhost/player/ckplayer/video.php?url=<?php echo $this->_tpl_vars['video']->link; ?>
 
             </url>
             <l>0</l>
@@ -63,7 +63,7 @@
             <title><?php echo $this->_tpl_vars['od']->title; ?>
 </title>
             <url>
-                http://v.tvnoad.com/ckplayer/video.php?url=<?php echo $this->_tpl_vars['od']->link; ?>
+                http://localhost/player/ckplayer/video.php?url=<?php echo $this->_tpl_vars['od']->link; ?>
 
             </url>
             <l>0</l>

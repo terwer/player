@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2014-04-09 06:22:48
+<?php /* Smarty version 2.6.18, created on 2014-08-31 12:01:21
          compiled from index.html */ ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
@@ -69,8 +69,8 @@
         <div class="gui_TopInfo crumb_bar">
             <div class="topInfoC_add" style="left: -6px; margin-left: -50px; top: 0px;">
                 <!--旗帜广告新修改-->
-                <a href="http://www.xinvalue.com/" target="_blank" title="新价值网|做有思想的IT博客"> <img src="http://www.xinvalue.com/logo.png"
-                                                                                               style="height: 40px; margin-top: 10px;" alt="新价值网|做有思想的IT博客" title="新价值网|做有思想的IT博客" /></a>
+                <a href="http://www.terwer.com/tools/search/" target="_blank" title="特维博客|做有思想的IT博客"> <img src="http://www.terwer.com/tools/search/img/logo.png"
+                                                                                               style="height: 40px; margin-top: 10px;" alt="特维博客|做有思想的IT博客" title="特维博客|做有思想的IT博客" /></a>
                 <!--旗帜广告 end-->
             </div>
             <div class="topInfoC_add" style="left: -6px; margin-left: -50px; top: 0px;">
