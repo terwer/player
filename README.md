@@ -33,7 +33,7 @@ http://www.terwer.com/tools/search/go/?kw=http://www.56.com/u28/v_OTE4MzcxNjk.ht
 >ku6<br/>
 http://www.terwer.com/tools/search/go/?kw=http://v.ku6.com/show/lDy2CAxYbhikekNcdtuP8g...html<br/><br/>
 >pps<br/>
-http://www.terwer.com/tools/player/?url=http://v.pps.tv/play_39V04K.html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.pps.tv/play_39V04K.html<br/><br/>
 
 ### 3.play.php解析
 >凤凰<br/>
@@ -41,9 +41,9 @@ http://www.terwer.com/tools/search/go/?kw=http://v.ifeng.com/ent/mingxing/201312
 >163<br/>
 http://www.terwer.com/tools/search/go/?kw=http://v.163.com/jishi/V6FMS3ID2/V9FHDV3PA.html<br/><br/>
 >cntv<br/>
-http://www.terwer.com/tools/player/?url=http://tv.cntv.cn/video/C32975/36c82b38ab4d46ee1a87eba7f5bebf91<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://tv.cntv.cn/video/C32975/36c82b38ab4d46ee1a87eba7f5bebf91<br/><br/>
 >腾讯视频<br/>
-http://www.terwer.com/tools/player/?url=http://v.qq.com/cover/3/o00132sjzvj.html<br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.qq.com/cover/3/o00132sjzvj.html<br/>
 
 ### related.php
 >http://www.terwer.com/tools/player/ckplayer/related.php?id=bq_XMjU4OTYyNDQ=_youku<br/><br/>
