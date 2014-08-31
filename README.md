@@ -21,27 +21,25 @@
 -------
 ### 1.url为null
 http://www.terwer.com/tools/player/index.php<br/>
-### 2.url为空
-http://www.terwer.com/tools/player/index.php?url=<br/>
-### 3.video.php解析
+### 2.video.php解析
 >youku:<br/>
-http://www.terwer.com/tools/player/index.php?url=http://v.youku.com/v_show/id_XNjUyMTM0MDA0.html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.youku.com/v_show/id_XNjUyMTM0MDA0.html<br/><br/>
 >tudou（仅支持类似albumplay的url）:<br/>
 http://www.terwer.com/tools/player/ckplayer/video.php?url=http://www.tudou.com/albumplay/p9nMfF_Yp_o/YpSHsdK0zn8.html<br/><br/>
 >乐视<br/>
-http://www.terwer.com/tools/player/index.php?url=http://www.letv.com/ptv/vplay/2217036.html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://www.letv.com/ptv/vplay/2217036.html<br/><br/>
 >56<br/>
-http://www.terwer.com/tools/player/index.php?url=http://www.56.com/u28/v_OTE4MzcxNjk.html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://www.56.com/u28/v_OTE4MzcxNjk.html<br/><br/>
 >ku6<br/>
-http://www.terwer.com/tools/player/index.php?url=http://v.ku6.com/show/lDy2CAxYbhikekNcdtuP8g...html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.ku6.com/show/lDy2CAxYbhikekNcdtuP8g...html<br/><br/>
 >pps<br/>
 http://www.terwer.com/tools/player/?url=http://v.pps.tv/play_39V04K.html<br/><br/>
 
-### 4.play.php解析
+### 3.play.php解析
 >凤凰<br/>
-http://www.terwer.com/tools/player/index.php?url=http://v.ifeng.com/ent/mingxing/201312/01142824-b595-418e-9ae7-b4af60dbd8aa.shtml<br><br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.ifeng.com/ent/mingxing/201312/01142824-b595-418e-9ae7-b4af60dbd8aa.shtml<br><br/>
 >163<br/>
-http://www.terwer.com/tools/player/index.php?url=http://v.163.com/jishi/V6FMS3ID2/V9FHDV3PA.html<br/><br/>
+http://www.terwer.com/tools/search/go/?kw=http://v.163.com/jishi/V6FMS3ID2/V9FHDV3PA.html<br/><br/>
 >cntv<br/>
 http://www.terwer.com/tools/player/?url=http://tv.cntv.cn/video/C32975/36c82b38ab4d46ee1a87eba7f5bebf91<br/><br/>
 >腾讯视频<br/>
