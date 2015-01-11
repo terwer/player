@@ -70,4 +70,6 @@ https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_i
 >1、http://stackoverflow.com/questions/3627463/what-is-remotesystemstempfiles-in-eclipse
 >2、http://zhidao.baidu.com/link?url=9J06VsUXchdXDNT3fVyyG-pYlQvMzrtLkdqlKCuLBvfEfW1T8nwCE1zuQquyr-SXHxcqd9mYk1okpCrjErvvkq
 http://bbs.csdn.net/topics/320059633
+>3、SpringMVC学习系列（12） 完结篇 之 基于Hibernate+Spring+Spring MVC+Bootstrap的管理系统实现
+http://www.cnblogs.com/liukemng/p/3754269.html
 
