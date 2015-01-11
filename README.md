@@ -1,6 +1,6 @@
 ﻿player
 =====
-用java实现的视频地址解析，详情见：http://www.terwer.com/special.html#用Java实现视频地址解析
+一款强大的视频播放器，基于ckplayer6.3用java实现视频解析无广告播放，目前支持优酷、搜狐、乐视等。，详情见：http://www.terwer.com/special.html#用Java实现视频地址解析
 
 版权声明
 --------
@@ -13,7 +13,7 @@
 
 使用必读
 --------
-将文件夹上传至网站根目录（务必如此）<br/>
+将文件夹上传至网站根目录（务必如此）<br/>一款强大的视频播放器，基于ckplayer6.3用java实现视频解析无广告播放，目前支持优酷、搜狐、乐视等。一款强大的视频播放器，基于ckplayer6.3用java实现视频解析无广告播放，目前支持优酷、搜狐、乐视等。
 上传需要修改的文件<br/>
 >---/player/config.php（按相应的说明修改）（务必认真修改）<br/>
 >---/player/ckplayer/ckplayer.js（将localhost全部换成【您的域名】）<br/>
@@ -68,4 +68,6 @@ https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_i
 参考资料
 ======
 >1、http://stackoverflow.com/questions/3627463/what-is-remotesystemstempfiles-in-eclipse
+>2、http://zhidao.baidu.com/link?url=9J06VsUXchdXDNT3fVyyG-pYlQvMzrtLkdqlKCuLBvfEfW1T8nwCE1zuQquyr-SXHxcqd9mYk1okpCrjErvvkq
+http://bbs.csdn.net/topics/320059633
 
