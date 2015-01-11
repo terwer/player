@@ -1,3 +1,7 @@
+﻿player
+=====
+用java实现的视频地址解析，详情见：http://www.terwer.com/special.html#用Java实现视频地址解析
+
 版权声明
 --------
 除非特别声明，本作品包含所有资源，均应用于如下版权说明：<br/>
@@ -60,4 +64,8 @@ https://openapi.youku.com/v2/videos/show.json?client_id=0dec1b5a3cb570c1&video_i
 
 ### gx_video表添加了一个字段show_id,用于存储采集的节目ID
 >>ALTER TABLE `gx_video`  ADD COLUMN `show_id` VARCHAR(20) NULL DEFAULT '' AFTER `genuine`;<br/>
+
+参考资料
+======
+>1、http://stackoverflow.com/questions/3627463/what-is-remotesystemstempfiles-in-eclipse
 
