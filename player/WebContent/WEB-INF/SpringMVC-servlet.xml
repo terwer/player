@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- 视图解析器-->
     <bean class="com.terwer.player.mvcutil.StandaloneMvcTestViewResolver">
-        <property name="prefix" value="/"/>
+        <property name="prefix" value="/WEB-INF/jsp/view/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 </beans>
