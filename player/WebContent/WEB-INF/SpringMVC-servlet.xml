@@ -4,13 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- 视图解析器-->
     <bean class="com.terwer.player.mvcutil.StandaloneMvcTestViewResolver">
-        <property name="prefix">
-            <!-- 这个配置是配置JSP页面的位置，按照你自己的配置来配 -->
-            <value>/</value>
-        </property>
-        <property name="suffix">
-            <value>.jsp</value>
-        </property>
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
-
 </beans>

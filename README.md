@@ -24,4 +24,5 @@ http://bbs.csdn.net/topics/320059633
 http://www.cnblogs.com/liukemng/p/3754269.html
 >4、使用springMVC的详细步骤
 http://www.cnblogs.com/liuling/archive/2013/02/07/sdfasdf.html
->5、http://stackoverflow.com/questions/10567341/circular-view-path    
+>5、http://stackoverflow.com/questions/10567341/circular-view-path
+>5、http://www.4byte.cn/question/391937/circular-view-path-error-spring-mvc.html      
