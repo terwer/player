@@ -22,5 +22,6 @@
 http://bbs.csdn.net/topics/320059633                
 >3、SpringMVC学习系列（12） 完结篇 之 基于Hibernate+Spring+Spring MVC+Bootstrap的管理系统实现    
 http://www.cnblogs.com/liukemng/p/3754269.html
->4、使用springMVC的详细步骤     
+>4、使用springMVC的详细步骤
 http://www.cnblogs.com/liuling/archive/2013/02/07/sdfasdf.html
+>5、http://stackoverflow.com/questions/10567341/circular-view-path    
