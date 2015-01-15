@@ -14,6 +14,8 @@ import com.terwer.player.model.CKModel;
 @RequestMapping("/video")
 public class VideoController {
 	
+	
+	
 	/**
 	 * 根据视频类型和id输出ckplayer需要的xml格式
 	 * @param model
@@ -37,6 +39,28 @@ public class VideoController {
 	@RequestMapping(value = "play", method = RequestMethod.GET)
 	public String play(Model model) {
 		model.addAttribute("vid", "Video is playing");
-		return "play";
+		return "video/play";
+	}
+	
+	@RequestMapping(value = "search", method = RequestMethod.GET)
+	public String search(Model model) {
+	//public String search(ModelMap model) {
+		// 把参数值放到request类里面去
+		model.addAttribute("keyword", "陆小凤与花满楼a");
+		// model.addAttribute("args", new SearchArgs());
+		//return "/home/search";
+		return "video/search";
+	}
+
+	
+	/**
+	 * 视频搜索結果
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "result", method = RequestMethod.GET)
+	public String result(Model model) {
+		model.addAttribute("vid", "Video is playing");
+		return "result";
 	}
 }
