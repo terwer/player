@@ -13,6 +13,9 @@
 	<!-- 指定自动扫描路径 -->
 	<context:component-scan base-package="com.terwer.player.action"></context:component-scan>
 
+	<!-- 自动注入 （输出json需要） -->
+	<mvc:annotation-driven />
+
 	<!-- 视图解析器，使用jstl -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">

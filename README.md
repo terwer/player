@@ -40,4 +40,7 @@ http://www.cnblogs.com/liukemng/p/3754269.html
 http://www.cnblogs.com/liuling/archive/2013/02/07/sdfasdf.html     
 >5、http://stackoverflow.com/questions/10567341/circular-view-path     
 >5、http://www.4byte.cn/question/391937/circular-view-path-error-spring-mvc.html
->6、http://jinnianshilongnian.iteye.com/blog/1593441             
+>6、http://jinnianshilongnian.iteye.com/blog/1593441   
+>7、http://www.cnblogs.com/enshrineZither/p/3891097.html   
+>8、http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/   
+>9、http://flysnowxf.iteye.com/blog/1187580              

@@ -60,6 +60,13 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>3.2.13.RELEASE</version>
 		</dependency>
+		<!-- json与xml支持 -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+			<version>3.2.13.RELEASE</version>
+		</dependency>
+
 		<!--apache httpclient -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -76,6 +83,24 @@
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
 			<version>1.1.2</version>
+		</dependency>
+		<!-- json -->
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
+
+		<!-- xml -->
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.7</version>
 		</dependency>
 
 	</dependencies>

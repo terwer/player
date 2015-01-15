@@ -83,10 +83,9 @@ pre {
 </style>
 </head>
 <body>
-	<span><h1>
-			“/”应用程序中的服务器错误。
-			<hr width="100%" size="1" color="silver">
-		</h1>
+	<span><h1>“/”应用程序中的服务器错误。</h1>
+					<hr width="100%" size="1" color="silver">
+				
 		<h2>
 			<i><%=errorMsg%></i>
 		</h2></span>
