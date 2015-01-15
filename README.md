@@ -14,7 +14,7 @@
 >版本: V1.0        
 >开发工具：eclips-jee 4.4.1 luna        
 >作者: Terwer       
->作者邮箱: cbgtyw@gmail.com terwergreen@163.com（gmail被墙时使用）       
+>作者邮箱: cbgtyw@gmail.com terwergreen@163.com   
 
 版权声明
 =====
