@@ -46,7 +46,7 @@ public class VideoController {
 	public String search(Model model) {
 	//public String search(ModelMap model) {
 		// 把参数值放到request类里面去
-		model.addAttribute("keyword", "陆小凤与花满楼a");
+		model.addAttribute("keyword", "陆小凤与花满楼");
 		// model.addAttribute("args", new SearchArgs());
 		//return "/home/search";
 		return "video/search";
