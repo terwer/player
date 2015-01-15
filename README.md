@@ -1,6 +1,6 @@
 ﻿player
 =====
-一款强大的视频播放器，基于ckplayer6.3用java实现视频解析无广告播放，目前支持优酷、搜狐、乐视等。，详情见：http://www.terwer.com/special.html#用Java实现视频地址解析
+一款强大的视频播放器，基于ckplayer6.3用java实现视频解析无广告播放，目前支持优酷、搜狐、乐视等。详情见：http://www.terwer.com/special.html#用Java实现视频地址解析
 
 相关技术
 ======
@@ -39,4 +39,5 @@ http://www.cnblogs.com/liukemng/p/3754269.html
 >4、使用springMVC的详细步骤     
 http://www.cnblogs.com/liuling/archive/2013/02/07/sdfasdf.html     
 >5、http://stackoverflow.com/questions/10567341/circular-view-path     
->5、http://www.4byte.cn/question/391937/circular-view-path-error-spring-mvc.html          
+>5、http://www.4byte.cn/question/391937/circular-view-path-error-spring-mvc.html
+>6、http://jinnianshilongnian.iteye.com/blog/1593441             
