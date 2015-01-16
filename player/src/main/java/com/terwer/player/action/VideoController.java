@@ -1,12 +1,17 @@
 package com.terwer.player.action;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.xml.bind.annotation.XmlElement;
 
+import org.apache.http.client.methods.HttpHead;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.terwer.player.model.CKModel;
 
@@ -38,7 +43,12 @@ public class VideoController {
 	 */
 	@RequestMapping(value = "play", method = RequestMethod.GET)
 	public String play(Model model) {
-		model.addAttribute("vid", "Video is playing");
+		HttpServletRequest request = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
+		
+		request.getParameterMap();
+		String uri=request.getParameter("vtype");
+		model.addAttribute("vtype", "youku"+uri);
+		model.addAttribute("vid", "abcdefg");
 		return "video/play";
 	}
 	
@@ -60,7 +70,8 @@ public class VideoController {
 	 */
 	@RequestMapping(value = "result", method = RequestMethod.GET)
 	public String result(Model model) {
-		model.addAttribute("vid", "Video is playing");
+		model.addAttribute("vtype", "youku");
+		model.addAttribute("vid", "abcdefg");
 		return "result";
 	}
 }
