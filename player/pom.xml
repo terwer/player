@@ -96,13 +96,6 @@
 			<version>1.9.13</version>
 		</dependency>
 
-		<!-- xml -->
-		<dependency>
-			<groupId>com.thoughtworks.xstream</groupId>
-			<artifactId>xstream</artifactId>
-			<version>1.4.7</version>
-		</dependency>
-
 	</dependencies>
 
 </project>

@@ -1,20 +1,43 @@
 package com.terwer.player.model;
 
+
+import javax.xml.bind.annotation.XmlRootElement;
+/**
+ * CKPlayerΩ‚Œˆ÷ÿ“™Model
+ * @author Tangyouwei
+ *
+ */
+@XmlRootElement(name = "player")
 public class CKModel {
 
-	private int vid;
-	private String vxml;
-	public int getVid() {
-		return vid;
+	private String flashvars=null;
+	private CKVideo video=null;
+	/**
+	 * @return the flashvars
+	 */
+	public String getFlashvars() {
+		return flashvars;
 	}
-	public void setVid(int vid) {
-		this.vid = vid;
+	/**
+	 * @param flashvars the flashvars to set
+	 */
+	public void setFlashvars(String flashvars) {
+		this.flashvars = flashvars;
 	}
-	public String getVxml() {
-		return vxml;
+	/**
+	 * @return the video
+	 */
+	public CKVideo getVideo() {
+		return video;
 	}
-	public void setVxml(String vxml) {
-		this.vxml = vxml;
+	/**
+	 * @param video the video to set
+	 */
+	public void setVideo(CKVideo video) {
+		this.video = video;
 	}
-	
+
 }
+
+
+ 

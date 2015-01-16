@@ -25,6 +25,22 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+<!-- 支持xml -->
+<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
+	<bean id="xmlViewer" 
+		class="org.springframework.web.servlet.view.xml.MarshallingView">
+		<constructor-arg>
+		  <bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+			<property name="classesToBeBound">
+				<list>
+				<!-- 这里是具体的Model -->
+					<value>com.terwer.player.model.CKModel</value>
+				</list>
+			</property>
+		  </bean>
+		</constructor-arg>
+	</bean>
+
 	<!-- 总错误处理 -->
 	<bean id="exceptionResolver"
 		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">

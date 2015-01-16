@@ -43,4 +43,7 @@ http://www.cnblogs.com/liuling/archive/2013/02/07/sdfasdf.html
 >6、http://jinnianshilongnian.iteye.com/blog/1593441   
 >7、http://www.cnblogs.com/enshrineZither/p/3891097.html   
 >8、http://www.mkyong.com/spring-mvc/spring-3-mvc-and-xml-example/   
->9、http://flysnowxf.iteye.com/blog/1187580              
+>9、http://flysnowxf.iteye.com/blog/1187580   
+>10、http://www.meiriyouke.net/?p=417    
+>11、Spring MVC 返回 xml和json数据的配置方法     
+http://www.yihaomen.com/article/java/511.htm          

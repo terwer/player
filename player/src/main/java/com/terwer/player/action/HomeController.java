@@ -28,5 +28,6 @@ public class HomeController {
 		String content=HttpHelper.getContent(new HttpGet(), "", "");
 		//String content=HttpHelper.getContent(new HttpPost(), "", "");
 		System.out.println(content);
+		
 	}
 }
