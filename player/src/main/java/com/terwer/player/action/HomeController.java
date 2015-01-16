@@ -18,7 +18,6 @@ public class HomeController {
 	@RequestMapping(value = "index", method = RequestMethod.GET)
 	public String home(Model model) {
 		model.addAttribute("keyword", "Ä¬ÈÏ¹Ø¼ü×Ö");
-		int a=5/0;
 		return "video/search";
 	}
 

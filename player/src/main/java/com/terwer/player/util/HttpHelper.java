@@ -2,24 +2,13 @@ package com.terwer.player.util;
 
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-
 import org.apache.http.HttpEntity;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.CookieStore;
-import org.apache.http.client.CredentialsProvider;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.impl.client.BasicCookieStore;
-import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 
 /**
@@ -64,18 +53,28 @@ public class HttpHelper {
 		HttpHelper.baseUrl = baseUrl;
 	}
 
+	/**
+	 * 设置httpClient 默认HttpClients.custom().build();
+	 * @param httpClient
+	 */
 	public static void setHttpclient(CloseableHttpClient httpClient) {
 		System.out.println("开始设置httpClient...");
 		HttpHelper.httpClient = httpClient;
 	}
 
-
-
+	/**
+	 * 设置requestConfig 默认RequestConfig.custom().build();
+	 * @param requestConfig
+	 */
 	public static void setRequestConfig(RequestConfig requestConfig) {
 		System.out.println("开始设置requestConfig...");
 		HttpHelper.requestConfig = requestConfig;
 	}
 
+	/**
+	 * 设置httpClientContext 默认HttpClientContext.create()
+	 * @param httpClientContext
+	 */
 	public static void setHttpClientContext(HttpClientContext httpClientContext) {
 		System.out.println("开始设置httpClientContext...");
 		HttpHelper.httpClientContext = httpClientContext;
