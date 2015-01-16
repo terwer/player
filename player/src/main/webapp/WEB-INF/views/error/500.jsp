@@ -83,27 +83,25 @@ pre {
 </style>
 </head>
 <body>
-	<span><h1>“/”应用程序中的服务器错误。</h1>
-					<hr width="100%" size="1" color="silver">
-				
-		<h2>
-			<i><%=errorMsg%></i>
-		</h2></span>
-	<font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+	<h1>“/”应用程序中的服务器错误。</h1>
+	<hr width="100%" size="1" color="silver">
 
+	<h2>
+		<i><%=errorMsg%></i>
+	</h2>
+	<div
+		style="font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif">
 		<b> 说明: </b>在分析向此请求提供服务所需资源时出错。请检查下列特定分析错误详细信息并适当地修改源文件。 <br> <br>
 		<b> 分析器错误消息: </b><%=localErrorMsg%><br> <br> <b>源错误:</b> <br>
-		<table width="100%" bgcolor="#ffffcc">
-			<tbody>
-				<tr>
-					<td><code>
-							<pre><%=errorDetail%> </pre>
-						</code></td>
-				</tr>
-			</tbody>
-		</table>  <b> 源文件: </b><%=requestFile%> <br>
-		<hr width="100%" size="1" color="silver"> <b>版本信息:</b> 服务器版本 <%=serverInfo%>;
-		jdk版本 <%=jdkVersion%>;
-	</font>
+		<div style="background-color: #ffffcc">
+			<pre><%=errorDetail%> </pre>
+		</div>
+		<b> 源文件: </b><%=requestFile%>
+		<br>
+		<hr width="100%" size="1" color="silver">
+		<b>版本信息:</b> 服务器版本
+		<%=serverInfo%>; jdk版本
+		<%=jdkVersion%>;
+	</div>
 </body>
 </html>
