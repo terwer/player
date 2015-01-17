@@ -32,17 +32,20 @@ public class VideoController extends BaseController {
 	      * @return
 	      */
 		@RequestMapping(value = "ckxml", method = RequestMethod.GET)
-		public  @ResponseBody CKModel ckxml(String vtype,String vid) {
+		 @ResponseBody  
+		 public String ckxml(String vtype,String vid) {
+//       public  @ResponseBody CKModel ckxml(String vtype,String vid) {
 //			//这里是解析构造f的过程（非常关键）
-//			String f="<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3{a->bq_MTM0MTMxNDU0_56|gq_MTM0MTMxNDU0_56|cq_MTM0MTMxNDU0_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}</flashvars><video><file><![CDATA[http://f4.r.56.com/f4.c183.56.com/flvdownload/20/9/sc_142074011863hd_clear.flv?v=1&t=uTYFMqGbmLjnozQpGB3yzg&r=61639&e=1421508553&tt=187&sz=13036231&vid=134131454]]></file></video></player>";
-			CKModel ckModel=new CKModel();
-			ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}");
-			CKVideo video=new CKVideo();
-			ArrayList<String> files=new ArrayList<String>();
-			files.add("<![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=YfXNI977OZLyXFJZkFFsBA&r=73681&e=1421510480&tt=2765&sz=191745133&vid=102074155]]>");
-			video.setFile(files);
-			ckModel.setVideo(video);
-			return ckModel;
+			String f="<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3{a->bq_MTM0MTMxNDU0_56|gq_MTM0MTMxNDU0_56|cq_MTM0MTMxNDU0_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}</flashvars><video><file><![CDATA[http://f4.r.56.com/f4.c183.56.com/flvdownload/20/9/sc_142074011863hd_clear.flv?v=1&t=uTYFMqGbmLjnozQpGB3yzg&r=61639&e=1421508553&tt=187&sz=13036231&vid=134131454]]></file></video></player>";
+            return f;
+//			CKModel ckModel=new CKModel();
+//			ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}");
+//			CKVideo video=new CKVideo();
+//			ArrayList<String> files=new ArrayList<String>();
+//			files.add("<![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=YfXNI977OZLyXFJZkFFsBA&r=73681&e=1421510480&tt=2765&sz=191745133&vid=102074155]]>");
+//			video.setFile(files);
+//			ckModel.setVideo(video);
+//			return ckModel;
 		}
 		
 	 
@@ -59,12 +62,12 @@ public class VideoController extends BaseController {
 		video.setVideoTitle("测试视频标题");
 		video.setVideoUrl("http://video.test");
 		//f（非常重要，此参数提供ckplayer可播放的内容）
-		video.setF("http://"+super.getSiteconfig().getPlayerDomain()+"/video/ckxml.xml?vtype="+vtype+"&vid="+vid);
+		video.setF(super.getSiteConfig().getPlayerUrl()+"/video/ckxml.xml?vtype="+vtype+"&vid="+vid);
 		//s（非常重要，配合f，s=2时使用xml）
 		video.setS("2");
 		//传递参数到页面 
 		model.addAttribute("video", video);
-		model.addAttribute("siteConfig", super.getSiteconfig());
+		model.addAttribute("siteConfig", super.getSiteConfig());
 		return "video/play";
 	}
 	

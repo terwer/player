@@ -7,9 +7,9 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title>${video.videoTitle}_视频无广告播放_纯纯影视</title>
-<link rel="shortcut icon" href="http://${siteConfig.domain}/favicon.ico" type="image/icon">
-<link rel="stylesheet" type="text/css" href="http://${siteConfig.playerDomain}/css/basic.css">
-<link rel="stylesheet" type="text/css" href="http://${siteConfig.playerDomain}/css/play.css">
+<link rel="shortcut icon" href="${siteConfig.mainUrl}/favicon.ico" type="image/icon">
+<link rel="stylesheet" type="text/css" href="${siteConfig.playerUrl}/css/basic.css">
+<link rel="stylesheet" type="text/css" href="${siteConfig.playerUrl}/css/play.css">
 <!-- CKplayer js css开始 -->   
  <style type="text/css">
 body,td,th {
@@ -38,7 +38,7 @@ p {
 	float: left;
 }
 </style>
-<script type="text/javascript" src="http://${siteConfig.ckplayerHome}/js/offlights.js"></script> 
+<script type="text/javascript" src="${siteConfig.ckplayerHome}/js/offlights.js"></script> 
 <!-- CKPlayer js css结束 -->
 </head>
 <body>
@@ -61,10 +61,10 @@ p {
                     <em data-widget-crumbs-elem="name" data-widget-crumbs-name-max="0">
                         <span id="sp_title" style="font-family: '微软雅黑'; font-size: 14px; margin-left: -1px;">${video.videoTitle} </span>
                         <a id="get_title" href="#" style="color：red;font-size:14px;" >点击获取视频标题</a>
-                        <a  href="http://${siteConfig.searchDomain}" style="color：green;font-size:14px;" >返回重新搜索<a>
+                        <a  href="${siteConfig.searchUrl}" style="color：green;font-size:14px;" >返回重新搜索<a>
                             <a href="#comments"><span style="color:#9400D3;font-size:14px;">查看评论</span></a>
                             <input id="vurl" type="hidden" value=${video.videoUrl} />
-                            <script type="text/javascript" src="http://${siteConfig.playerDomain}/js/jquery-1.9.1.js"> </script>
+                            <script type="text/javascript" src="${siteConfig.playerUrl}/js/jquery-1.9.1.js"> </script>
                             <script type="text/javascript">
                                 $(document).ready(function(){
                                     //ajax_get_title();
@@ -111,7 +111,7 @@ p {
                             <span data-widget-crumbs-elem="2">
                                 <div style="color: wheat">本程序由<a target="_blank" title="另，郑重声明：本程序视频均来自优酷，原视频版权归优酷所有"  href="http://weibo.com/206464069/">@LeaveBugsAway</a>
 <span>开发,大家有什么意见建议，欢迎<a
-        style="color: yellowgreen" href="http://${siteConfig.blogDomain}/aboutme/#respond"
+        style="color: yellowgreen" href="${siteConfig.blogUrl}/aboutme/#respond"
         target="_blank">留言</a>。<strong><span style="color:green;">长江大学2010级软工1002<font
         color="red">唐有炜</font>作品。</span></strong>
                             </span>
@@ -136,12 +136,13 @@ p {
 <!--
 上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
 -->
-                    <script type="text/javascript" src="http://${siteConfig.ckplayerHome}/ckplayer/ckplayer.js"></script>
+                    <script type="text/javascript" src="${siteConfig.ckplayerHome}/ckplayer/ckplayer.js"></script>
                     <script type="text/javascript">
                     var flashvars={
-                    		f:'http://movie.ks.js.cn/flv/other/2014/06/20-2.flv',//视频地址
+                    		//f:'http://movie.ks.js.cn/flv/other/2014/06/20-2.flv',//视频地址
+                    		f:'${video.f}',//视频地址
                     		a:'',//调用时的参数，只有当s>0的时候有效
-                    		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
+                    		s:'${video.s}',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
                     		c:'0',//是否读取文本配置,0不是，1是
                     		x:'',//调用配置文件路径，只有在c=1时使用。默认为空调用的是ckplayer.xml
                     		i:'http://www.ckplayer.com/images/loadimg3.jpg',//初始图片地址
@@ -174,7 +175,7 @@ p {
                     		};
                     	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
                     	var video=['http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
-                    	CKobject.embed('http://${siteConfig.ckplayerHome}/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
+                    	CKobject.embed('${siteConfig.ckplayerHome}/ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
                     	/*
                     		以上代码演示的兼容flash和html5环境的。如果只调用flash播放器或只调用html5请看其它示例
                     	*/
@@ -190,9 +191,9 @@ p {
     <!--播放器 结束-->
 </form>
 <!--视频信息-->
-<iframe id="iFrame1" style="margin-top:-28x;height:175px;" name="iFrame1" width="100%"  frameborder="0" src="http://${siteConfig.playerDomain}/info/videoInfo?url=${video.videoUrl}"></iframe>
+<iframe id="iFrame1" style="margin-top:-28x;height:175px;" name="iFrame1" width="100%"  frameborder="0" src="${siteConfig.playerUrl}/info/videoInfo?url=${video.videoUrl}"></iframe>
 <!--评论-->
-<iframe id="comments" style="margin-top:-18x;height: 500px" name="comments" width="100%" frameborder="0" src="http://${siteConfig.playerDomain}/info/comments?url=${video.videoUrl}"    ></iframe>
+<iframe id="comments" style="margin-top:-18x;height: 500px" name="comments" width="100%" frameborder="0" src="${siteConfig.playerUrl}/info/comments?url=${video.videoUrl}"    ></iframe>
 <center style="margin-top: -20px;">
 
     <br/>
@@ -201,7 +202,7 @@ p {
                                                                                      target="_blank">@LeaveBugsAway</a><br/>
     CopyRight &copy;&nbsp;2010-
     2013
-    <a href="http://${siteConfig.domain}" class="" target="_blank">${siteConfig.domain}</a> &nbsp;All Rjghts Reserved.
+    <a href="${siteConfig.mainUrl}" class="" target="_blank">${siteConfig.mainUrl}</a> &nbsp;All Rjghts Reserved.
     <script src="http://s21.cnzz.com/stat.php?id=4445524&web_id=4445524&show=pic" language="JavaScript"></script>
 </center>
 <!-- JiaThis Button BEGIN -->

@@ -1,63 +1,63 @@
 package com.terwer.player.model;
 
 public class SiteConfig {
-    //主站域名
-	private String domain=null;
-	//博客站域名
-	private String blogDomain=null;
-	//播放器域名
-	private String playerDomain=null;
-	//搜索域名
-	private String searchDomain=null;
+    //主站地址
+	private String mainUrl=null;
+	//博客站地址
+	private String blogUrl=null;
+	//播放器地址
+	private String playerUrl=null;
+	//搜索地址
+	private String searchUrl=null;
 	//CKplayer目录
 	private String ckplayerHome=null;
 	/**
-	 * @return the domain
+	 * @return the mainUrl
 	 */
-	public String getDomain() {
-		return domain;
+	public String getMainUrl() {
+		return mainUrl;
 	}
 	/**
-	 * @param domain the domain to set
+	 * @param mainUrl the mainUrl to set
 	 */
-	public void setDomain(String domain) {
-		this.domain = domain;
+	public void setMainUrl(String mainUrl) {
+		this.mainUrl = mainUrl;
 	}
 	/**
-	 * @return the playerDomain
+	 * @return the blogUrl
 	 */
-	public String getPlayerDomain() {
-		return playerDomain;
+	public String getBlogUrl() {
+		return blogUrl;
 	}
 	/**
-	 * @param playerDomain the playerDomain to set
+	 * @param blogUrl the blogUrl to set
 	 */
-	public void setPlayerDomain(String playerDomain) {
-		this.playerDomain = playerDomain;
+	public void setBlogUrl(String blogUrl) {
+		this.blogUrl = blogUrl;
 	}
 	/**
-	 * @return the searchDomain
+	 * @return the playerUrl
 	 */
-	public String getSearchDomain() {
-		return searchDomain;
+	public String getPlayerUrl() {
+		return playerUrl;
 	}
 	/**
-	 * @param searchDomain the searchDomain to set
+	 * @param playerUrl the playerUrl to set
 	 */
-	public void setSearchDomain(String searchDomain) {
-		this.searchDomain = searchDomain;
+	public void setPlayerUrl(String playerUrl) {
+		this.playerUrl = playerUrl;
 	}
 	/**
-	 * @return the blogDomain
+	 * @return the searchUrl
 	 */
-	public String getBlogDomain() {
-		return blogDomain;
+	public String getSearchUrl() {
+		return searchUrl;
 	}
 	/**
-	 * @param blogDomain the blogDomain to set
+	 * @param searchUrl the searchUrl to set
 	 */
-	public void setBlogDomain(String blogDomain) {
-		this.blogDomain = blogDomain;
+	public void setSearchUrl(String searchUrl) {
+		this.searchUrl = searchUrl;
 	}
 	/**
 	 * @return the ckplayerHome
@@ -71,6 +71,5 @@ public class SiteConfig {
 	public void setCkplayerHome(String ckplayerHome) {
 		this.ckplayerHome = ckplayerHome;
 	}
-	
-	
+
 }

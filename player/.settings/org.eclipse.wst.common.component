@@ -5,6 +5,9 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/test"/>
+        <dependent-module archiveName="commons4j-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/player/lib/commons4j-0.0.1-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="player"/>
         <property name="java-output-path" value="/player/target/classes"/>
     </wb-module>
