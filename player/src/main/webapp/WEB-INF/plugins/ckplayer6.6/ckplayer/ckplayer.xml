@@ -267,7 +267,7 @@
 		<!--
 		该处定义是否使用开关灯，和right.swf插件配合作用,使用开灯效果时调用页面的js函数function closelights(){};
 		-->
-		<cpt_share>/ckplayer/share.xml</cpt_share>
+		<cpt_share>http://localhost:8080/player/video/shareXml</cpt_share>
 		<!--
 		分享插件调用的配置文件地址
 		调用插件开始

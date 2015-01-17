@@ -1,0 +1,93 @@
+2015-01-17 22:09:11  [ main:0 ] - [ INFO ]  开始调用静态代码块,初始化默认的httpclient、requestconfig和httpClientContext配置...
+2015-01-17 22:09:11  [ main:3 ] - [ DEBUG ]  aaaaaa/D:/MyCode/player/player/target/classes/commons4j.properties
+2015-01-17 22:09:11  [ main:4 ] - [ ERROR ]  bbbbbbbbbbbbbb
+2015-01-17 22:09:11  [ main:4 ] - [ ERROR ]  bbbbbbbbbbbbbb
+2015-01-17 22:09:12  [ main:671 ] - [ INFO ]  开始设置httpClient...
+2015-01-17 22:09:12  [ main:672 ] - [ INFO ]  开始设置requestConfig...
+2015-01-17 22:09:12  [ main:675 ] - [ INFO ]  开始设置httpClientContext...
+2015-01-17 22:09:12  [ main:676 ] - [ INFO ]  httpclient、requestconfig和httpClientContext初始化完毕...
+2015-01-17 22:09:12  [ main:676 ] - [ INFO ]  开始设置baseUrl...
+2015-01-17 22:09:12  [ main:679 ] - [ INFO ]  当前请求方法：GET
+2015-01-17 22:09:12  [ main:680 ] - [ INFO ]  开始执行请求,当前请求地址：http://www.terwer.com
+2015-01-17 22:09:12  [ main:700 ] - [ DEBUG ]  CookieSpec selected: best-match
+2015-01-17 22:09:12  [ main:719 ] - [ DEBUG ]  Auth cache not set in the context
+2015-01-17 22:09:12  [ main:721 ] - [ DEBUG ]  Connection request: [route: {}->http://www.terwer.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-01-17 22:09:12  [ main:755 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://www.terwer.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-01-17 22:09:12  [ main:759 ] - [ DEBUG ]  Opening connection {}->http://www.terwer.com:80
+2015-01-17 22:09:12  [ main:845 ] - [ DEBUG ]  Connecting to www.terwer.com/42.96.195.179:80
+2015-01-17 22:09:12  [ main:893 ] - [ DEBUG ]  Connection established 192.168.1.14:1805<->42.96.195.179:80
+2015-01-17 22:09:12  [ main:894 ] - [ DEBUG ]  Executing request GET / HTTP/1.1
+2015-01-17 22:09:12  [ main:894 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2015-01-17 22:09:12  [ main:895 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2015-01-17 22:09:12  [ main:898 ] - [ DEBUG ]  http-outgoing-0 >> GET / HTTP/1.1
+2015-01-17 22:09:12  [ main:899 ] - [ DEBUG ]  http-outgoing-0 >> Host: www.terwer.com
+2015-01-17 22:09:12  [ main:899 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2015-01-17 22:09:12  [ main:899 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+2015-01-17 22:09:12  [ main:899 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-01-17 22:09:12  [ main:900 ] - [ DEBUG ]  http-outgoing-0 >> "GET / HTTP/1.1[\r][\n]"
+2015-01-17 22:09:12  [ main:900 ] - [ DEBUG ]  http-outgoing-0 >> "Host: www.terwer.com[\r][\n]"
+2015-01-17 22:09:12  [ main:900 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-01-17 22:09:12  [ main:900 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+2015-01-17 22:09:12  [ main:901 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-01-17 22:09:12  [ main:901 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2015-01-17 22:09:12  [ main:1240 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-01-17 22:09:12  [ main:1241 ] - [ DEBUG ]  http-outgoing-0 << "Date: Sat, 17 Jan 2015 14:09:11 GMT[\r][\n]"
+2015-01-17 22:09:12  [ main:1242 ] - [ DEBUG ]  http-outgoing-0 << "Server: Apache/2.2.15 (CentOS)[\r][\n]"
+2015-01-17 22:09:12  [ main:1242 ] - [ DEBUG ]  http-outgoing-0 << "X-Powered-By: PHP/5.3.3[\r][\n]"
+2015-01-17 22:09:12  [ main:1242 ] - [ DEBUG ]  http-outgoing-0 << "X-Pingback: http://www.terwer.com/xmlrpc.php[\r][\n]"
+2015-01-17 22:09:12  [ main:1243 ] - [ DEBUG ]  http-outgoing-0 << "Connection: close[\r][\n]"
+2015-01-17 22:09:12  [ main:1243 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-01-17 22:09:12  [ main:1244 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/html; charset=UTF-8[\r][\n]"
+2015-01-17 22:09:12  [ main:1244 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2015-01-17 22:09:12  [ main:1244 ] - [ DEBUG ]  http-outgoing-0 << "2cc4[\r][\n]"
+2015-01-17 22:09:12  [ main:1245 ] - [ DEBUG ]  http-outgoing-0 << "<!DOCTYPE html>[\r][\n]"
+2015-01-17 22:09:12  [ main:1245 ] - [ DEBUG ]  http-outgoing-0 << "<html lang="zh-CN">[\r][\n]"
+2015-01-17 22:09:12  [ main:1245 ] - [ DEBUG ]  http-outgoing-0 << "<head>[\r][\n]"
+2015-01-17 22:09:12  [ main:1246 ] - [ DEBUG ]  http-outgoing-0 << "<meta charset="UTF-8">[\r][\n]"
+2015-01-17 22:09:12  [ main:1246 ] - [ DEBUG ]  http-outgoing-0 << "<meta name="viewport" content="width=device-width initial-scale=1.0, user-scalable=no">[\r][\n]"
+2015-01-17 22:09:12  [ main:1246 ] - [ DEBUG ]  http-outgoing-0 << "<title>[0xe7][0x89][0xb9][0xe7][0xbb][0xb4][0xe5][0x8d][0x9a][0xe5][0xae][0xa2] | [0xe7][0x89][0xb9][0xe7][0xab][0x8b][0xe7][0x8b][0xac][0xe8][0xa1][0x8c][0xef][0xbc][0x8c][0xe9][0x9d][0xa9][0xe6][0x97][0xa7][0xe7][0xbb][0xb4][0xe6][0x96][0xb0]-[0xe5][0x81][0x9a][0xe6][0x9c][0x89][0xe6][0x80][0x9d][0xe6][0x83][0xb3][0xe7][0x9a][0x84]IT[0xe5][0x8d][0x9a][0xe5][0xae][0xa2][0xef][0xbc][0x8c][0xe4][0xb8][0x93][0xe6][0xb3][0xa8][0xe4][0xba][0x8e]IT[0xe6][0x8a][0x80][0xe6][0x9c][0xaf][0xe5][0x88][0x86][0xe4][0xba][0xab]</title> [\n]"
+2015-01-17 22:09:12  [ main:1247 ] - [ DEBUG ]  http-outgoing-0 << "<meta name="description" content="[0xe5][0x81][0x9a][0xe6][0x9c][0x89][0xe6][0x80][0x9d][0xe6][0x83][0xb3][0xe7][0x9a][0x84]IT[0xe5][0x8d][0x9a][0xe5][0xae][0xa2][0xef][0xbc][0x8c][0xe4][0xb8][0x93][0xe6][0xb3][0xa8][0xe4][0xba][0x8e]IT[0xe6][0x8a][0x80][0xe6][0x9c][0xaf][0xe5][0x88][0x86][0xe4][0xba][0xab][0xe3][0x80][0x82]" />[\r][\n]"
+2015-01-17 22:09:12  [ main:1247 ] - [ DEBUG ]  http-outgoing-0 << "<meta name="keywords" content="[0xe8][0xbd][0xaf][0xe4][0xbb][0xb6],[0xe7][0xbc][0x96][0xe7][0xa8][0x8b],[0xe7][0xae][0x97][0xe6][0xb3][0x95],[0xe7][0xbd][0x91][0xe7][0xab][0x99],IT,java,php,C++,C#,wordpress" />[\r][\n]"
+2015-01-17 22:09:12  [ main:1248 ] - [ DEBUG ]  http-outgoing-0 << "<link rel="shortcut icon" href="http://www.terwer.com/wp-content/themes/Ality/img/favicon.ico">[\r][\n]"
+2015-01-17 22:09:12  [ main:1248 ] - [ DEBUG ]  http-outgoing-0 << "<link rel="apple-touch-icon" sizes="114x114" href="http://www.terwer.com/wp-content/themes/Ality/img/favicon.png" />[\r][\n]"
+2015-01-17 22:09:12  [ main:1248 ] - [ DEBUG ]  http-outgoing-0 << "<link rel="profile" href="http://gmpg.org/xfn/11">[\r][\n]"
+2015-01-17 22:09:12  [ main:1249 ] - [ DEBUG ]  http-outgoing-0 << "<link rel="pingback" href="http://www.terwer.com/xmlrpc.php">[\r][\n]"
+2015-01-17 22:09:12  [ main:1249 ] - [ DEBUG ]  http-outgoing-0 << "<!--[if lt IE 9]>[\r][\n]"
+2015-01-17 22:09:12  [ main:1249 ] - [ DEBUG ]  http-outgoing-0 << "<script src="http://www.terwer.com/wp-content/themes/Ality/js/html5-css3.js"></script>[\r][\n]"
+2015-01-17 22:09:12  [ main:1249 ] - [ DEBUG ]  http-outgoing-0 << "<![endif]-->[\r][\n]"
+2015-01-17 22:09:12  [ main:1249 ] - [ DEBUG ]  http-outgoing-0 << "<!--[if lt IE 7]><script src="http://www.terwer.com/wp-content/themes/Ality/js/ie6.js" type="text/javascript"></script><![endif]-->[\r][\n]"
+2015-01-17 22:09:12  [ main:1250 ] - [ DEBUG ]  http-outgoing-0 << "<!--[if lt IE 8]><link rel="stylesheet" href="http://www.terwer.com/wp-content/themes/Ality/css/ie7/ie7.css" /><![endif]-->[\r][\n]"
+2015-01-17 22:09:12  [ main:1250 ] - [ DEBUG ]  http-outgoing-0 << "<link rel='stylesheet' id='style-css'  href='http://www.terwer.com/wp-content/themes/Ality/style.css?ver=2014.8.22' type='text/css' media='all' />[\n]"
+2015-01-17 22:09:12  [ main:1250 ] - [ DEBUG ]  http-outgoing-0 << "<link rel='stylesheet' id='mediaqueries-css'  href='http://www.terwer.com/wp-content/themes/Ality/css/mediaqueries.css?ver=1.0' type='text/css' media='all' />[\n]"
+2015-01-17 22:09:12  [ main:1250 ] - [ DEBUG ]  http-outgoing-0 << "<link rel='stylesheet' id='wp-downloadmanager-css'  href='http://www.terwer.com/wp-content/plugins/wp-downloadmanager/download-css.css?ver=1.64' type='text/css' media='all' />[\n]"
+2015-01-17 22:09:12  [ main:1251 ] - [ DEBUG ]  http-outgoing-0 << "<script type='text/javascript' src='http://www.terwer.com/wp-content/themes/Ality/js/jquery.min.js?ver=1.4.2'></script>[\n]"
+2015-01-17 22:09:12  [ main:1251 ] - [ DEBUG ]  http-outgoing-0 << "<script type='text/javascript' src='http://www.terwer.com/wp-content/themes/Ality/js/jquery.lazyload.min.js?ver=1.9.3'></script>[\n]"
+2015-01-17 22:09:12  [ main:1251 ] - [ DEBUG ]  http-outgoing-0 << "<script type='text/javascript' src='http://www.terwer.com/wp-content/themes/Ality/js/script-pc.js?ver=1.0'></script>[\n]"
+2015-01-17 22:09:12  [ main:1252 ] - [ DEBUG ]  http-outgoing-0 << "<script type="text/javascript">if(document.location.href.indexOf("bcjs")>0){var cur=document.location.href;document.location.href=cur.replace("bcjs","coding");};</script></head>[\r][\n]"
+2015-01-17 22:09:12  [ main:1252 ] - [ DEBUG ]  http-outgoing-0 << "<body class="home blog">[\r][\n]"
+2015-01-17 22:09:12  [ main:1252 ] - [ DEBUG ]  http-outgoing-0 << "<div id="page" class="page-site">[\r][\n]"
+2015-01-17 22:09:12  [ main:1252 ] - [ DEBUG ]  http-outgoing-0 << "[0x9]<div id="header-top">[\r][\n]"
+2015-01-17 22:09:12  [ main:1253 ] - [ DEBUG ]  http-outgoing-0 << "[0x9][0x9]<nav id="top-nav" class="main-nav">[\r][\n]"
+2015-01-17 22:09:12  [ main:1253 ] - [ DEBUG ]  http-outgoing-0 << "[0x9][0x9][0x9]<div class="home_h"><i class="icon-home_h"><a href="http://www.terwer.com" title="[0xe8][0xbf][0x94][0xe5][0x9b][0x9e][0xe9][0xa6][0x96][0xe9][0xa1][0xb5]"></a></i></div>[\r][\n]"
+2015-01-17 22:09:12  [ main:1253 ] - [ DEBUG ]  http-outgoing-0 << "[0x9][0x9][0x9]<div class="menu"><ul><li class="page_item page-item-1992"><a href="http://www.terwer.com/rssblog">RSS[0xe8][0xae][0xa2][0xe9][0x98][0x85]</a></li><li class="page_item page-item-3912"><a href="http://www.terwer.com/cd">[0xe4][0xbb][0xa3][0xe7][0xa0][0x81][0xe9][0xab][0x98][0xe4][0xba][0xae]</a></li><li class="page_item page-item-20 page_item_has_children"><a href="http://www.terwer.com/aboutme">[0xe5][0x85][0xb3][0xe4][0xba][0x8e][0xe6][0x88][0x91]</a><ul class='children'><li class="page_item page-item-3916"><a href="http://www.terwer.com/aboutme/contact-me">[0xe8][0x81][0x94][0xe7][0xb3][0xbb][0xe6][0x96][0xb9][0xe5][0xbc][0x8f]</a></li><li class="page_item page-item-3904"><a href="http://www.terwer.com/aboutme/recent-comment">[0xe8][0xbf][0x91][0xe6][0x9c][0x9f][0xe7][0x95][0x99][0xe8][0xa8][0x80]</a></li></ul></li><li class="page_item page-item-5406 page_item_has_children"><a href="http://www.terwer.com/tools">[0xe5][0x8e][0x9f][0xe5][0x88][0x9b][0xe5][0xb7][0xa5][0xe5][0x85][0xb7]</a><ul class='children'><li class="page_item page-item-5380"><a href="http://www.terwer.com/tools/ide">[0xe4]"
+2015-01-17 22:09:12  [ main:1258 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2015-01-17 22:09:12  [ main:1258 ] - [ DEBUG ]  http-outgoing-0 << Date: Sat, 17 Jan 2015 14:09:11 GMT
+2015-01-17 22:09:12  [ main:1258 ] - [ DEBUG ]  http-outgoing-0 << Server: Apache/2.2.15 (CentOS)
+2015-01-17 22:09:12  [ main:1258 ] - [ DEBUG ]  http-outgoing-0 << X-Powered-By: PHP/5.3.3
+2015-01-17 22:09:12  [ main:1259 ] - [ DEBUG ]  http-outgoing-0 << X-Pingback: http://www.terwer.com/xmlrpc.php
+2015-01-17 22:09:12  [ main:1259 ] - [ DEBUG ]  http-outgoing-0 << Connection: close
+2015-01-17 22:09:12  [ main:1259 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2015-01-17 22:09:12  [ main:1259 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/html; charset=UTF-8
+2015-01-17 22:09:12  [ main:1273 ] - [ INFO ]  开始接受响应...
+2015-01-17 22:09:12  [ main:1273 ] - [ INFO ]  ----------------------------------------
+2015-01-17 22:09:12  [ main:1274 ] - [ INFO ]  HTTP/1.1 200 OK
+2015-01-17 22:09:12  [ main:1274 ] - [ INFO ]  Response content length: -1
+2015-01-17 22:09:12  [ main:1274 ] - [ INFO ]  ----------------------------------------
+2015-01-17 22:09:12  [ main:1274 ] - [ DEBUG ]  Connection manager is shutting down
+2015-01-17 22:09:12  [ main:1275 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2015-01-17 22:09:12  [ main:1276 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2015-01-17 22:09:12  [ main:1276 ] - [ DEBUG ]  Connection manager shut down
+2015-01-17 22:09:12  [ main:1277 ] - [ DEBUG ]  http-outgoing-0: Shutdown connection
+2015-01-17 22:09:12  [ main:1277 ] - [ DEBUG ]  Connection discarded
+2015-01-17 22:09:12  [ main:1277 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://www.terwer.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-01-17 22:09:12  [ main:1278 ] - [ INFO ]  请求完成，连接已关闭。

@@ -24,7 +24,15 @@
 >我的QQ：1035136784（非技术问题勿扰）<br/>
 
 使用必读
-======
+======       
+需要修改的地方              
+----------             
+>1 修改commons4j.properties，log4j.properties                     
+>2 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.js                
+>>(1) 分享地址
+                          
+>3 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.xml中的分享地址                         
+>>(1) 分享地址                 
 
 测试数据
 ======
