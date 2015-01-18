@@ -21,7 +21,7 @@
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<property name="viewClass"
 			value="org.springframework.web.servlet.view.JstlView" />
-		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="prefix" value="/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
 
@@ -56,9 +56,5 @@
 		</property>
 	</bean>
 
-	<!-- 对静态资源文件的访问,使用默认的Servlet来响应静态文件 -->
-	<mvc:resources mapping="/images/**" location="/WEB-INF/images/" />
-	<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
-	<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
-	<mvc:resources mapping="/plugins/**" location="/WEB-INF/plugins/" />
-</beans>
+	<!-- 对静态资源文件的访问，不在这里限制，默认xml只拦截.do请求 -->
+	</beans>

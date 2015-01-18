@@ -38,7 +38,7 @@ public class VideoController extends BaseController {
 	public String ckxml(String vtype, String vid) {
 		// public @ResponseBody CKModel ckxml(String vtype,String vid) {
 		// //这里是解析构造f的过程（非常关键）
-		String f = "<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3{a->bq_MTM0MTMxNDU0_56|gq_MTM0MTMxNDU0_56|cq_MTM0MTMxNDU0_56}{f->http://localhost:8080/player/video/ckxml.xml}</flashvars><video><file><![CDATA[http://f4.r.56.com/f4.c183.56.com/flvdownload/20/9/sc_142074011863hd_clear.flv?v=1&t=uTYFMqGbmLjnozQpGB3yzg&r=61639&e=1421508553&tt=187&sz=13036231&vid=134131454]]></file></video></player>";
+		String f = "<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/play.do?url=[$pat1]}</flashvars><video><file><![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=0MqqDxdLRSIQt_DmnFheXg&r=27194&e=1421670920&tt=2765&sz=191745133&vid=102074155]]></file></video></player>";
 		return f;
 		// CKModel ckModel=new CKModel();
 		// ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}");
@@ -77,8 +77,10 @@ public class VideoController extends BaseController {
 		video.setVideoUrl("http://video.test");
 		// f（非常重要，此参数提供ckplayer可播放的内容）
 		video.setF(super.getSiteConfig().getPlayerUrl()
-				+ "/video/ckxml.xml?vtype=" + vtype + "&vid=" + vid);
-		// s（非常重要，配合f，s=2时使用xml）
+				+ "/video/ckxml.do?vtype=" + vtype + "&vid=" + vid);
+		//a（非常重要，配合f，s=2时使用xml）
+		video.setA("cq_v_MTAyMDc0MTU1_56");
+		//s（非常重要，配合f，s=2时使用xml）
 		video.setS("2");
 		// 传递参数到页面
 		model.addAttribute("video", video);

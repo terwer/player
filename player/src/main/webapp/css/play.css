@@ -2909,258 +2909,8 @@ body.small .piclist14590_min-through {
 }
 
 .padplay0108 {
-    position: relative
-}
-
-.padplay0108 .ctrl-layer {
-    position: absolute;
-    width: 100%;
-    height: 100%
-}
-
-.padplay0108 .ctrl-layer .video-controlbox {
-    width: 100%;
-    height: 53px;
-    background-color: #000;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3)
-}
-
-.padplay0108 .ctrl-layer .ctrl-top {
-    height: 1px;
-    border-bottom: 1px solid #555;
-    overflow: hidden
-}
-
-.padplay0108 .ctrl-layer .ctrl-bot {
-    clear: both
-}
-
-.padplay0108 .ctrl-layer .ctrl-l {
-    float: left;
-    width: 170px;
-    margin-left: -100%
-}
-
-.padplay0108 .ctrl-layer .ctrl-m {
-    float: left;
-    width: 100%
-}
-
-.padplay0108 .ctrl-layer .ctrl-m .ctrl-c {
-    margin: 0 220px 0 170px
-}
-
-.padplay0108 .ctrl-layer .ctrl-r {
-    float: left;
-    width: 202px;
-    margin-left: -202px
-}
-
-.padplay0108 .ctrl-layer .ctrl-r .ctrl-time {
-    color: #999;
-    margin-right: 10px
-}
-
-.padplay0108 .ctrl-layer .ctrl-btn {
-    width: 27px;
-    height: 27px;
-    padding: 11px 20px 0 20px
-}
-
-.padplay0108 .ctrl-layer .ctrl-time {
-    height: 16px;
-    margin-top: 15px;
-    text-align: center;
-    font: normal 14px/16px 'arial';
-    color: #fff
-}
-
-.padplay0108 .ctrl-layer .ctrl-l .ctrl-btn, .padplay0108 .ctrl-layer .ctrl-l .ctrl-time {
-    float: left
-}
-
-.padplay0108 .ctrl-layer .ctrl-r .ctrl-btn, .padplay0108 .ctrl-layer .ctrl-r .ctrl-time {
-    float: right
-}
-
-.padplay0108 .ctrl-layer a.ctrlstop, .padplay0108 .ctrl-layer a.ctrlstop-a, .padplay0108 .ctrl-layer a.ctrlplay, .padplay0108 .ctrl-layer a.ctrlplay-a, .padplay0108 .padplay0108 .ctrl-layer a.ctrlwait, .padplay0108 .ctrl-layer a.ctrlwait-a, .padplay0108 .ctrl-layer a.ctrlscreen, .padplay0108 .ctrl-layer a.ctrlscreen-a, .padplay0108 .ctrl-layer a.ctrlEditscreen, .padplay0108 .ctrl-layer a.ctrlOpen, .padplay0108 .ctrl-layer a.ctrlOpen-a, .padplay0108 .ctrl-layer a.ctrlClose, .padplay0108 .ctrl-layer a.ctrlClose-a {
-    display: block;
-    width: 27px;
-    height: 27px;
-    background: transparent url(http://www.qiyipic.com/common/fix/pad_images/toolicon2.png) no-repeat 1px 1px
-}
-
-.padplay0108 .ctrl-layer a.ctrlplay {
-    background-position: 2px -170px
-}
-
-.padplay0108 .ctrl-layer a.ctrlwait {
-    background-position: 1px -85px
-}
-
-.padplay0108 .ctrl-layer a.ctrlscreen {
-    background-position: 0 -257px
-}
-
-.padplay0108 .ctrl-layer a.ctrlstop:active, .padplay0108 .ctrl-layer a.ctrlstop-a {
-    background-position: 1px -42px
-}
-
-.padplay0108 .ctrl-layer a.ctrlplay:active, .padplay0108 .ctrl-layer a.ctrlplay-a {
-    background-position: 2px -213px
-}
-
-.padplay0108 .ctrl-layer a.ctrlwait:active, .padplay0108 .ctrl-layer a.ctrlwait-a {
-    background-position: 1px -128px
-}
-
-.padplay0108 .ctrl-layer a.ctrlscreen:active, .padplay0108 .ctrl-layer a.ctrlscreen-a {
-    background-position: 0 -300px
-}
-
-.padplay0108 .ctrl-layer .ctrl-split {
-    float: left;
-    width: 1px;
-    height: 50px;
-    margin-right: 20px;
-    background: transparent url(http://www.qiyipic.com/common/fix/pad_images/tooly.png) no-repeat 0 -2px
-}
-
-.padplay0108 .ctrl-layer .ctrl-scheduleBox {
     position: relative;
-    z-index: 0
-}
-
-.padplay0108 .ctrl-layer .ctrl-scrollbg, .padplay0108 .ctrl-layer .ctrl-scrollbtn, .padplay0108 .ctrl-layer .ctrl-scrollbtnWrap, .padplay0108 .ctrl-layer .ctrl-huibg {
-    z-index: 5;
-    top: 18px;
-    width: 100%;
-    height: 10px;
-    border-radius: 3px;
-    font-size: 0;
-    line-height: 0
-}
-
-.padplay0108 .ctrl-layer .ctrl-scrollbg {
-    position: relative;
-    background-color: #1b1b1b;
-    box-shadow: inset 2px 2px 2px rgba(30, 28, 28, 0.3)
-}
-
-.padplay0108 .ctrl-layer .ctrl-scrollbtn {
-    position: absolute;
-    z-index: 10;
-    background-color: #86ae00;
-    box-shadow: inset 1px 1px 1px rgba(222, 225, 0, 0.5);
-    width: 0;
-    left: 0;
-    top: 0
-}
-
-.padplay0108 .ctrl-layer .ctrl-circle {
-    position: absolute;
-    right: -14px;
-    top: -7px;
-    display: block;
-    width: 26px;
-    height: 26px;
-    background: url(http://www.qiyipic.com/common/fix/pad_images/toolqiu.png) no-repeat 0 -364px;
-    overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0)
-}
-
-.padplay0108 .ctrl-layer .ctrl-layer {
-    position: absolute;
-    z-index: 0;
-    width: 100%
-}
-
-.padplay0108 .ctrl-layer .ctrl-layerhalf {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    width: 120px;
-    height: 120px
-}
-
-.padplay0108 .ctrl-layer .ctrl-layerhalf .layer-btn, .padplay0108 .ctrl-layer .ctrl-layerhalf .layer-load {
-    position: absolute;
-    left: -60px;
-    top: -60px;
-    width: 120px;
-    height: 120px
-}
-
-.padplay0108 .ctrl-layer .padplay0108 .ctrl-layerhalf .layer-load {
-    top: -15px;
-    height: 30px;
-    text-align: center;
-    color: #84b83d;
-    font: normal 14px/30px '\5FAE\8F6F\96C5\9ED1'
-}
-
-.padplay0108 .ctrl-layer a.ctrlbigplay, .padplay0108 .ctrl-layer a.ctrlbigplay-a {
-    display: block;
-    width: 120px;
-    height: 120px;
-    background: transparent url(http://www.qiyipic.com/common/fix/pad_images/toolqiu.png) no-repeat 0 -30px
-}
-
-.padplay0108 .ctrl-layer a.ctrlbigplay:active, .padplay0108 .ctrl-layer a.ctrlbigplay-a {
-    background-position: 0 -150px
-}
-
-.padplay0108 .ctrl-layer .layer-load img {
-    margin-right: 5px;
-    margin-top: -1px
-}
-
-.padplay0108 .ctrl-layer a.ctrlOpen {
-    background-position: 1px -478px
-}
-
-.padplay0108 .ctrl-layer a.ctrlOpen:active, .padplay0108 .ctrl-layer a.ctrlOpen-a {
-    background-position: 1px -552px
-}
-
-.padplay0108 .ctrl-layer a.ctrlClose {
-    background-position: 1px -620px
-}
-
-.padplay0108 .ctrl-layer a.ctrlClose:active, .padplay0108 .ctrl-layer a.ctrlClose-a {
-    background-position: 1px -700px
-}
-
-.padplay0108 .ctrl-layer a.ctrlEditscreen {
-    background-position: 1px -350px
-}
-
-.padplay0108 .ctrl-layer a.ctrlEditscreen:active, .padplay0108 .ctrl-layer a.ctrlEditscreen-a {
-    background-position: 1px -401px
-}
-
-.padplay0108 .ctrl-layer .ctrl-huibg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100%
-}
-
-.padplay0108 .ctrl-layer {
-    position: absolute;
-    width: 100%
-}
-
-.padplay0108 .ctrl-layer .video-controlbox {
-    position: absolute;
-    bottom: 0;
-    width: 100%
-}
-
-.padplay0108 .ctrl-layer .no_ctrlOpen .ctrl-m .ctrl-c {
-    margin: 0 155px 0 170px
+    width:980px;
 }
 
 .freeTimeBar {
@@ -8641,4 +8391,18 @@ body.largest .playList_zy li {
     width: 145px;
     height: 90px;
     overflow: visible
+}
+
+#a1 /*视频容器，非常重要*/
+{
+	position:relative;
+	z-index: 100;
+	width:100%;
+	height:100%;
+	float: left;
+}
+
+#sysinfo{
+	text-align:center;
+	margin:auto;
 }

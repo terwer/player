@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="content-type" content='text/html;charset=utf-8'/>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title>${video.videoTitle}_视频无广告播放_特维博客</title>
@@ -15,7 +16,7 @@
 <script type="text/javascript" src="${siteConfig.ckplayerHome}/js/offlights.js"></script>
 </head>
 <body>
-  <!-- nav Start -->
+<!--导航开始-->
     <div class="crumbWrap-black">
         <div class="gui_TopInfo crumb_bar">
             <div class="topInfoC_add">
@@ -28,70 +29,87 @@
             <div class="crumb_new" id="widget-crumbs">
                 <div id="navbar">
                     <em >
-                        <span id="sp_title" style="font-family: '微软雅黑'; font-size: 14px; margin-left: -1px;">${video.videoTitle} </span>
+                        <span id="sp_title">${video.videoTitle} </span>
                         <a href="${siteConfig.searchUrl}">返回重新搜索</a>
                         <a href="#comments">查看评论</a>
                     </em>
               </div>
 
-             <p>
+             <div>
                  <div>本程序由<a target="_blank" title="另，郑重声明：本程序视频均来自优酷，原视频版权归优酷所有"  href="http://weibo.com/206464069/">@LeaveBugsAway</a>
 开发,欢迎<a target="_blank">留言</a>。<strong><span>长江大学2010级软工1002唐有炜作品。</span></strong>
                   </div>
-              </p>
+              </div>
             </div>
             <!--面包屑新修改结束-->
         </div>
     </div>
-    <!-- nav End -->
+<!--导航结束-->
 
+<!--播放器开始-->
+<div id="flashArea" class="vdoContainer margin_b20">
+      <div class="vdoContent videoExpand" id="j-video-box">
+         <div class="videoPlay medium">
+                <div id="flashbox" class="vdoPlayer padplay0108">
+                 <!--Flash嵌入地址开始-->
+                    <div id="video">
+                    <div id="a1"></div>
+                    </div>
+                    <!--Flash嵌入地址结束-->
+                </div>
+          </div>
+      </div>
+</div>
+<!--播放器结束-->
 
-
-
-
-
-
-
-	<div id="a1"></div>
-	<!--
-上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
--->
+<!-- ------------------------------------------------- -->
+<!-- 下面是所有的操作 -->
+   <!--
+      上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
+   -->
+   <!-- 
 	<textarea name="statusvalue" rows="15" id="statusvalue"
 		style="width: 200px; height: 400px;">该处是用来监听播放器实时返回的各种状态，可以根据这里的状态实时的控制播放器</textarea>
+	-->
 	<script type="text/javascript"
 		src="${siteConfig.ckplayerHome}/ckplayer/ckplayer.js" charset="utf-8"></script>
 	<script type="text/javascript">
 		//如果你不需要某项设置，可以直接删除，注意var flashvars的最后一个值后面不能有逗号
 		function loadedHandler() {
+			var currentTitle=$(document).attr("title");
 			if (CKobject.getObjectById('ckplayer_a1').getType()) {//说明使用html5播放器
-				alert('播放器已加载，调用的是HTML5播放模块');
+				//alert('播放器已加载，调用的是HTML5播放模块');
+			    $(document).attr("title",currentTitle+"_HTML5播放器");
 			} else {
-				alert('播放器已加载，调用的是Flash播放模块');
+			    $(document).attr("title",currentTitle+"_Flash播放器");
+				//alert('播放器已加载，调用的是Flash播放模块');
 			}
 		}
-		var _nn = 0;
-		function ckplayer_status(str) {
-			_nn += 1;
-			if (_nn > 100) {
-				_nn = 0;
-				document.getElementById('statusvalue').value = '';
-			}
-			document.getElementById('statusvalue').value = str + '\n'
-					+ document.getElementById('statusvalue').value;
-		}
+		//var _nn = 0;
+		//function ckplayer_status(str) {
+		//	_nn += 1;
+		//	if (_nn > 100) {
+		//		_nn = 0;
+		//		document.getElementById('statusvalue').value = '';
+		//	}
+		//	document.getElementById('statusvalue').value = str + '\n'
+		//			+ document.getElementById('statusvalue').value;
+		//}
 
 		var flashvars = {
-			f : 'http://movie.ks.js.cn/flv/other/2014/06/20-2.flv',//视频地址
-			a : '',//调用时的参数，只有当s>0的时候有效
-			s : '0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
+			f : '${video.f}',//视频地址
+			a : '${video.a}',//调用时的参数，只有当s>0的时候有效
+			s : '${video.s}',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
 			c : '0',//是否读取文本配置,0不是，1是
 			x : '',//调用配置文件路径，只有在c=1时使用。默认为空调用的是ckplayer.xml
 			i : 'http://www.ckplayer.com/images/loadimg3.jpg',//初始图片地址
-			d : 'http://www.ckplayer.com/down/pause6.1_1.swf|http://www.ckplayer.com/down/pause6.1_2.swf',//暂停时播放的广告，swf/图片,多个用竖线隔开，图片要加链接地址，没有的时候留空就行
+			d : '',
+			//d : 'http://www.ckplayer.com/down/pause6.1_1.swf|http://www.ckplayer.com/down/pause6.1_2.swf',//暂停时播放的广告，swf/图片,多个用竖线隔开，图片要加链接地址，没有的时候留空就行
 			u : '',//暂停时如果是图片的话，加个链接地址
-			l : 'http://www.ckplayer.com/down/adv6.1_1.swf|http://www.ckplayer.com/down/adv6.1_2.swf',//前置广告，swf/图片/视频，多个用竖线隔开，图片和视频要加链接地址
+			l : '',
+			//l : 'http://www.ckplayer.com/down/adv6.1_1.swf|http://www.ckplayer.com/down/adv6.1_2.swf',//前置广告，swf/图片/视频，多个用竖线隔开，图片和视频要加链接地址
 			r : '',//前置广告的链接地址，多个用竖线隔开，没有的留空
-			t : '10|10',//视频开始前播放swf/图片时的时间，多个用竖线隔开
+			//t : '10|10',//视频开始前播放swf/图片时的时间，多个用竖线隔开
 			y : '',//这里是使用网址形式调用广告地址时使用，前提是要设置l的值为空
 			z : 'http://www.ckplayer.com/down/buffer.swf',//缓冲广告，只能放一个，swf格式
 			e : '3',//视频结束后的动作，0是调用js函数，1是循环播放，2是暂停播放并且不调用广告，3是调用视频推荐列表的插件，4是清除视频流并调用js功能和1差不多，5是暂停播放并且调用暂停广告
@@ -120,7 +138,7 @@
 			allowFullScreen : true,
 			allowScriptAccess : 'always'
 		};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
-		var video = [ 'http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4',
+		var video =[ 'http://movie.ks.js.cn/flv/other/1_0.mp4->video/mp4',
 				'http://www.ckplayer.com/webm/0.webm->video/webm',
 				'http://www.ckplayer.com/webm/0.ogv->video/ogg' ];
 		CKobject.embed('${siteConfig.ckplayerHome}/ckplayer/ckplayer.swf',
@@ -129,101 +147,91 @@
 		/*
 			以上代码演示的兼容flash和html5环境的。如果只调用flash播放器或只调用html5请看其它示例
 		 */
-		function videoLoadJs(s) {
-			alert("执行了播放");
-		}
-		function playerstop() {
-			//只有当调用视频播放器时设置e=0或4时会有效果
-			alert('播放完成');
-		}
-		var _nn = 0;//用来计算实时监听的条数的，超过100条记录就要删除，不然会消耗内存
+		//function videoLoadJs(s) {
+		//	alert("执行了播放");
+		//}
+		//function playerstop() {
+		//	//只有当调用视频播放器时设置e=0或4时会有效果
+		//	alert('播放完成');
+		//}
+		//var _nn = 0;//用来计算实时监听的条数的，超过100条记录就要删除，不然会消耗内存
 
-		function getstart() {
-			var a = CKobject.getObjectById('ckplayer_a1').getStatus();
-			var ss = '';
-			for ( var k in a) {
-				ss += k + ":" + a[k] + '\n';
-			}
-			alert(ss);
-		}
-		function ckadjump() {
-			alert('这里演示了点击跳过广告按钮后的执行的动作，如果注册会员可以做成直接跳过的效果。');
-		}
+		//function getstart() {
+		//	var a = CKobject.getObjectById('ckplayer_a1').getStatus();
+		//	var ss = '';
+		//	for ( var k in a) {
+		//		ss += k + ":" + a[k] + '\n';
+		//	}
+		//	alert(ss);
+		//}
+		//function ckadjump() {
+		//	alert('这里演示了点击跳过广告按钮后的执行的动作，如果注册会员可以做成直接跳过的效果。');
+		//}
 		//开关灯
 		var box = new LightBox();
 		function closelights() {//关灯
 			box.Show();
-			CKobject._K_('a1').style.width = '940px';
-			CKobject._K_('a1').style.height = '550px';
-			CKobject.getObjectById('ckplayer_a1').width = 940;
-			CKobject.getObjectById('ckplayer_a1').height = 550;
+			//CKobject._K_('a1').style.width = '940px';
+			//CKobject._K_('a1').style.height = '550px';
+			//CKobject.getObjectById('ckplayer_a1').width = 940;
+			//CKobject.getObjectById('ckplayer_a1').height = 550;
 		}
 		function openlights() {//开灯
 			box.Close();
-			CKobject._K_('a1').style.width = '600px';
-			CKobject._K_('a1').style.height = '400px';
-			CKobject.getObjectById('ckplayer_a1').width = 600;
-			CKobject.getObjectById('ckplayer_a1').height = 400;
+			//CKobject._K_('a1').style.width = '100%';
+			//CKobject._K_('a1').style.height = '100%';
+			//CKobject.getObjectById('ckplayer_a1').width = 600;
+			//CKobject.getObjectById('ckplayer_a1').height = 400;
 		}
-		function changePrompt() {
-			CKobject.getObjectById('ckplayer_a1').promptUnload();//卸载掉目前的
-			CKobject.getObjectById('ckplayer_a1').changeFlashvars(
-					'{k->10|20|30}{n->重设提示点一|重设提示点二|重设提示点三}');
-			CKobject.getObjectById('ckplayer_a1').promptLoad();//重新加载
-		}
-		function addflash() {
-			if (CKobject.Flash()['f']) {
-				CKobject._K_('a1').innerHTML = '';
-				CKobject.embedSWF('ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1',
-						'600', '400', flashvars, params);
-			} else {
-				alert('该环境中没有安装flash插件，无法切换');
-			}
-		}
-		function addhtml5() {
-			if (CKobject.isHTML5()) {
-				support = [ 'all' ];
-				CKobject._K_('a1').innerHTML = '';
-				CKobject.embedHTML5('a1', 'ckplayer_a1', 600, 400, video,
-						flashvars, support);
-			} else {
-				alert('该环境不支持html5，无法切换');
-			}
-		}
-		function addListener() {
-			if (CKobject.getObjectById('ckplayer_a1').getType()) {//说明使用html5播放器
-				CKobject.getObjectById('ckplayer_a1').addListener('play',
-						playHandler);
-			} else {
-				CKobject.getObjectById('ckplayer_a1').addListener('play',
-						'playHandler');
-			}
-		}
-		function playHandler() {
-			alert('因为注册了监听播放，所以弹出此内容，删除监听将不再弹出');
-		}
-		function removeListener() {//删除监听事件
-			if (CKobject.getObjectById('ckplayer_a1').getType()) {//说明使用html5播放器
-				CKobject.getObjectById('ckplayer_a1').removeListener('play',
-						playHandler);
-			} else {
-				CKobject.getObjectById('ckplayer_a1').removeListener('play',
-						'playHandler');
-			}
-		}
+		//function changePrompt() {
+		//	CKobject.getObjectById('ckplayer_a1').promptUnload();//卸载掉目前的
+		//	CKobject.getObjectById('ckplayer_a1').changeFlashvars(
+		//			'{k->10|20|30}{n->重设提示点一|重设提示点二|重设提示点三}');
+		//	CKobject.getObjectById('ckplayer_a1').promptLoad();//重新加载
+		//}
+		
+		//function addflash() {
+		//	if (CKobject.Flash()['f']) {
+		//		CKobject._K_('a1').innerHTML = '';
+		//		CKobject.embedSWF('ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1',
+		//				'600', '400', flashvars, params);
+		//	} else {
+		//		alert('该环境中没有安装flash插件，无法切换');
+		//	}
+		//}
+		//function addhtml5() {
+		//	if (CKobject.isHTML5()) {
+		//		support = [ 'all' ];
+		//		CKobject._K_('a1').innerHTML = '';
+		//		CKobject.embedHTML5('a1', 'ckplayer_a1', 600, 400, video,
+		//				flashvars, support);
+		//	} else {
+		//		alert('该环境不支持html5，无法切换');
+		//	}
+		//}
+		//function addListener() {
+		//	if (CKobject.getObjectById('ckplayer_a1').getType()) {//说明使用html5播放器
+		//		CKobject.getObjectById('ckplayer_a1').addListener('play',
+		//				playHandler);
+		//	} else {
+		//		CKobject.getObjectById('ckplayer_a1').addListener('play',
+		//				'playHandler');
+		//	}
+		//}
+		//function playHandler() {
+		//	alert('因为注册了监听播放，所以弹出此内容，删除监听将不再弹出');
+		//}
+		//function removeListener() {//删除监听事件
+		//	if (CKobject.getObjectById('ckplayer_a1').getType()) {//说明使用html5播放器
+		//		CKobject.getObjectById('ckplayer_a1').removeListener('play',
+		//				playHandler);
+		//	} else {
+		//		CKobject.getObjectById('ckplayer_a1').removeListener('play',
+		//				'playHandler');
+		//	}
+		//}
 	</script>
-
-
-
-
-
-
-
-
-
-
-
-
+	<!-- 
 	<p style="color: #F00">
 		ckplayer6.6，<a href="help.htm" target="_blank">查看升级说明</a>,<strong><a
 			href="http://www.ckplayer.com/" target="_blank">官网</a>，<a
@@ -356,8 +364,25 @@
 			id="button" value="跳转"
 			onClick="CKobject.getObjectById('ckplayer_a1').newAddress(document.getElementById('newaddress').value);" /><br>
 	</p>
-	<p>以下是CKoject函数所能做的一些跟播放器无关的事情</p>
+-->
+<div id="sysinfo">
+
+<!--视频信息-->
+<iframe id="iFrame1" name="iFrame1" width="100%"  frameborder="0" src="${siteConfig.playerUrl}/info/videoInfo?url=${video.videoUrl}"></iframe>
+<!--评论-->
+<iframe id="comments" name="comments" width="100%" frameborder="0" src="${siteConfig.playerUrl}/info/comments?url=${video.videoUrl}"    ></iframe>
+    <br/>
+    <div>长江大学2010级软工1002唐有炜作品</div>
+    新浪微博<img src="http://weibo.com/favicon.ico" style="height: 18px;" alt="sina"> <a href="http://weibo.com/tyouwei"
+                                                                                     target="_blank">@LeaveBugsAway</a><br/>
+    CopyRight &copy;&nbsp;2010-
+    2013
+    <a href="${siteConfig.mainUrl}" class="" target="_blank">${siteConfig.mainUrl}</a> &nbsp;All Rjghts Reserved.
+<!--参数-->
+    <p>以下是CKoject函数所能做的一些跟播放器无关的事情</p>
 	<p id="aboutme"></p>
+</div>
+	
 	<script type="text/javascript">
 		var aboutme = '';
 		aboutme += '平台(浏览器)内核：' + CKobject.Platform() + '<br />';
@@ -370,6 +395,5 @@
 		aboutme += '是否支持HTML5：' + CKobject.isHTML5() + '<br />';
 		CKobject._K_('aboutme').innerHTML = aboutme;
 	</script>
-
 </body>
 </html>
