@@ -649,7 +649,7 @@
       <created>1422028507990</created>
       <updated>1422028507990</updated>
       <workItem from="1422028512255" duration="608000" />
-      <workItem from="1422029140193" duration="1556000" />
+      <workItem from="1422029140193" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="转移到IntelliJ IDEA。">
       <created>1422029250604</created>
@@ -663,11 +663,15 @@
       <created>1422030688360</created>
       <updated>1422030688360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="重新构建项目。">
+      <created>1422030702823</created>
+      <updated>1422030702823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2164000" />
+    <option name="totallyTimeSpent" value="2175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
