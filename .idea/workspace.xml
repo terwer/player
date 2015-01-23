@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a933a39-649c-4f93-8875-2c5d479730ce" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\MyCode\player\player\src\main\webapp\plugins\ckplayer6.6\ckplayer\ckplayer.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\player\player\src\main\webapp\plugins\ckplayer6.6\ckplayer\language.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\MyCode\player\player\src\main\webapp\plugins\ckplayer6.6\ckplayer\related.xml" afterPath="" />
-    </list>
+    <list default="true" id="0a933a39-649c-4f93-8875-2c5d479730ce" name="Default" comment="" />
     <ignored path="player.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +46,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039568346" vertical-offset="0" max-vertical-offset="556">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.19784173" vertical-offset="0" max-vertical-offset="556">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -373,7 +369,7 @@
       <created>1422028507990</created>
       <updated>1422028507990</updated>
       <workItem from="1422028512255" duration="608000" />
-      <workItem from="1422029140193" duration="183000" />
+      <workItem from="1422029140193" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="转移到IntelliJ IDEA。">
       <created>1422029250604</created>
@@ -383,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="791000" />
+    <option name="totallyTimeSpent" value="914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -494,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039568346" vertical-offset="0" max-vertical-offset="556">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.19784173" vertical-offset="0" max-vertical-offset="556">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
