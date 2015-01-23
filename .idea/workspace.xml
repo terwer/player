@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a933a39-649c-4f93-8875-2c5d479730ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="player.iws" />
@@ -650,7 +649,7 @@
       <created>1422028507990</created>
       <updated>1422028507990</updated>
       <workItem from="1422028512255" duration="608000" />
-      <workItem from="1422029140193" duration="1541000" />
+      <workItem from="1422029140193" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="转移到IntelliJ IDEA。">
       <created>1422029250604</created>
@@ -660,11 +659,15 @@
       <created>1422030527824</created>
       <updated>1422030527824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重新构建项目。">
+      <created>1422030688360</created>
+      <updated>1422030688360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2149000" />
+    <option name="totallyTimeSpent" value="2164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
