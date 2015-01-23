@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="player:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/player_war_exploded</output-path>
-    <root id="root">
+  <artifact type="war" name="ROOT">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ROOT.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="player" />
