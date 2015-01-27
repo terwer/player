@@ -23,11 +23,6 @@
 		<servlet-name>springMvc</servlet-name>
 		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
-	<!-- 映射*.xml的请求 -->
-	<servlet-mapping>
-		<servlet-name>springMvc</servlet-name>
-		<url-pattern>*.xml</url-pattern>
-	</servlet-mapping>
 	<!-- 映射*.json的请求 -->
 	<servlet-mapping>
 		<servlet-name>springMvc</servlet-name>

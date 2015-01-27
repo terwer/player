@@ -22,7 +22,7 @@ public class VideoController extends BaseController {
     }
 
     /**
-     * 根据视频类型vtype和视频vid输出ckplayer需要的xml格式
+     * 根据视频类型vtype和视频vid输出ckplayer需要的xml格式（非常关键）
      *
      * @param vtype
      * @param vid
@@ -37,10 +37,10 @@ public class VideoController extends BaseController {
         //String ckxml= "<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/play.do?url=[$pat1]}</flashvars><video><file><![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=0MqqDxdLRSIQt_DmnFheXg&r=27194&e=1421670920&tt=2765&sz=191745133&vid=102074155]]></file></video></player>";
         //return ckxml;
         CKModel ckModel=new CKModel();
-        ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://www.terwer.com/tools/player/ckplayer/video.php?url=[$pat1]}");
+        ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/ckxml.do?url=[$pat1]}");
         CKVideo video=new CKVideo();
         ArrayList<String> files=new ArrayList<String>();
-        files.add("<![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=YfXNI977OZLyXFJZkFFsBA&r=73681&e=1421510480&tt=2765&sz=191745133&vid=102074155]]>");
+        //files.add("<![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=YfXNI977OZLyXFJZkFFsBA&r=73681&e=1421510480&tt=2765&sz=191745133&vid=102074155]]>");
         video.setFile(files);
         ckModel.setVideo(video);
         return ckModel;
@@ -72,8 +72,9 @@ public class VideoController extends BaseController {
         video.setVideoTitle("测试视频标题");
         video.setVideoUrl("http://video.test");
         // f（非常重要，此参数提供ckplayer可播放的内容）
-        video.setF(super.getSiteConfig().getPlayerUrl()
-                + "/video/ckxml.do?vtype=" + vtype + "&vid=" + vid);
+        //video.setF(super.getSiteConfig().getPlayerUrl()
+        //        + "/video/ckxml.do?vtype=" + vtype + "&vid=" + vid);
+        video.setF("http://www.terwer.com/tools/player/ckplayer/video.php?url=http://www.56.com/u62/v_MTAyMDc0MTU1.html");
         //a（非常重要，配合f，s=2时使用xml）
         video.setA("cq_v_MTAyMDc0MTU1_56");
         //s（非常重要，配合f，s=2时使用xml）

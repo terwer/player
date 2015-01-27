@@ -9,6 +9,7 @@
 /*这里定义需要额外配置的全局变量，不安于以后修改 15-01-17 By 唐有炜**************/
 //分享xml路径
 var share_xml_url='http://localhost:8080/video/shareXml.do';
+var laguage_url='http://localhost:8080/plugins/ckplayer6.6/ckplayer/language2.xml';
 /**************************************************************************/
 /*
 第一部分，加载插件
@@ -43,8 +44,8 @@ function ckstyle() { //定义总的风格
 		如果调用不出来可以试着设置成绝对路径试试
 		如果不知道路径并且使用的是默认配置，可以直接留空，播放器会
 		*/
-        language: 'language.config',
-        /*播放器所使用的语言配置文件，需要和播放器在同目录下，默认是language.xml*/
+        //language: laguage_url,
+        /*播放器所使用的语言配置文件，需要和播放器在同目录下，默认是language.config*/
         flashvars: '',
         /*
 		这里是用来做为对flashvars值的补充，除了c和x二个参数以外的设置都可以在这里进行配置

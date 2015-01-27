@@ -2,8 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
-	xsi:schemaLocation="	 
-        http://www.springframework.org/schema/beans	        http://www.springframework.org/schema/beans/spring-beans.xsd	 
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context	 
 http://www.springframework.org/schema/context/spring-context.xsd	 
         http://www.springframework.org/schema/mvc	 
@@ -22,22 +23,6 @@ http://www.springframework.org/schema/context/spring-context.xsd
 			value="org.springframework.web.servlet.view.JstlView" />
 		<property name="prefix" value="/views/" />
 		<property name="suffix" value=".jsp" />
-	</bean>
-
-	<!-- 支持xml -->
-	<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" />
-	<bean id="xmlViewer"
-		class="org.springframework.web.servlet.view.xml.MarshallingView">
-		<constructor-arg>
-			<bean class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
-				<property name="classesToBeBound">
-					<list>
-						<!-- 这里是具体的Model -->
-						<value>com.terwer.player.model.CKModel</value>
-					</list>
-				</property>
-			</bean>
-		</constructor-arg>
 	</bean>
 
 	<!-- 总错误处理 -->

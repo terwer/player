@@ -8402,6 +8402,10 @@ body.largest .playList_zy li {
 	float: left;
 }
 
+#video{
+    height:100%;
+}
+
 #sysinfo{
 	text-align:center;
 	margin:auto;
