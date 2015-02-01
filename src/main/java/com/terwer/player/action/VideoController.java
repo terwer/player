@@ -1,9 +1,6 @@
 package com.terwer.player.action;
 
-import com.terwer.player.action.BaseController;
-import com.terwer.player.model.CKModel;
-import com.terwer.player.model.CKVideo;
-import com.terwer.player.model.Video;
+import com.terwer.player.model.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,13 +26,9 @@ public class VideoController extends BaseController {
      * @return
      */
     @RequestMapping(value = "ckxml", method = RequestMethod.GET)
-    //@ResponseBody
-    //public String ckxml(String vtype, String vid) {
     public @ResponseBody
     CKModel ckxml(String vtype,String vid) {
-        // //这里是解析构造f的过程（非常关键）
-        //String ckxml= "<?xml version=\"1.0\" encoding=\"utf-8\"?><player><flashvars>{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/play.do?url=[$pat1]}</flashvars><video><file><![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=0MqqDxdLRSIQt_DmnFheXg&r=27194&e=1421670920&tt=2765&sz=191745133&vid=102074155]]></file></video></player>";
-        //return ckxml;
+        //这里是解析构造f的过程（非常关键）
         CKModel ckModel=new CKModel();
         ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/ckxml.do?url=[$pat1]}");
         CKVideo video=new CKVideo();
@@ -51,13 +44,71 @@ public class VideoController extends BaseController {
      *
      * @return
      */
-    @RequestMapping(value = "shareXml", method = RequestMethod.GET)
+    @RequestMapping(value = "shareXml",method = RequestMethod.GET)
+    /*public @ResponseBody
+    CKShareModel cksharexml (){
+        CKShareModel ckShareModel=new CKShareModel();
+        ckShareModel.setShare_html("{embed src=\""+super.getSiteConfig().getCkplayerHome()+"6/ckplayer/ckplayer.swf\" " +
+                "flashvars=\"[$share]\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowScriptAccess=\"always\" allowFullscreen=\"true\" type=\"application/x-shockwave-flash\"}{/embed}\n");
+        ckShareModel.setShare_flash(super.getSiteConfig().getCkplayerHome()+"/ckplayer/ckplayer.swf?[$share]");
+        ckShareModel.setShare_flashVars("f,my_url,my_pic,a");
+        ckShareModel.setShare_path(super.getSiteConfig().getCkplayerHome()+"/ckplayer/share/");
+        ckShareModel.setShare_permit(0);
+        ckShareModel.setShare_uuid("c25cf02c-1705-412d-bd4b-77a10b380f08");
+        List<ShareButton> shareButtons=new ArrayList<ShareButton>();
+        ShareButton button1=new ShareButton("qqmb",ckShareModel.getShare_path()+"/qq.png","20,50");
+        ShareButton button2=new ShareButton("sinaminiblog",ckShareModel.getShare_path()+"/sina.png","101,50");
+        ShareButton button3=new ShareButton("qzone",ckShareModel.getShare_path()+"/qzone.png","182,50");
+        ShareButton button4=new ShareButton("renren",ckShareModel.getShare_path()+"/rr.png","263,50");
+        ShareButton button5=new ShareButton("kaixin001",ckShareModel.getShare_path()+"/kaixin001.png","20,85");
+        ShareButton button6=new ShareButton("tianya",ckShareModel.getShare_path()+"/tianya.png","101,50");
+        ShareButton button7=new ShareButton("feixin",ckShareModel.getShare_path()+"/feixin.png","182,50");
+        ShareButton button8=new ShareButton("msn",ckShareModel.getShare_path()+"/msn.png","263,50");
+        shareButtons.add(button1);
+        shareButtons.add(button2);
+        shareButtons.add(button3);
+        shareButtons.add(button4);
+        shareButtons.add(button5);
+        shareButtons.add(button6);
+        shareButtons.add(button7);
+        shareButtons.add(button8);
+        ckShareModel.setShare_button(shareButtons);
+        return  ckShareModel;
+    }*/
     public String shareXml(Model model,HttpServletResponse response)  {
         response.setContentType("text/xml");
         response.setCharacterEncoding("UTF-8");
         model.addAttribute("siteConfig", super.getSiteConfig());
-        return "video/share";
+        return "video/shareXml";
     }
+
+    /**
+     * 输出预定义配置文件xml
+     *
+     * @return
+     */
+    @RequestMapping(value = "ckplayerXml",method = RequestMethod.GET)
+    public String ckplayerXml(Model model,HttpServletResponse response)  {
+        response.setContentType("text/xml");
+        response.setCharacterEncoding("UTF-8");
+        model.addAttribute("siteConfig", super.getSiteConfig());
+        return "video/ckplayerXml";
+    }
+
+
+    /**
+     * 输出预定义配置文件xml
+     *
+     * @return
+     */
+    @RequestMapping(value = "relatedXml",method = RequestMethod.GET)
+    public String relatedXml(Model model,HttpServletResponse response)  {
+        response.setContentType("text/xml");
+        response.setCharacterEncoding("UTF-8");
+        model.addAttribute("siteConfig", super.getSiteConfig());
+        return "video/relatedXml";
+    }
+
 
     /**
      * 视频播放

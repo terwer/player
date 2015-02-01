@@ -19,7 +19,8 @@
 	c25cf02c-1705-412d-bd4b-77a10b380f08
 	</share_uuid>
 	<share_button>
-		<share>,'			<id>qqmb</id>
+		<share>
+			<id>qqmb</id>
 			<img>qq.png</img>
 			<coordinate>20,50</coordinate>
 		</share>

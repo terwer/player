@@ -6,10 +6,12 @@
   请注意，该文件为UTF-8编码，不需要改变编码即可使用于各种编码形式的网站内	
 -------------------------------------------------------------------------
 /**************************************************************************/
-/*这里定义需要额外配置的全局变量，不安于以后修改 15-01-17 By 唐有炜**************/
+/*这里定义需要额外配置的全局变量，方便以后修改 15-01-17 By 唐有炜**************/
 //分享xml路径
-var share_xml_url='http://localhost:8080/video/shareXml.do';
-var laguage_url='http://localhost:8080/plugins/ckplayer6.6/ckplayer/language2.xml';
+var play_url="http://localhost:8080";
+var share_url=play_url+'/video/shareXml.do';
+var laguage_url=play_url+'/plugins/ckplayer6.6/ckplayer/language.xml';
+var related_url=play_url+'/video/relatedXml.do';
 /**************************************************************************/
 /*
 第一部分，加载插件
@@ -44,7 +46,7 @@ function ckstyle() { //定义总的风格
 		如果调用不出来可以试着设置成绝对路径试试
 		如果不知道路径并且使用的是默认配置，可以直接留空，播放器会
 		*/
-        //language: laguage_url,
+        language: laguage_url,
         /*播放器所使用的语言配置文件，需要和播放器在同目录下，默认是language.config*/
         flashvars: '',
         /*
@@ -151,7 +153,7 @@ function ckstyle() { //定义总的风格
 			4、垂直偏移量 
 		以下是播放器自带的二个插件
 		*/
-        control_rel: 'related.swf,ckplayer/related.xml,0',
+        control_rel: 'related.swf,'+related_url+',0',
         /*
 		视频结束显示精彩视频的插件
 			1、视频播放结束后显示相关精彩视频的插件文件（注意，视频结束动作设置成3时(即var flashvars={e:3})有效），
@@ -305,7 +307,7 @@ function ckstyle() { //定义总的风格
 		/*
 		该处定义是否使用开关灯，和right.swf插件配合作用,使用开灯效果时调用页面的js函数function closelights(){};
 		*/
-        cpt_share: share_xml_url,
+        cpt_share: share_url,
         /*
 		分享插件调用的配置文件地址
 		调用插件开始
