@@ -5,7 +5,8 @@
 <head>
 <title>播放器首页</title>
 <script type="text/javascript">
-	window.location.href = "home/index.do";
+	//window.location.href = "home/index.do";
+	window.location.href = "video/play.do";
 </script>
 </head>
 <body>

@@ -57,10 +57,10 @@
 </div>
 <!--播放器结束-->
 
-<!--播放器核心代码开始 -->
 <!--
       上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
-   -->
+-->
+<!--播放器核心代码开始
 <textarea name="statusvalue" rows="15" id="statusvalue"
             style="width: 200px; height: 400px;">该处是用来监听播放器实时返回的各种状态，可以根据这里的状态实时的控制播放器</textarea>
 <p style="color:#F00">
@@ -193,7 +193,7 @@
     <input type="button" name="button" id="button" value="跳转"
            onClick="CKobject.getObjectById('ckplayer_a1').newAddress(document.getElementById('newaddress').value);"/><br>
 </p>
-<!--播放器核心代码结束-->
+播放器核心代码结束-->
 
 <div id="sysinfo">
 
@@ -244,14 +244,14 @@
 
     var flashvars = {
         f: '${video.f}',//视频地址
-        a: '',//调用时的参数，只有当s>0的时候有效
+        a: '${video.a}',//调用时的参数，只有当s>0的时候有效
         s: '${video.s}',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
         c: '1',//是否读取文本配置,0不是，1是
         x: '${siteConfig.playerUrl}/video/ckplayerXml.do',//调用配置文件路径，只有在c=1时使用。默认为空调用的是ckplayer.xml
         i: 'http://www.terwer.com/logo.png',//初始图片地址
-        d: 'http://www.ckplayer.com/down/pause6.1_1.swf|http://www.ckplayer.com/down/pause6.1_2.swf',//暂停时播放的广告，swf/图片,多个用竖线隔开，图片要加链接地址，没有的时候留空就行
+        d: '',//暂停时播放的广告，swf/图片,多个用竖线隔开，图片要加链接地址，没有的时候留空就行
         u: '',//暂停时如果是图片的话，加个链接地址
-        l: 'http://www.ckplayer.com/down/adv6.1_1.swf|http://www.ckplayer.com/down/adv6.1_2.swf',//前置广告，swf/图片/视频，多个用竖线隔开，图片和视频要加链接地址
+        l: '',//前置广告，swf/图片/视频，多个用竖线隔开，图片和视频要加链接地址
         r: '',//前置广告的链接地址，多个用竖线隔开，没有的留空
         t: '10|10',//视频开始前播放swf/图片时的时间，多个用竖线隔开
         y: '',//这里是使用网址形式调用广告地址时使用，前提是要设置l的值为空
