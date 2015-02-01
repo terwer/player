@@ -1,11 +1,12 @@
 package com.terwer.player.action;
 
-import com.terwer.player.model.CKModel;
+import com.terwer.commons4j.LogHelper;
+import com.terwer.player.model.CKXmlModel;
 import com.terwer.player.model.CKVideo;
 import com.terwer.player.model.Video;
+import com.terwer.player.service.CKXmlService;
 import com.terwer.player.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +23,8 @@ public class VideoController extends BaseController {
     //依赖注入
     @Autowired
     private VideoService videoService;
+    @Autowired
+    private CKXmlService ckXmlService;
 
     //构造函数
     public VideoController() {
@@ -29,24 +32,18 @@ public class VideoController extends BaseController {
     }
 
     /**
-     * 根据视频类型vtype和视频vid输出ckplayer需要的xml格式（非常关键）
+     * 根据url自动判断视频类型，输出ckplayer需要的xml格式（非常关键）
      *
-     * @param vtype
-     * @param vid
+     * @param url
      * @return
      */
     @RequestMapping(value = "ckxml", method = RequestMethod.GET)
     public @ResponseBody
-    CKModel ckxml(String vtype,String vid) {
+    CKXmlModel ckxml(String url) {
+        //LogHelper.info("CKXml注入测试："+(ckXmlService==null));
         //这里是解析构造f的过程（非常关键）
-        CKModel ckModel=new CKModel();
-        ckModel.setFlashvars("{h->3}{a->bq_MTAyMDc0MTU1_56|gq_MTAyMDc0MTU1_56|cq_MTAyMDc0MTU1_56}{f->http://localhost:8080/video/ckxml.do?url=[$pat1]}");
-        CKVideo video=new CKVideo();
-        ArrayList<String> files=new ArrayList<String>();
-        //files.add("<![CDATA[http://f5.r.56.com/f5.c127.56.com/flvdownload/24/11/sc_138632158682hd_clear.flv?v=1&t=YfXNI977OZLyXFJZkFFsBA&r=73681&e=1421510480&tt=2765&sz=191745133&vid=102074155]]>");
-        video.setFile(files);
-        ckModel.setVideo(video);
-        return ckModel;
+        CKXmlModel ckXmlModel =ckXmlService.getCKXmlModel(url);
+        return ckXmlModel;
     }
 
     /**
@@ -99,12 +96,20 @@ public class VideoController extends BaseController {
      */
     @RequestMapping(value = "ckplayerXml",method = RequestMethod.GET)
     public String ckplayerXml(Model model,HttpServletResponse response)  {
-        response.setContentType("text/xml");
-        response.setCharacterEncoding("UTF-8");
         model.addAttribute("siteConfig", super.getSiteConfig());
         return "video/ckplayerXml";
     }
 
+    /**
+     * 输出预定义配置文件jsl
+     *
+     * @return
+     */
+    @RequestMapping(value = "ckplayerJS",method = RequestMethod.GET)
+    public String ckplayerJS(Model model,HttpServletResponse response)  {
+        model.addAttribute("siteConfig", super.getSiteConfig());
+        return "video/ckplayerJS";
+    }
 
     /**
      * 输出预定义配置文件xml

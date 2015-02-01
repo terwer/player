@@ -1,3 +1,4 @@
 $(document).ready(function(){
-    alert("ready");
+    //CKobject.getObjectById('ckplayer_a1').frontAdUnload();
+    //alert("ready");
 });

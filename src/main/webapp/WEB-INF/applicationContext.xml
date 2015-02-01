@@ -5,6 +5,6 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <!--service-->
-    <bean name="videoService" class="com.terwer.player.service.impl.VideoServiceImpl" scope="prototype">
-    </bean>
+    <bean name="videoService" class="com.terwer.player.service.impl.VideoServiceImpl" scope="prototype"></bean>
+    <bean name="ckXmlService" class="com.terwer.player.service.impl.CKXmlServiceImpl" scope="prototype"></bean>
 </beans>

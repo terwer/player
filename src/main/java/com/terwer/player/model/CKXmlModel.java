@@ -3,12 +3,12 @@ package com.terwer.player.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 /**
- * CKPlayer½âÎöÖØÒªModel
+ * CKPlayerï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªModel
  * @author Tangyouwei
  *
  */
 @XmlRootElement(name = "player")
-public class CKModel {
+public class CKXmlModel {
 
 	private String flashvars=null;
 	private CKVideo video=null;

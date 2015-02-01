@@ -4,20 +4,20 @@
 
 相关技术
 ======
->1、maven项目管理     
->2、spring mvc    
->3、jstl    
->4、Apache httpclient    
+>1、maven项目管理
+>2、spring、spring mvc、sping oxm、json
+>3、jstl
+>4、Apache httpclient
 
 开发环境
-=====
+========
 >版本: V1.0        
 >开发工具：InteliJ IDEA 14.0.2（从eclips-jee 4.4.1 luna迁移）
 >作者: Terwer       
 >作者邮箱: cbgtyw@gmail.com terwergreen@163.com   
 
 版权声明
-=====
+========
 >作者：唐有炜
 >我的博客：http://www.terwer.com
 >我的微博：http://weibo.com/tyouwei
@@ -27,15 +27,21 @@
 ======       
 需要修改的地方              
 ----------             
->1 修改commons4j.properties，log4j.properties
->2 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.js
->>(1) 分享地址
-                          
->3 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.xml中的分享地址                         
+>1 修改commons4j.properties（站点核心配置，commons4j是我写的另外一个开源项目：[https://github.com/terwer/commons4j](https://github.com/terwer/commons4j)），log4j.properties（若不控制日志可以不修改该文件）              
+>2 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.js（仅在站外分享时调用）
+>3 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.xml（仅在站外分享时调用）
 >>(1) 分享地址                 
 
 测试数据
 =======
+>1 播放页
+>http://localhost:8080/video/play.do?url=http://v.youku.com/v_show/id_XODY5MTY1NjM2.html
+
+> xml解析页
+> http://localhost:8080/video/ckxml.do?url=http://v.youku.com/v_show/id_XODY5MTY1NjM2.html
+
+>flv解析页
+>http://localhost:8080/video/play.do?url=http://localhost:8080/temp.flv
 
 参考资料
 ======
