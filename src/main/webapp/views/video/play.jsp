@@ -88,9 +88,9 @@
     }
 
     var flashvars = {
-        f: 'http://movie.ks.js.cn/flv/other/2014/06/20-2.flv',//视频地址
+        f: '${video.f}',//视频地址
         a: '',//调用时的参数，只有当s>0的时候有效
-        s: '0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
+        s: '${video.s}',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
         c: '1',//是否读取文本配置,0不是，1是
         x: '${siteConfig.playerUrl}/video/ckplayerXml.do',//调用配置文件路径，只有在c=1时使用。默认为空调用的是ckplayer.xml
         i: 'http://www.terwer.com/logo.png',//初始图片地址

@@ -12,30 +12,30 @@
 开发环境
 =====
 >版本: V1.0        
->开发工具：eclips-jee 4.4.1 luna        
+>开发工具：InteliJ IDEA 14.0.2（从eclips-jee 4.4.1 luna迁移）
 >作者: Terwer       
 >作者邮箱: cbgtyw@gmail.com terwergreen@163.com   
 
 版权声明
 =====
->作者：唐有炜<br/>
->我的博客：http://www.terwer.com<br/>
->我的微博：http://weibo.com/tyouwei<br/>
->我的QQ：1035136784（非技术问题勿扰）<br/>
+>作者：唐有炜
+>我的博客：http://www.terwer.com
+>我的微博：http://weibo.com/tyouwei
+>我的QQ：1035136784（非技术问题勿扰）
 
 使用必读
 ======       
 需要修改的地方              
 ----------             
->1 修改commons4j.properties，log4j.properties                     
->2 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.js                
+>1 修改commons4j.properties，log4j.properties
+>2 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.js
 >>(1) 分享地址
                           
 >3 修改{webapp}/WEB-INF/plugins/ckplayer6.6/ckplayer.xml中的分享地址                         
 >>(1) 分享地址                 
 
 测试数据
-======
+=======
 
 参考资料
 ======

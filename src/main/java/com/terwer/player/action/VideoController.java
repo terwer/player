@@ -1,6 +1,11 @@
 package com.terwer.player.action;
 
-import com.terwer.player.model.*;
+import com.terwer.player.model.CKModel;
+import com.terwer.player.model.CKVideo;
+import com.terwer.player.model.Video;
+import com.terwer.player.service.VideoService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +19,11 @@ import java.util.ArrayList;
 @RequestMapping("/video")
 public class VideoController extends BaseController {
 
+    //依赖注入
+    @Autowired
+    private VideoService videoService;
+
+    //构造函数
     public VideoController() {
         System.out.println("我是VideoController，我开始构造...");
     }
@@ -117,22 +127,13 @@ public class VideoController extends BaseController {
      * @return
      */
     @RequestMapping(value = "play", method = RequestMethod.GET)
-    public String play(Model model, String vtype, String vid) {
-        // 获取Video对象
-        Video video = new Video();// 这个应该通过vtype和vid获取
-        video.setVideoTitle("测试视频标题");
-        video.setVideoUrl("http://video.test");
-        // f（非常重要，此参数提供ckplayer可播放的内容）
-        //video.setF(super.getSiteConfig().getPlayerUrl()
-        //        + "/video/ckxml.do?vtype=" + vtype + "&vid=" + vid);
-        video.setF("http://www.terwer.com/tools/player/ckplayer/video.php?url=http://www.56.com/u62/v_MTAyMDc0MTU1.html");
-        //a（非常重要，配合f，s=2时使用xml）
-        video.setA("cq_v_MTAyMDc0MTU1_56");
-        //s（非常重要，配合f，s=2时使用xml）
-        video.setS("2");
+    public String play(Model model, String url) {
+        Video video=videoService.getVideoModel(url);
         // 传递参数到页面
         model.addAttribute("video", video);
         model.addAttribute("siteConfig", super.getSiteConfig());
+        //model.addAttribute("test","这是测试的，哈哈哈"+(videoService==null?"注入失败：":"注入成功：f="+videoService.getVideoModel("").getF()));
+        //return "test";
         return "video/play";
     }
 
